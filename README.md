@@ -25,4 +25,4 @@ Just remember AJ, he is our real motivation.
 
 ## What the cat?
 Kinda like Disney said “It was all started by a mouse.”
-AJonP stands for AJ on Programming, AJ is our 😺 mascot, so "It was all started by a cat".
+AJonP stands for AJ on Programming, AJ is our 😺 mascot, so "It was all started by a cat".# ajonp-hugo-amp
