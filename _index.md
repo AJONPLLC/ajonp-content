@@ -12,7 +12,9 @@ videos = ['https://www.youtube.com/v/NlXVWtgLNjY']
 
 # Welcome to AJonP
 
-Here you will find lessons and videos to coach you on your programming journey.
+**AJ** (our faithful mascot) is always on his **P**rogramming game! Feel free to look for him on [Twitter](https://twitter.com/ajonpcom), [Facebook](https://www.facebook.com/ajonpcom/), [Instagram](https://www.instagram.com/ajonpcom), or Subscribe to his [YouTube Channel](https://www.youtube.com/channel/UCnKZ8gEb78zXKMi1ns-IQ2g?sub_confirmation=1).
+
+AJonP.com is where you will find lessons and videos to coach you on your programming journey.
 
 # AJonP's Goals
 
@@ -29,5 +31,4 @@ Please feel free to join the AJonP Slack team to network with developers, ask qu
 
 Our feeling is that people learn in multiple ways. Offering both written and visual learning helps aid in the effort.
 
-I know during a boring meeting I tend to read a whole lot better than watching a video.
-Or late at night when you are in bed trying not to wake the person lying next to you ;)
+I know during a boring meeting I tend to read a whole lot better than watching a video 😺!
