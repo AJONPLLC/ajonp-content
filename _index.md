@@ -10,11 +10,9 @@ images = ['https://res.cloudinary.com/ajonp/image/upload/v1544021089/ajonp-ajonp
 videos = ['https://www.youtube.com/v/NlXVWtgLNjY']
 +++
 
-# Welcome to AJonP
+# Welcome to AJ on Programming
 
-**AJ** (our faithful mascot) is always on his **P**rogramming game! Feel free to look for him on [Twitter](https://twitter.com/ajonpcom), [Facebook](https://www.facebook.com/ajonpcom/), [Instagram](https://www.instagram.com/ajonpcom), or Subscribe to his [YouTube Channel](https://www.youtube.com/channel/UCnKZ8gEb78zXKMi1ns-IQ2g?sub_confirmation=1).
-
-AJonP.com is where you will find lessons and videos to coach you on your programming journey.
+**AJ** is our mascot who teaches **P**rogramming through a series of videos, okay really I do the teaching and he mainly watches.
 
 # AJonP's Goals
 
@@ -23,8 +21,12 @@ Become a community where you can get questions answered among colleagues and all
 
 Please feel free to join the AJonP Slack team to network with developers, ask questions, and have information directly at your fingertips.
 
-<ion-button class="ajonp-slack" href="https://ajonp-com.slack.com/join/shared_invite/enQtNDk4NjMyNDUxMzM0LWQwMThkZDE3MDAzNzVmNWE3N2M1NzkwMzg1YWQ5NzIxZmIyYTM3ZjEyOGU3YjQ0NTFkYzRmZjMyYzExNDNlNTg">
+<ion-button class="ajonp-slack" href="https://ajonp-com.slack.com/join/shared_invite/enQtNDk4NjMyNDUxMzM0LWQwMThkZDE3MDAzNzVmNWE3N2M1NzkwMzg1YWQ5NzIxZmIyYTM3ZjEyOGU3YjQ0NTFkYzRmZjMyYzExNDNlNTg" float-left>
 <i class="fab fa-slack" data-fa-transform="left-6"></i>Join Slack
+</ion-button>
+
+<ion-button class="ajonp-youtube" href="https://www.youtube.com/channel/UCnKZ8gEb78zXKMi1ns-IQ2g?sub_confirmation=1">
+<i class="fab fa-youtube" data-fa-transform="left-6"></i>Subscribe youtube
 </ion-button>
 
 ## <i class="fas fa-book-reader"></i> Learning
