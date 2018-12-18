@@ -11,7 +11,7 @@ tags = ["hugo", "ionic", "hosting", "firebase", "cli"]
 categories = ["firebase", "angular", "hugo", "cli"]
 languages = ["javascript", "json", "go", "typescript"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.png"]
 githublinks = ["https://github.com/AJONPLLC/lesson-7-firebase-multisite-hosting"]
 videos = ["https://www.youtube.com/v/bLrZxoC0VlQ"]
 
@@ -23,7 +23,7 @@ videos = ["https://www.youtube.com/v/bLrZxoC0VlQ"]
   player = "https://www.youtube.com/embed/bLrZxoC0VlQ?autoplay=0&rel=0&origin=https://ajonp.com/lessons/lesson-7-firebase-multisite-hosting"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.png"
   image_alt = "Firebase Multisite Hosting"
 +++
 
@@ -51,16 +51,16 @@ This lesson will focus on a very easy solution to having multiple web projects h
 ## New Project
 If you have just created a new project you will need to upgrade in order to use Multisite hosting.
 
-![Upgrade Plan](https://res.cloudinary.com/ajonp/image/upload/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_2.56.02_PM.png)
+![Upgrade Plan](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_2.56.02_PM.png)
 
-![Included Pricing](https://res.cloudinary.com/ajonp/image/upload/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_3.00.55_PM.png)
+![Included Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_3.00.55_PM.png)
 
 We recommend the Blaze plan as you will end up paying a lot less (if anything) for all of your small projects. If you go with the Flame plan you are guaranteed to pay $25.
 
-![Firebase Plans](https://res.cloudinary.com/ajonp/image/upload/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_2.57.48_PM.png)
+![Firebase Plans](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_2.57.48_PM.png)
 
 Hosting Free limit on the Blaze plan
-![Free Included Items](https://res.cloudinary.com/ajonp/image/upload/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_3.01.55_PM.png)
+![Free Included Items](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_3.01.55_PM.png)
 
 # Create 4 Firebase Hosting Sites
 You can name these whatever fits your project, if you using ajonp* you will probably have issues as we am already using those.
@@ -77,8 +77,8 @@ Example for your site:
 - mysite-amp
 - mysite-app
 
-![Example Site Creation](https://res.cloudinary.com/ajonp/image/upload/v1545158121/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/axpst0mag0khcvqqlijc.png)
-![All Sites](https://res.cloudinary.com/ajonp/image/upload/v1545160404/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/aaqgcyvubuggrk8fsqqm.png)
+![Example Site Creation](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545158121/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/axpst0mag0khcvqqlijc.png)
+![All Sites](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545160404/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/aaqgcyvubuggrk8fsqqm.png)
 
 # Example Multiple Hugo Themes deploying to Firebase Multisite
 
@@ -99,7 +99,7 @@ git remote rm origin
 
 ## Add new reference
 1. Create a new github site (or Gitlab or Google Cloud or...)
-![Git Sample Repo](https://res.cloudinary.com/ajonp/image/upload/v1545162597/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/lnstebijo3p2ijyn1jzw.png)
+![Git Sample Repo](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545162597/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/lnstebijo3p2ijyn1jzw.png)
 
 1. Then add the new repo back to your site using this command, replace **ajonp/a-sample-repo.git** with yours.
 ```sh
@@ -238,4 +238,4 @@ Step #0: 3c2cba919283: Pull complete
 ```
 
 Google Cloud Builder Output
-![Google Cloud Builder Output ](https://res.cloudinary.com/ajonp/image/upload/v1545169224/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/ln3docmhljhbkphqio8a.png)
+![Google Cloud Builder Output ](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545169224/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/ln3docmhljhbkphqio8a.png)
