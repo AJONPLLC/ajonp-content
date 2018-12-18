@@ -30,12 +30,13 @@ videos = ["https://www.youtube.com/v/bLrZxoC0VlQ"]
 
 This lesson will focus on a very easy solution to having multiple web projects hosted under the same domain. 
 
-> Firebase limits a domain for all of your projects. Once you have associated this domain you not be able to use it again for any other project.
+{{% blockquote-warning %}}
+
+> Firebase limits a single domain for all of your projects. Once you have associated this domain you not be able to use it again for any other project. For example I would like to use lessons.ajonp.com from project 
+
+{{% /blockquote-warning %}}
 
 ## Lesson Steps
-1. ~~Clone Lesson 4~~
-1. Add Netlify Victor/Hugo template to project.
-1. Update branding.
-1. Configure Firebase Hosting
-1. Configure Algolia Indexing
-1. Configure Google Cloud Build
+1. Example Multiple Hugo Themes
+1. Setup Angular Project with Multiple projects
+1. Create Firebase Multiple Projects.
