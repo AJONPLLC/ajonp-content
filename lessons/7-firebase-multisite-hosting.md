@@ -1,6 +1,6 @@
 +++
 lesson = "7"
-title = "Firebase Multisite (Multiple Sites) hosting, using Hugo and Angular"
+title = "Firebase Multisite Hosting"
 description = "Creation of multiple sites within Hugo (main and amp), as well as multiple sites written in Angular (admin and app)."
 date = 2018-12-17T23:04:50-05:00
 weight = 20
