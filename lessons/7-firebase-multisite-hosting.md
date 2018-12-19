@@ -17,7 +17,7 @@ videos = ["https://www.youtube.com/v/bLrZxoC0VlQ"]
 
 [twitter]
   card = "player"
-  title = "Firebase Multisite (Multiple Sites) hosting, using Hugo and Angular"
+  title = "Firebase Multisite Hosting (Multiple Site), using Hugo and Angular"
   site = "@ajonpcom"
   description = "Creation of multiple sites within Hugo (main and amp), as well as multiple sites written in Angular (admin and app)."
   player = "https://www.youtube.com/embed/bLrZxoC0VlQ?autoplay=0&rel=0&origin=https://ajonp.com/lessons/lesson-7-firebase-multisite-hosting"
