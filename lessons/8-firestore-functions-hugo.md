@@ -42,6 +42,7 @@ This lesson will explore some fairly complex triggers and Git practices.
 1. [Update Firestore Trigger to match your GitHub repo](#update-firestore-trigger-to-match-your-github-repo)
 1. [Deploy Firebase Functions from CLI](#deploy-firebase-functions-from-cli)
 1. [Add a book, watch it show in Hugo site](#add-a-book-watch-it-show-in-hugo-site)
+1. [Working Demo](#working-demo)
 
 Optional
 - Cloud Build for CI/CD
@@ -431,7 +432,8 @@ In the bottom right corner you can click the + fab button, this will open the fo
 ![New Book Form](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545933791/ajonp-ajonp-com/8-lesson-firestore-functions/xyn381bujrehp021yeju.png)
 
 Once you click save this will trigger the Cloud Function `gitBookCreateHugoCommit`. Checkout the [logs](https://console.cloud.google.com/logs/viewer)
-![Git Creat Log](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545934369/ajonp-ajonp-com/8-lesson-firestore-functions/bcnequcgzehwyx9hjf1a.png)
+
+![Git Creat Log](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545934369/ajonp-ajonp-com/8-lesson-firestore-functions/bcnequcgzehwyx9hjf1a.png)
 
 Watch for the build to take place in [Google Coud Builder History](https://console.cloud.google.com/cloud-build/builds)
 
@@ -439,3 +441,9 @@ You can then navigate over to your Hugo site (after about 2 minutes) and see the
 
 ## Delete a book
 This does the same thing as adding except it will trigger the `gitBookDeleteHugoCommit` Cloud Function.
+
+# Working Demo
+Login and try it out yourself!
+
+[Angular Admin Site](https://ajonp-lesson-8-admin.firebaseapp.com)
+[Hugo Main Site](https://ajonp-lesson-8-hugo.firebaseapp.com/)
