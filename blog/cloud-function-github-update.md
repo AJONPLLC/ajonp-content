@@ -1,7 +1,9 @@
 +++
 title= "Cloud Function GitHub Update"
+description = "Changing git libraries"
 date= 2018-12-26T01:25:37-05:00
 draft= false
+images = ["https://res.cloudinary.com/ajonp/image/upload/v1543865880/ajonp-ajonp-com/Logos/Github/Git-Icon-Black.png"]
 +++
 
 # Goal
