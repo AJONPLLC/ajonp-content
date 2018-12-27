@@ -10,8 +10,8 @@ tags = ["hugo", "ionic", "hosting", "firebase", "firestore"]
 categories = ["firebase", "angular", "hugo", "firestore"]
 languages = ["javascript", "typescript"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.png"]
-githublinks = ["https://github.com/AJONPLLC/lesson-8-firestore-functions", "https://github.com/AJONPLLC/lesson-8-hugo"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.png"]
+githublinks = ["https://github.com/AJONPLLC/lesson-8-hugo","https://github.com/AJONPLLC/lesson-8-firestore-functions"]
 videos = ["https://www.youtube.com/v/"]
 
 [twitter]
@@ -36,7 +36,7 @@ This lesson will explore some fairly complex triggers and Git practices.
 1. Create Hugo Content Google Cloud Build Trigger
 1. Test Cloud Build Trigger
 1. Fork/Clone [lesson-8-firestore-functions](https://github.com/AJONPLLC/lesson-8-firestore-functions)
-1. Update Firestore Trigger to Match your Repo
+1. Update Firestore Trigger to match your GitHub repo
 1. Deploy Firebase from CLI
 
 Optional
@@ -79,6 +79,7 @@ This will be based on whatever the latest content had in `AJONPLLC/lesson-8-hugo
 # Create Hugo firebase hosting site
 ## Create firebase project
 Start by Adding a new Project
+
 ![Add Project](https://res.cloudinary.com/ajonp/image/upload/v1545865510/ajonp-ajonp-com/8-lesson-firestore-functions/mlcfmsxq3egli5llns6i.png)
 
 Give the project a good name.
@@ -124,6 +125,7 @@ Your update
     }
   }
 }
+```
 
 In the above example replace the default project to match your project. For targets this is mapping your project to your hosting names, we will define the hosting name in firebase.json as the target.
 
@@ -157,9 +159,115 @@ firebase.json
 }
 ```
 
+You will now be able to deploy your site using the firebase CLI.
+
+```sh
+firebase deploy
+```
+You should see a result with around 53 files.
+> If you only see a few check that you ran the submodule update.
+
+![firebase deploy result](https://res.cloudinary.com/ajonp/image/upload/v1545874713/ajonp-ajonp-com/8-lesson-firestore-functions/nwsqimwac9suyzhrtdje.jpg)
 
 # Create Hugo Content Google Cloud Build Trigger
+Now that we have manually tested that everything works, we want to validate that we can trigger a Hugo build everytime a commit occurs.
+
+## Google Cloud Project
+Every Firebase project is really just a Google Platform Project. In order to use the cloud builder we need to enable billing, I suggest switching to the Blaze plan as you won't need to pay anything if you stay under the limits.
+![Blaze Plan](https://res.cloudinary.com/ajonp/image/upload/v1545875585/ajonp-ajonp-com/8-lesson-firestore-functions/rsuwpz0erldnoexzhowl.png)
+
+Now start by going to [Google Cloud Console](https://console.cloud.google.com).
+
+You should see a dropdown selection for the project, select the correct project.
+![Project Dropdown](https://res.cloudinary.com/ajonp/image/upload/v1545875207/ajonp-ajonp-com/8-lesson-firestore-functions/ufwyzjjozoxruj7zwqpi.png)
+
+### Google Cloud Trigger Enable
+Now you can navigate to [Products->Tools->Cloud Build->triggers](https://console.cloud.google.com/cloud-build/triggers)
+![Cloud Trigger](https://res.cloudinary.com/ajonp/image/upload/v1545875313/ajonp-ajonp-com/8-lesson-firestore-functions/somhpisvlmnmitqf8apr.png)
+
+If this is a new project you will need to enable the cloud build API. ![Cloud Build Enable API](https://res.cloudinary.com/ajonp/image/upload/v1545875377/ajonp-ajonp-com/8-lesson-firestore-functions/mkfsasxbko8bx70oahfy.png)
+
+> If you receive an error, please make sure that you have changed to a Blaze Plan in Firebase.![Builder Error](https://res.cloudinary.com/ajonp/image/upload/v1545875470/ajonp-ajonp-com/8-lesson-firestore-functions/jgp7vmvazhyi4c5p2y64.png)
+
+### Google Cloud Trigger Create
+If you need more help on this lesson check our [Google Cloud Repositories CI/CD](https://ajonp.com/lessons/2-firebase-ci/) for a full walk through.
+
+Add a new Trigger
+Select the source from GitHub, and consent.
+![Select Source](https://res.cloudinary.com/ajonp/image/upload/v1545876414/ajonp-ajonp-com/8-lesson-firestore-functions/zc1t0zguz0xnccruayzq.png)
+
+After you authenticate to GitHub choose your project and continue.
+![Choose GitHub project](https://res.cloudinary.com/ajonp/image/upload/v1545876452/ajonp-ajonp-com/8-lesson-firestore-functions/knehapxggrolfxkpaeor.png)
+
+Settings
+- Name: Hugo CI/CD
+- Branch: master
+- Build configuration: cloudbuild.yaml
+- Substitution variables: _FIREBASE_TOKEN = yourtoken.
+![Final steps](https://res.cloudinary.com/ajonp/image/upload/v1545876311/ajonp-ajonp-com/8-lesson-firestore-functions/olckoaopc8tv7xhpjij4.png)
+
 # Test Cloud Build Trigger
+Before going further we want to make sure your trigger is working. So lets load a sample file into the `content/books` folder. Either copy the examplebook.md renaming to testtrigger.md or create a new file.
+
+content/books/testtrigger.md
+```md
++++
+title = "Example Book"
+date = 2018-11-26T14:45:13-05:00
+images = ["https://res.cloudinary.com/ajonp/image/upload/v1545282630/ajonp-ajonp-com/8-lesson-firestore-functions/bookExample.png"]
++++
+
+This is a commit test creating a book.😸
+```
+
+## Local git push
+Add the new file if needed.
+```sh
+git add .
+```
+Commit locally
+```sh
+git commit -m "Trigger Commit"
+```
+Then push to the remote GitHub repository.
+```sh
+git push origin
+```
+## Trigger History
+You should now see a history from this trigger listed in [Google Cloud Build History](https://console.cloud.google.com/cloud-build/builds)
+![Trigger History](https://res.cloudinary.com/ajonp/image/upload/v1545877459/ajonp-ajonp-com/8-lesson-firestore-functions/llkuo8erhprsak23frtv.png)
+
+## Automatically Deployed to Firebase
+The last step in cloudbuild.yaml deploys to to firebase, you should see a successful deploy message in your cloud build logs.
+
+```
+Starting Step #5
+Step #5: Already have image: gcr.io/ajonp-lesson-8/firebase
+Step #5: 
+Step #5: === Deploying to 'ajonp-lesson-8'...
+Step #5: 
+Step #5: i  deploying hosting
+Step #5: i  hosting[ajonp-lesson-8]: beginning deploy...
+Step #5: i  hosting[ajonp-lesson-8]: found 54 files in public
+Step #5: i  hosting: uploading new files [2/48] (4%)
+Step #5: ✔  hosting[ajonp-lesson-8]: file upload complete
+Step #5: i  hosting[ajonp-lesson-8]: finalizing version...
+Step #5: ✔  hosting[ajonp-lesson-8]: version finalized
+Step #5: i  hosting[ajonp-lesson-8]: releasing new version...
+Step #5: ✔  hosting[ajonp-lesson-8]: release complete
+Step #5: 
+Step #5: ✔  Deploy complete!
+Step #5: 
+Step #5: Project Console: https://console.firebase.google.com/project/ajonp-lesson-8/overview
+Step #5: Hosting URL: https://ajonp-lesson-8.firebaseapp.com
+Finished Step #5
+```
+
+> Reminder if you don't see the new file it may be cached in the browser/service worker, you can force refresh the browser to see this.
+
 # Fork/Clone lesson-8-firestore-functions
-# Update Firestore Trigger to Match your Repo
+The [lesson-8-firestore-functions](https://github.com/AJONPLLC/lesson-8-firestore-functions) is setup to be the admin side of the site that will interact with [Firebase Firestore](https://firebase.google.com/docs/firestore/). I wrote this in Angular, but you could use any Web framework, iOS, Android, Unity...
+
+# Update Firestore Trigger to match your GitHub repo
+
 # Deploy Firebase from CLI
