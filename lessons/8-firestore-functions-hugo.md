@@ -2,9 +2,9 @@
 lesson = "8"
 title = "Use Firestore to Build Hugo Content"
 description = "Use a frontend app (Angular), to update a Firestore Backend, trigger Firebase Function, while maintaining git commits, and buld/deploy your Hugo site."
-date = 2018-12-26T01:04:50-05:00
+date = 2018-12-28T01:04:50-05:00
 weight = 20
-draft = true
+draft = false
 toc = true
 tags = ["hugo", "ionic", "hosting", "firebase", "firestore"]
 categories = ["firebase", "angular", "hugo", "firestore"]
