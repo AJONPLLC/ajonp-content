@@ -12,17 +12,17 @@ languages = ["javascript", "typescript"]
 authors = ["Alex Patterson"]
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.png"]
 githublinks = ["https://github.com/AJONPLLC/lesson-8-hugo","https://github.com/AJONPLLC/lesson-8-firestore-functions"]
-videos = ["https://www.youtube.com/v/"]
+videos = ["https://www.youtube.com/v/rMcpwucRlnU"]
 
 [twitter]
   card = "player"
   title = "Use Firestore to Build Hugo Content"
   site = "@ajonpcom"
   description = "Use a frontend app (Angular), to update a Firestore Backend, trigger Firebase Function, while maintaining git commits, and buld/deploy your Hugo site."
-  player = "https://www.youtube.com/embed/?autoplay=0&rel=0&origin=https://ajonp.com/lessons/lesson-7-firebase-multisite-hosting"
+  player = "https://www.youtube.com/embed/rMcpwucRlnU?autoplay=0&rel=0&origin=https://ajonp.com/lessons/lesson-7-firebase-multisite-hosting"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.png"
   image_alt = "Firestore trigger Hugo"
 +++
 
@@ -331,6 +331,10 @@ Now because this is a new project that we are directing this app towards, you wi
 
 ![Auth Error](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545922204/ajonp-ajonp-com/8-lesson-firestore-functions/tofhpbinmrcwi8c7kzyt.png)
 
+You can update this in Authentication -> Sign-in method. Edit the Google Sign-in provider and enable it.
+You can find more in the [Firebase Authentication Docs](https://firebase.google.com/docs/auth/)
+
+
 ## Firestore database
 Back in your Firestore project select Database->Create Database
 
@@ -344,7 +348,7 @@ I recommend always starting in a lock mode, it helps you understand what securit
 
 Upload Firestore Rules from the project
 ```sh
-firebase deploy--only firestore:rules
+firebase deploy --only firestore:rules
 ```
 
 ## Firebase Hosting Updates
