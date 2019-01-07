@@ -28,7 +28,7 @@ githublinks = ["https://github.com/AJONPLLC/lesson-2-firebase-ci"]
 +++
 
 # Summary
-We will continue our hello world example from [Firebase Project Hosting](http://ajonp.com/lessons/1-creating-firebase-project/) and extend this into publishing our site to firebase using CI/CD. The final hosting example will create the site in the initial project folder (in my case ajonp-lesson-1)
+We will continue our hello world example from [Firebase Project Hosting](https://ajonp.com/lessons/1-creating-firebase-project/) and extend this into publishing our site to firebase using CI/CD. The final hosting example will create the site in the initial project folder (in my case ajonp-lesson-1)
 
 1. Source Code Repositories Pricing
 1. Create Github Repository
