@@ -11,7 +11,7 @@ categories = ["angular", "angular material", "routing"]
 languages = ["javascript", "typescript", "scss"]
 authors = ["Alex Patterson"]
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547495858/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/angular-material-router-outlet.png"]
-githublinks = ["https://github.com/AJONPLLC/lesson10-angular-material-router-outlet"]
+githublinks = ["https://github.com/AJONPLLC/lesson-9-angular-material-router-outlet"]
 videos = ["https://www.youtube.com/v/niJrSNQ1KwI"]
 
 [twitter]
@@ -31,17 +31,17 @@ videos = ["https://www.youtube.com/v/niJrSNQ1KwI"]
 This lesson will start from a new Angular Project and walk through how to use Angular Material [Sidenav](https://material.angular.io/components/sidenav/overview) using the Angular [Router](https://angular.io/guide/router) with [Named Outlets](https://angular.io/guide/router#displaying-multiple-routes-in-named-outlets). This will be the begining of building a app for publishing book reviews.
 
 ## Lesson Steps
-1. [Angular Material Router Outlet](#angular-material-router-outlet)
-1. [Create Angular Project](#create-angular-project)
-1. [Serve Angular Project](#serve-angular-project)
-1. [Angular Modules](#angular-modules)
-1. [Angular Material Sidenav](#angular-material-sidenav)
-1. [Lazy Loading Books Feature Module](#lazy-loading-books-feature-module)
-1. [Lazy Loading Welcome Feature Module](#lazy-loading-welcome-feature-module)
-1. [Using Router Link for Navigation](#using-router-link-for-navigation)
-1. [Toolbar Updates](#toolbar-updates)
-1. [Book Drawer as Named Outlet](#book-drawer-as-named-outlet)
-1. [Final Thoughts](#final-thoughts)
+1. [Angular Material Router Outlet](https://ajonp.com/lessons/9-angular-material-router-outlet/#angular-material-router-outlet)
+1. [Create Angular Project](https://ajonp.com/lessons/9-angular-material-router-outlet/#create-angular-project)
+1. [Serve Angular Project](https://ajonp.com/lessons/9-angular-material-router-outlet/#serve-angular-project)
+1. [Angular Modules](https://ajonp.com/lessons/9-angular-material-router-outlet/#angular-modules)
+1. [Angular Material Sidenav](https://ajonp.com/lessons/9-angular-material-router-outlet/#angular-material-sidenav)
+1. [Lazy Loading Books Feature Module](https://ajonp.com/lessons/9-angular-material-router-outlet/#lazy-loading-books-feature-module)
+1. [Lazy Loading Welcome Feature Module](https://ajonp.com/lessons/9-angular-material-router-outlet/#lazy-loading-welcome-feature-module)
+1. [Using Router Link for Navigation](https://ajonp.com/lessons/9-angular-material-router-outlet/#using-router-link-for-navigation)
+1. [Toolbar Updates](https://ajonp.com/lessons/9-angular-material-router-outlet/#toolbar-updates)
+1. [Book Drawer as Named Outlet](https://ajonp.com/lessons/9-angular-material-router-outlet/#book-drawer-as-named-outlet)
+1. [Final Thoughts](https://ajonp.com/lessons/9-angular-material-router-outlet/#final-thoughts)
 
 # Create Angular Project
 
