@@ -4,7 +4,7 @@ title = "Angular Material Router Outlet"
 description = "How to use Angular Material with Angular Router and Lazy Loading and Named Outlets."
 date = 2019-01-13T12:04:50-05:00
 weight = 20
-draft = true
+draft = false
 toc = true
 tags = ["angular", "angular material", "sidenav"]
 categories = ["angular", "angular material", "routing"]
@@ -31,7 +31,17 @@ videos = ["https://www.youtube.com/v/niJrSNQ1KwI"]
 This lesson will start from a new Angular Project and walk through how to use Angular Material [Sidenav](https://material.angular.io/components/sidenav/overview) using the Angular [Router](https://angular.io/guide/router) with [Named Outlets](https://angular.io/guide/router#displaying-multiple-routes-in-named-outlets). This will be the begining of building a app for publishing book reviews.
 
 ## Lesson Steps
-1. [Billing Limit Reminder](#billing-limit-reminder)
+1. [Angular Material Router Outlet](#angular-material-router-outlet)
+1. [Create Angular Project](#create-angular-project)
+1. [Serve Angular Project](#serve-angular-project)
+1. [Angular Modules](#angular-modules)
+1. [Angular Material Sidenav](#angular-material-sidenav)
+1. [Lazy Loading Books Feature Module](#lazy-loading-books-feature-module)
+1. [Lazy Loading Welcome Feature Module](#lazy-loading-welcome-feature-module)
+1. [Using Router Link for Navigation](#using-router-link-for-navigation)
+1. [Toolbar Updates](#toolbar-updates)
+1. [Book Drawer as Named Outlet](#book-drawer-as-named-outlet)
+1. [Final Thoughts](#final-thoughts)
 
 # Create Angular Project
 
@@ -348,5 +358,327 @@ This is a visual representation of what is happening in our code so far, mat-sid
 
 ![Sidenav with Toolbar](https://res.cloudinary.com/ajonp/image/upload/v1547502835/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/main-router-outlet.png)
 
-# Lazy Loaded Books Route
+# Lazy Loading Books Feature Module
 
+The first child route that we will setup is a book route. This will require us to create a new module and component. This time we will use an optional parameter `--routing` which will also create a routing module.
+
+Create Book Modules
+```sh
+ng g m modules/books --routing
+```
+
+Create Book Component
+```sh
+ng g c modules/books
+```
+
+## Update App routing
+
+We now need to configure the router so that the books feature module can be accessed. So we will go back to `app-routing.module.ts` and add a new route with path `books`. There is a special way to load modules in a lazy fashion, meaning they were not downloaded when first accessing the app but when first accessing the route. You can read more about Lazy Loading Modules in the [Angular Guide](https://angular.io/guide/lazy-loading-ngmodules).
+
+```ts
+const routes: Routes = [
+  {
+    path: 'books',
+    loadChildren: './modules/books/books.module#BooksModule'
+  }
+];
+```
+
+## App Routing Default Route
+If someone enters the app without a specified path we need to redirect that request over to books so that content will show up correctly.
+
+Add to constant routes.
+```ts
+  {
+    path: '',
+    redirectTo: '/books',
+    pathMatch: 'full'
+  }
+```
+## Update Books Feature Module Route
+Now that we have told the app router about a feature module we need to make sure that feature module knows which component it should load, so we will add an empty path.
+
+```ts
+const routes: Routes = [
+  {
+    path: '',
+    component: BooksComponent,
+  }
+]
+```
+
+You should now see in the live preview [http://localhost/books](http://localhost/books) a message that says "books works!".
+
+# Lazy Loading Welcome Feature Module
+Many sites will often have a welcome or home module that you will route your traffic to incase there are notifications, logins, or basic info requirements. So we will switch our base path over to this new feature module and leave books on a seperate path. This will be the same setup as our Books Module.
+
+Create Welcome Modules
+```sh
+ng g m modules/welcome --routing
+```
+
+Create Welcome Component
+```sh
+ng g c modules/welcome
+```
+
+## Update App routing
+
+```ts
+const routes: Routes = [
+  {
+    path: 'welcome',
+    loadChildren: './modules/books/books.module#BooksModule'
+  }
+];
+```
+## App Routing Default Route
+Change this redirect from books to Welcome.
+
+app-routing.module.ts
+```ts
+const routes: Routes = [
+  {
+    path: 'welcome',
+    loadChildren: './modules/welcome/welcome.module#WelcomeModule'
+  },
+  {
+    path: 'books',
+    loadChildren: './modules/books/books.module#BooksModule'
+  },
+  {
+    path: '',
+    redirectTo: '/welcome',
+    pathMatch: 'full'
+  }
+];
+```
+## Update Welcome Feature Module Route
+welcome-routing.module.ts
+```ts
+const routes: Routes = [
+  {
+    path: '',
+    component: WelcomeComponent,
+  }
+]
+```
+
+# Using Router Link for Navigation
+In order for us to navigate the site we need to add some navigational elements. Using an [Angular Material List](https://material.angular.io/components/list/overview#navigation-lists) with a specific `mat-nav-list` element type is just what we need for our sidenav drawer.
+
+
+```ts
+...
+  <mat-sidenav opened=false mode="over">
+    <mat-nav-list>
+      <mat-list-item>
+        <h4 matLine routerLink="/welcome"
+        [routerLinkActiveOptions]="{exact:true}"
+        routerLinkActive="active-link">Home</h4>
+      </mat-list-item>
+      <mat-list-item>
+        <h4 matLine routerLink="/books" routerLinkActive="active-link">Books</h4>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  ...
+```
+Don't forget that you will now need to add `RouterModule` and `MatListModule` in your `sidenav.module.ts` imports.
+
+sidenav.module.ts
+```ts
+@NgModule({
+  declarations: [SidenavComponent],
+  imports: [
+    CommonModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    RouterModule,
+    MatListModule
+  ],
+  ...
+```
+If you now preview [http://localhost:4200](http://localhost:4200) you will see in the sidenav you can click on Home or Books and the content will change to "welcome works!" and books works!" respectively.
+
+## Active Router Link
+You can style your link to know which link you are currently using by adding the attribute `routerLinkActive` and passing a class. We have already assigned ours to `active-link`.
+
+We can then add our style to `sidenav.component.scss` so that the active link changes to a bold blue.
+
+```scss
+.active-link {
+  color: blue;
+  font-weight: bold !important;
+  border: none;
+}
+```
+
+Because we have our home (welcome) route path assigned to '/' if you preview now both Books and Home would be highlighed. By changing our routerlink to `/welcome` this issue will be resolved. In later lessons we will also discuss routerLinkOptions such as `[routerLinkActiveOptions]="{exact:true}"`.
+
+# Toolbar Updates
+In our `mat-toolbar` we placed a button that currently calls a function that has not yet been defined. We need to assign a variable called snav by using `#snav` in the element `mat-sidenav`.
+
+## Sidenav Toggle
+
+sidenav.component.html
+```html
+<mat-sidenav opened=false mode="over" #snav>
+```
+We can then use this new variable and pass it on the button click output `(click)="snavToggle(snav)"`
+
+sidenav.component.html
+```html
+<button
+  type="button"
+  aria-label="Toggle sidenav"
+  mat-icon-button
+  (click)="snavToggle(snav)"
+>
+```
+## Function for Toggle
+Using our new snav reference we can just call the method that exists on this object, it will open or close the sidenav drawer.
+
+sidenav.component.ts
+```ts
+snavToggle(snav) {
+  snav.toggle();
+}
+```
+
+If you now preview [http://localhost:4200](http://localhost:4200) you will see that the toolbar hamburger (three horizontal lines) button will open and close the sidenav drawer.
+
+## Toolbar Title
+We can also specify a title to allow our home routerlink to return home. 
+```html
+<a class="home-link" routerLink=".">{{ title }}</a>
+```
+
+sidenav.component.ts
+```ts
+  title = 'Lesson 9 - Angular Material Router Outlet';
+```
+
+# Book Drawer as Named Outlet
+Now that we have our book feature module all setup with working navigation and toolbar, we are going to add a named outlet for a drawer on this page.
+
+Visually it will look like this
+![Drawer Layout](https://res.cloudinary.com/ajonp/image/upload/v1547511788/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/book-drawer.png)
+We will change our `books.component.html` from having text to including an Angular Material Drawer (mat-drawer). Remember now we have `one` router-outlet in our `sidenav.component` and `two` router-outlets in `books.component`, one named for the drawer and one for content.
+
+## Create Drawer Component
+No routing needed for this module as it will be used only inside of our books module and not as a feature module.
+
+module
+```sh
+ng g m modules/books/book-drawer
+```
+component
+```sh
+ng g c modules/books/book-drawer
+```
+
+> Don't forget to export this component as it will be used in book-detail.
+
+book-drawer.module.ts
+```ts
+...
+@NgModule({
+  declarations: [BookDrawerComponent],
+  imports: [
+    CommonModule
+  ],
+  exports: [
+    BookDrawerComponent
+  ]
+...
+```
+
+## Add mat-drawer to Books
+There are three parts to the drawer just like sidenav, this is because they are the same with sidenav having a few additional structural features.
+
+Having attributes opened="true" will show the drawer on screen and having mode="side" will push the content to beside the drawer.
+
+modules/books/books.component.html
+```html
+<mat-drawer-container>
+  <mat-drawer  opened="true" mode="side">
+    <router-outlet name="book-drawer"></router-outlet>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+```
+
+Remember to add MatSidenavModule to `books.module.ts`, or the `mat-drawer` element will not be recognized.
+```ts
+@NgModule({
+  declarations: [BooksComponent],
+  imports: [
+    CommonModule,
+    BooksRoutingModule,
+    MatSidenavModule
+  ]
+})
+```
+## Create Book Detail Component
+We will use this as an additional child feature route of books, so we need the router module.
+
+module
+```sh
+ng g m modules/books/book-detail --routing
+```
+component
+```sh
+ng g c modules/books/book-detail
+```
+
+## Update Books Routing
+We no longer want just the BookComponent to load when the `/books` route is hit, we want it to load its children as well. We do this the same as we did with our `app-routing.module.ts` and we will lazy load it with `loadChildren`.
+
+```ts
+const routes: Routes = [
+  {
+    path: '',
+    component: BooksComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: './book-detail/book-detail.module#BookDetailModule'
+      }
+    ]
+  }
+];
+  ```
+## Update Book-Detail Routing with Named Outlet
+Now that the books module knows to lazy load the book-detail module on its base path we need to update the route in book-detail to load its own component. This however will have a special route with an `outlet` for the drawer as well, this tells the router that it must use only this named route for its component.
+
+So the router will load:  
+book-detail -> `<router-outlet>`  
+book-drawer -> `<router-outlet name="book-drawer">`
+
+
+```ts
+const routes: Routes = [
+  {
+    path: '',
+    component: BookDetailComponent
+  },
+  {
+    path: '',
+    component: BookDrawerComponent,
+    outlet: 'book-drawer'
+  }
+];
+```
+
+If you now preview [http://localhost:4200/books](http://localhost:4200/books) you will see in a drawer "book-drawer works!" and in the content area "book-detail works!".
+
+# Final Thoughts
+The Angular Router is amazingly powerful, you can create sever nested routes, named routes, guarded routes...
+
+If you cloned the final GitHub repo you will see some additional style updates, I will be covering those in the next Angular Material Themeing lesson.
