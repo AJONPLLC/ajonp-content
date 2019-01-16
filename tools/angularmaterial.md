@@ -4,7 +4,7 @@ date = 2019-01-16T12:04:50-05:00
 draft = false
 title = "Angular Material"
 description = "Material Design components for Angular"
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547650400/ajonp-ajonp-com/Logos/Angular/material.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/w_300,f_auto,fl_lossy,q_auto/v1547650400/ajonp-ajonp-com/Logos/Angular/material.png"]
 +++
 
 # Angular Material
