@@ -11,11 +11,9 @@ images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/
 
 ## Internal Links
 
-- Alex
 - [Material Sidenav](/lessons/9-angular-material-router-outlet)
-
-- [Material Theming](/lessons/10-angular-material-theming)
-  ![Theme](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.png)
+- [Material Theming](/lessons/10-angular-material-theming)  
+  ![Theme](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.png)
 
 ## External Links
 
