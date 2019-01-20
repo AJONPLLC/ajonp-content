@@ -11,6 +11,10 @@ You can just add the unpkg tag to your head 😺
 
 Demo: [https://ion-icon.firebaseapp.com/](https://ion-icon.firebaseapp.com/)
 
+# Ionic Icon Links
+Main Page: [https://ionicons.com/](https://ionicons.com/)
+Git Repo: [https://github.com/ionic-team/ionicons](https://github.com/ionic-team/ionicons)
+
 ```html
 <html>
   <head>
