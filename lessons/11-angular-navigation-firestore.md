@@ -30,6 +30,11 @@ videos = ["https://www.youtube.com/v/sZoiLcq7N6Q"]
 
 The goal of this lesson is to take our [Lesson 10 - Angular Material Theming](http://ajonp.com/lessons/10-angular-material-theming/) and add navigational elements. The two for this lesson will include [Angular Material Tree](https://material.angular.io/components/tree/overview) and [Angular Material Expansion Panel](https://material.angular.io/components/expansion/overview).
 
+If you are well versed in Firebase and are just wondering how to get this tree to work with Firestore, you might want to jump to [Tree](#tree) portion of this lesson.
+<h3>
+[Live Demo](https://ajonp-lesson-11.firebaseapp.com/books/)
+</h3>
+
 ## Lesson Steps
 
 1. [Project Setup](#project-setup)
@@ -919,3 +924,85 @@ Please make sure to also import `BookTreeModule` in `book-drawer.module.ts`.
  imports: [CommonModule, BookTreeModule],
 ...
 ```
+# Tree
+
+[Angular Material Tree](https://material.angular.io/components/tree/overview)
+
+## Breaking down the dynamic Tree
+
+There are two key directives that drive the dynamic tree `dataSource` and `treeControl`.
+
+- dataSource: Provides a stream containing the latest data array to render. Influenced by the tree's stream of view window (what dataNodes are currently on screen). Data source can be an observable of data array, or a data array to render.
+- treeControl: Controls layout and functionality of the visual tree.
+
+book-tree.comopnent.html
+```html
+<mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+```
+
+### dataSource
+In our example we assign dataSource to a new object from class `DynamicDataSource`. This class is passed off the necessary dependency injected classes that we will need from our `BookTreeComponent`.
+
+```ts
+    this.dataSource = new DynamicDataSource(
+      this.treeControl,
+      this.route,
+      this.fs,
+      this.router
+    );
+```
+
+### DynamicDataSource
+The `DynamicDataSource's` main job is to get initial data for the setup of the tree, control the flow of any additional data, and react when the tree is toggled.
+
+The data type that we are using in our tree is defined by class `DynamicFlatNode`, this class holds the data that we use throughout our tree as an array. Maybe better put our Tree is made up of an Array of `DynamicFlatNode`.
+
+```ts
+export class DynamicFlatNode {
+  constructor(
+    public item: string,
+    public level = 1,
+    public expandable = false,
+    public isLoading = false,
+    public book?: Book,
+    public chapter?: Chapter,
+    public section?: Section
+  ) {}
+}
+```
+
+You can see in the first line of `DynamicDataSource` that we create a new BehaviorSubject for the array. This makes essentially an empty array for the tree's `dataSource`. 
+
+```ts
+export class DynamicDataSource {
+  dataChange = new BehaviorSubject<DynamicFlatNode[]>([]);
+```
+
+For our example we set the initial data for this by subscribing to our `bookId` and getting the corresponding book's chapters. You will notice that we create a `DynamicFlatNode` Object and add that to the array `nodes`. We then assign `DynamicDataSource`'s `data` property the array that we have created. 
+
+```ts
+    /** Initial data from database */
+    this.subscriptions.push(
+      this.route.paramMap.subscribe(paramMap => {
+        const bookId = paramMap.get('bookId');
+        this.fs.getBookChapters(bookId).subscribe(chapters => {
+          const nodes: DynamicFlatNode[] = [];
+          chapters.sort((a, b) => (a.sort < b.sort ? -1 : 1));
+          chapters.forEach(chapter =>
+            nodes.push(
+              new DynamicFlatNode(
+                chapter.title, // chapter title
+                0, // Tree Level
+                true, // Expandable
+                false, // Is Loading
+                { id: bookId }, // Object representing book
+                chapter // Object for our current Chapter from firestore
+              )
+            )
+          );
+          this.data = nodes;
+        });
+      })
+    );
+```
+
