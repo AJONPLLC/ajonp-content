@@ -32,7 +32,10 @@ The goal of this lesson is to take our [Lesson 10 - Angular Material Theming](ht
 
 ## Lesson Steps
 
-1. []()
+1. [Project Setup](#project-setup)
+1. [Firestore](#firestore)
+1. [Router Updates](#router-updates)
+1. [Component Updates](#component-updates)
 
 # Project Setup
 ## Create Firebase Project
@@ -75,6 +78,7 @@ Now we will initialize this project
 firebase init
 ```
 Make sure to select Firestore, and accept all other defaults
+
 ![Firebase init](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548346992/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/x7r97se1ymusolimrtfz.jpg)
 
 You will then need to add firebase to your project, again please checkout the link from above how to do this, of follow the video.
