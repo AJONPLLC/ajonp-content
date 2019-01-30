@@ -30,7 +30,7 @@ videos = ["https://www.youtube.com/v/V3WiBs-igaY"]
 
 # Angular Material Theming
 
-[Kitchensink Demo](https://ajonp-lesson-10.firebaseapp.com/kitchensink)
+🌎 Demo: [https://ajonp-lesson-10.firebaseapp.com/kitchensink](https://ajonp-lesson-10.firebaseapp.com/kitchensink)
 
 Angular Material is the officially supported components for implementing Google's Material Design System within Angular.
 There are 4 pre-built themes that come with Angular Material

@@ -30,7 +30,7 @@ videos = ["https://www.youtube.com/v/niJrSNQ1KwI"]
 
 This lesson will start from a new Angular Project and walk through how to use Angular Material [Sidenav](https://material.angular.io/components/sidenav/overview) using the Angular [Router](https://angular.io/guide/router) with [Named Outlets](https://angular.io/guide/router#displaying-multiple-routes-in-named-outlets). This will be the begining of building a app for publishing book reviews.
 
-Working Demo: [https://ajonp-lesson-9.firebaseapp.com/](https://ajonp-lesson-9.firebaseapp.com/)
+🌎 Demo:  [https://ajonp-lesson-9.firebaseapp.com/](https://ajonp-lesson-9.firebaseapp.com/)
 
 ## Lesson Steps
 1. [Angular Material Router Outlet](https://ajonp.com/lessons/9-angular-material-router-outlet/#angular-material-router-outlet)

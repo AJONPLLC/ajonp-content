@@ -30,6 +30,10 @@ videos = ["https://www.youtube.com/v/rMcpwucRlnU"]
 
 This lesson will explore some fairly complex triggers and Git practices.
 
+🌎 Demo: 
+[Angular Admin Site](https://ajonp-lesson-8-admin.firebaseapp.com)
+[Hugo Main Site](https://ajonp-lesson-8-hugo.firebaseapp.com/)
+
 ## Lesson Steps
 1. [Billing Limit Reminder](#billing-limit-reminder)
 1. [Fork/Clone lesson-8-hugo](#fork-clone-lesson-8-hugo)
@@ -42,7 +46,6 @@ This lesson will explore some fairly complex triggers and Git practices.
 1. [Update Firestore Trigger to match your GitHub repo](#update-firestore-trigger-to-match-your-github-repo)
 1. [Deploy Firebase Functions from CLI](#deploy-firebase-functions-from-cli)
 1. [Add a book, watch it show in Hugo site](#add-a-book-watch-it-show-in-hugo-site)
-1. [Working Demo](#working-demo)
 
 Optional
 - Cloud Build for CI/CD
@@ -445,9 +448,3 @@ You can then navigate over to your Hugo site (after about 2 minutes) and see the
 
 ## Delete a book
 This does the same thing as adding except it will trigger the `gitBookDeleteHugoCommit` Cloud Function.
-
-# Working Demo
-Login and try it out yourself!
-
-[Angular Admin Site](https://ajonp-lesson-8-admin.firebaseapp.com)
-[Hugo Main Site](https://ajonp-lesson-8-hugo.firebaseapp.com/)

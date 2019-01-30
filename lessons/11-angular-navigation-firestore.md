@@ -32,7 +32,7 @@ The goal of this lesson is to take our [Lesson 10 - Angular Material Theming](ht
 
 If you are well versed in Firebase and are just wondering how to get this tree to work with Firestore, you might want to jump to [Tree](#tree) portion of this lesson.
 <h3>
-[Live Demo](https://ajonp-lesson-11.firebaseapp.com/books/)
+🌎 Demo: [https://ajonp-lesson-11.firebaseapp.com/books/](https://ajonp-lesson-11.firebaseapp.com/books/)
 </h3>
 
 ## Lesson Steps
