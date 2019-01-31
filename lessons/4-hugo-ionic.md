@@ -238,4 +238,4 @@ static/css/custom.css
 ```
 
 # Theme updates
-I usee the theme for [AJonP](https://ajonp.com) so it may change (you can always stay at a commit), but please contact me on [Slack](https://ajonp-com.slack.com/join/shared_invite/enQtNDk4NjMyNDUxMzM0LWQwMThkZDE3MDAzNzVmNWE3N2M1NzkwMzg1YWQ5NzIxZmIyYTM3ZjEyOGU3YjQ0NTFkYzRmZjMyYzExNDNlNTg) or Pull request on [Github](https://github.com/AJONPLLC/ajonp-hugo-ionic/pulls).
+I usee the theme for [AJonP](https://ajonp.com) so it may change (you can always stay at a commit), but please contact me on [Gitter](http://bit.ly/ajonp-gitter) or Pull request on [Github](https://github.com/AJONPLLC/ajonp-hugo-ionic/pulls).

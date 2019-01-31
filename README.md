@@ -10,10 +10,10 @@ This is the main content for [AJonP](https://ajonp.com). If you are interested i
 ### Build a friendly Developer Community
 
 Become a community where you can get questions answered among colleagues and allow for a central place to reference learning tools.
-Please feel free to join the AJonP Slack team to network with developers, ask questions, and have information directly at your fingertips.
+Please feel free to join the AJonP Gitter Community to network with developers, ask questions, and have information directly at your fingertips.
 
-<a href="https://ajonp-com.slack.com/join/shared_invite/enQtNDk4NjMyNDUxMzM0LWQwMThkZDE3MDAzNzVmNWE3N2M1NzkwMzg1YWQ5NzIxZmIyYTM3ZjEyOGU3YjQ0NTFkYzRmZjMyYzExNDNlNTg">
-Join AJonP Slack Channel
+<a href="http://bit.ly/ajonp-gitter">
+Join Gitter
 </a>
 
 <a href="https://www.youtube.com/channel/UCnKZ8gEb78zXKMi1ns-IQ2g">Checkout Youtube Channel</a>
