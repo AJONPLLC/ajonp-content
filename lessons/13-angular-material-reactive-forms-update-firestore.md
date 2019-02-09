@@ -22,7 +22,7 @@ videos = ["https://www.youtube.com/v/92hYB6jivvQ"]
   player = "https://www.youtube.com/embed/92hYB6jivvQ?autoplay=0&rel=0&origin=https://ajonp.com/lessons/13-angular-material-reactive-forms-update-firestore.md"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1549679549/ajonp-ajonp-com/13-angular-material-reactive-forms-update-firestore/angular-material-reactive-forms.png"
   image_alt = "Angular Material Froms from Firestore"
 +++
 
