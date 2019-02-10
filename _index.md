@@ -6,7 +6,7 @@ weight = 20
 draft = false
 bref = "something"
 toc = true
-images = ['https://res.cloudinary.com/ajonp/image/f_auto,fl_lossy,q_auto/upload/v1544021089/ajonp-ajonp-com/Logos/ajonp/youtube_banner_new_logo.png']
+images = ['https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544021089/ajonp-ajonp-com/Logos/ajonp/youtube_banner_new_logo.png']
 videos = ['https://www.youtube.com/v/NlXVWtgLNjY']
 +++
 
