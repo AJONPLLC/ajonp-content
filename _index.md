@@ -8,6 +8,12 @@ bref = "something"
 toc = true
 images = ['https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544021089/ajonp-ajonp-com/Logos/ajonp/youtube_banner_new_logo.png']
 videos = ['https://www.youtube.com/v/NlXVWtgLNjY']
+[twitter]
+  card = "summary_large_image"
+  site = "@ajonpcom"
+  title = "AJonP Purr-fect Solutions"
+  description = "Find lessons and videos to coach you on your programming journey."
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544021089/ajonp-ajonp-com/Logos/ajonp/youtube_banner_new_logo.png"
 +++
 
 # Welcome to AJ on Programming
