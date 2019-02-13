@@ -11,7 +11,7 @@ categories = ["angular", "angular material", "router"]
 languages = ["javascript", "typescript", "html"]
 authors = ["Alex Patterson"]
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1550035555/ajonp-ajonp-com/14-angular-material-router-awareness/angular-material-router-awareness.png"]
-githublinks = ["https://github.com/ajonp/angular-material-router-awareness.git"]
+githublinks = ["https://github.com/AJONPLLC/lesson14-angular-material-router-awareness"]
 videos = ["https://www.youtube.com/v/3roNVbp3RPg"]
 
 [twitter]
