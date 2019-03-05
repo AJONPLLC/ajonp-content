@@ -8,9 +8,8 @@ weight = 20
 draft = false
 bref = "Stop running sudo on npm."
 toc = true
-tags = ["npm", "setup"]
-categories = ["npm","cli"]
 languages = ["bash"]
+frameworks = ["npm"]
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.png"]
 videos = ["https://www.youtube.com/v/eWc0bg9KMQQ"]
 
