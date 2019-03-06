@@ -17,7 +17,7 @@ githublinks = ["https://github.com/AJONPLLC/lesson-1-firebase-project"]
 [twitter]
   card = "player"
   site = "@ajonpcom"
-  player = "https://www.youtube.com/embed/sOn3YMdpYR4?autoplay=0&rel=0&origin=https://ajonp.com/lessons/1-creating-firebase-project/"
+  player = "https://www.youtube.com/embed/sOn3YMdpYR4?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/1-creating-firebase-project/"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543773086/ajonp-ajonp-com/1-lesson/aj_on_firebase.png"

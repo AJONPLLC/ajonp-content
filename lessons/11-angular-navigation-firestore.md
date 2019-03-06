@@ -18,7 +18,7 @@ videos = ["https://www.youtube.com/v/sZoiLcq7N6Q"]
   title = "Angular Material Dynamic Navigation using Firestore"
   site = "@ajonpcom"
   description = "Angular Navigation using Firestore to populate Angular Material Tree and Expand Panels"
-  player = "https://www.youtube.com/embed/sZoiLcq7N6Q?autoplay=0&rel=0&origin=https://ajonp.com/lessons/lesson-11-angular-navigation-firestore"
+  player = "https://www.youtube.com/embed/sZoiLcq7N6Q?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-11-angular-navigation-firestore"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.png"

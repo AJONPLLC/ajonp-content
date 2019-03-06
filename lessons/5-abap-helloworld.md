@@ -19,7 +19,7 @@ videos = ["https://www.youtube.com/v/aNVyjKqgyts"]
   title = "ABAP - Hello World"
   site = "@ajonpcom"
   description = "Creating your first ABAP Program"
-  player = "https://www.youtube.com/embed/aNVyjKqgyts?autoplay=0&rel=0&origin=https://ajonp.com/lessons/5-abap-helloworld/"
+  player = "https://www.youtube.com/embed/aNVyjKqgyts?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/5-abap-helloworld/"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.png"

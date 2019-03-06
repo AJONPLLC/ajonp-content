@@ -18,7 +18,7 @@ videos = ["https://www.youtube.com/v/3roNVbp3RPg"]
   site = "@ajonpcom"
   title = "Angular Material Router Awareness"
   description = "Make your Angular Material components more aware by using the Angular Router's Power"
-  player = "https://www.youtube.com/embed/3roNVbp3RPg?autoplay=0&rel=0&origin=https://ajonp.com/lessons/13-angular-material-reactive-forms-update-firestore.md"
+  player = "https://www.youtube.com/embed/3roNVbp3RPg?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/13-angular-material-reactive-forms-update-firestore.md"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1550035555/ajonp-ajonp-com/14-angular-material-router-awareness/angular-material-router-awareness.png"

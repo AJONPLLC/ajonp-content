@@ -16,7 +16,7 @@ videos = ["https://www.youtube.com/v/eWc0bg9KMQQ"]
 [twitter]
   card = "player"
   site = "@ajonpcom"
-  player = "https://www.youtube.com/embed/eWc0bg9KMQQ?autoplay=0&rel=0&origin=https://ajonp.com/lessons/3-npm"
+  player = "https://www.youtube.com/embed/eWc0bg9KMQQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/3-npm"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.png"

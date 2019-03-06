@@ -18,7 +18,7 @@ videos = ["https://www.youtube.com/v/tgXFNqInA0w"]
   title = "AJonP Hugo Ionic Template Firebase Hosting"
   site = "@ajonpcom"
   description = "Google Cloud Build and Firebase Deploy Hugo project."
-  player = "https://www.youtube.com/embed/tgXFNqInA0w?autoplay=0&rel=0&origin=https://ajonp.com/lessons/4-hugo-ionic2"
+  player = "https://www.youtube.com/embed/tgXFNqInA0w?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic2"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.png"

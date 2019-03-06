@@ -19,7 +19,7 @@ githublinks = ["https://github.com/AJONPLLC/lesson-2-firebase-ci"]
   title = "Google Cloud Repositories CI/CD"
   site = "@ajonpcom"
   description = "Google Cloud Continuous Integration and Delivery"
-  player = "https://www.youtube.com/embed/MijHRE5h6Gg?autoplay=0&rel=0&origin=https://ajonp.com/lessons/2-firebase-ci.md"
+  player = "https://www.youtube.com/embed/MijHRE5h6Gg?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/2-firebase-ci.md"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.png"

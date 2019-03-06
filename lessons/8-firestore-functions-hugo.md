@@ -18,7 +18,7 @@ videos = ["https://www.youtube.com/v/rMcpwucRlnU"]
   title = "Use Firestore to Build Hugo Content"
   site = "@ajonpcom"
   description = "Use a frontend app (Angular), to update a Firestore Backend, trigger Firebase Function, while maintaining git commits, and buld/deploy your Hugo site."
-  player = "https://www.youtube.com/embed/rMcpwucRlnU?autoplay=0&rel=0&origin=https://ajonp.com/lessons/lesson-8-firestore-functions-hugo"
+  player = "https://www.youtube.com/embed/rMcpwucRlnU?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-8-firestore-functions-hugo"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.png"

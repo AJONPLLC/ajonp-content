@@ -18,7 +18,7 @@ videos = ["https://www.youtube.com/v/niJrSNQ1KwI"]
   title = "Angular Material Router Outlet"
   site = "@ajonpcom"
   description = "How to use Angular Material with Angular Router and Lazy Loading and Named Outlets."
-  player = "https://www.youtube.com/embed/niJrSNQ1KwI?autoplay=0&rel=0&origin=https://ajonp.com/lessons/lesson-9-angular-material-router-outlet"
+  player = "https://www.youtube.com/embed/niJrSNQ1KwI?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-9-angular-material-router-outlet"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547495858/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/angular-material-router-outlet.png"

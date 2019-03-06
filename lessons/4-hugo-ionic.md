@@ -19,7 +19,7 @@ githublinks = ["https://github.com/AJONPLLC/lesson-4-hugo-ionic"]
   title = "AJonP Hugo Ionic Template"
   site = "@ajonpcom"
   description = "How to use AJonP's Hugo Ionic Template"
-  player = "https://www.youtube.com/embed/CZmEZ62yMFA?autoplay=0&rel=0&origin=https://ajonp.com/lessons/4-hugo-ionic"
+  player = "https://www.youtube.com/embed/CZmEZ62yMFA?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.png"

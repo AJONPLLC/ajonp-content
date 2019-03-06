@@ -18,7 +18,7 @@ videos = ["https://www.youtube.com/v/LLupkLEszdY"]
   title = "Angular Material Forms from Firestore"
   site = "@ajonpcom"
   description = "Build all of the Angular Material Form components with data from Firestore."
-  player = "https://www.youtube.com/embed/LLupkLEszdY?autoplay=0&rel=0&origin=https://ajonp.com/lessons/lesson-12-angular-material-forms-from-firestore"
+  player = "https://www.youtube.com/embed/LLupkLEszdY?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-12-angular-material-forms-from-firestore"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.png"

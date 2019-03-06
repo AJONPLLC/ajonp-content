@@ -19,7 +19,7 @@ videos = ["https://www.youtube.com/v/1-wDkjy3Sek"]
   title = "ABAP - Types and Sub Routines"
   site = "@ajonpcom"
   description = "ABAP - Types and Subroutines"
-  player = "https://www.youtube.com/embed/1-wDkjy3Sek?autoplay=0&rel=0&origin=https://ajonp.com/lessons/6-abap-types-subroutines/"
+  player = "https://www.youtube.com/embed/1-wDkjy3Sek?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/6-abap-types-subroutines/"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.png"
