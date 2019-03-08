@@ -2,7 +2,6 @@
 date = "2018-11-04T21:56:55+01:00"
 title = "AJonP - Rebranded"
 tags = ["youtube"]
-categories = ["youtube"]
 draft = false
 description = "Rebranding AJonP"
 weight = 10
