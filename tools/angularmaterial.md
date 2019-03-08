@@ -4,7 +4,7 @@ date = 2019-01-16T12:04:50-05:00
 draft = false
 title = "Angular Material"
 description = "Material Design components for Angular"
-images = ["https://res.cloudinary.com/ajonp/image/upload/w_300,f_auto,fl_lossy,q_auto/v1547650400/ajonp-ajonp-com/Logos/Angular/material.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/w_300,f_auto,fl_lossy,q_auto/v1547650400/ajonp-ajonp-com/Logos/Angular/material.webp"]
 +++
 
 # Angular Material
@@ -13,7 +13,7 @@ images = ["https://res.cloudinary.com/ajonp/image/upload/w_300,f_auto,fl_lossy,q
 
 - [Material Sidenav](/lessons/9-angular-material-router-outlet)
 - [Material Theming](/lessons/10-angular-material-theming)  
-  ![Theme](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.png)
+  ![Theme](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.webp)
 
 ## External Links
 

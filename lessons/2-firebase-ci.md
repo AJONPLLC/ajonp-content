@@ -10,7 +10,7 @@ bref = "Google Cloud CI/CD, for a simple build and forget solution"
 toc = true
 languages = ["yaml"]
 frameworks = ["firebase", "google cloud"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.webp"]
 videos = ["https://www.youtube.com/v/MijHRE5h6Gg"]
 githublinks = ["https://github.com/AJONPLLC/lesson-2-firebase-ci"]
 
@@ -22,7 +22,7 @@ githublinks = ["https://github.com/AJONPLLC/lesson-2-firebase-ci"]
   player = "https://www.youtube.com/embed/MijHRE5h6Gg?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/2-firebase-ci.md"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.webp"
   image_alt = "Google Cloud CI/CD"
 +++
 
@@ -45,30 +45,30 @@ We will continue our hello world example from [Firebase Project Hosting](https:/
 > The negative is that it is not as straight forward to use as git clone
 {{% /blockquote-success %}}
 
-![Github Logo](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_50/v1543865880/ajonp-ajonp-com/Logos/Github/Git-Icon-Black.png)
+![Github Logo](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_50/v1543865880/ajonp-ajonp-com/Logos/Github/Git-Icon-Black.webp)
 ## Github
 
 Don't get me wrong I think that $7 a month is a great deal, but you have to pay it the minute you want to start using private repos.
 
-![GitHub Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543865368/ajonp-ajonp-com/2-lesson-gcp-cloud-build/github_pricing.png)
+![GitHub Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543865368/ajonp-ajonp-com/2-lesson-gcp-cloud-build/github_pricing.webp)
 
-![GCP Source Repositories](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_50/v1543865897/ajonp-ajonp-com/Logos/Google%20Cloud/Cloud_Source_Repositories.png)
+![GCP Source Repositories](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_50/v1543865897/ajonp-ajonp-com/Logos/Google%20Cloud/Cloud_Source_Repositories.webp)
 ## Google Cloud Source Repositories
 
 Basically free until you scall to a large level.
 
-![Google Cloud Repositories Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543865368/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_pricing.png)
+![Google Cloud Repositories Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543865368/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_pricing.webp)
 
 # Github
 
 ## Create Repository
 Select new 
 
-![Github New](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543865368/ajonp-ajonp-com/2-lesson-gcp-cloud-build/git_new.png)
+![Github New](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543865368/ajonp-ajonp-com/2-lesson-gcp-cloud-build/git_new.webp)
 
 Create name for repo 
 
-![Github Name](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543865368/ajonp-ajonp-com/2-lesson-gcp-cloud-build/github_new_repo.png)
+![Github Name](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543865368/ajonp-ajonp-com/2-lesson-gcp-cloud-build/github_new_repo.webp)
 
 Clone our existing "Hello World" project
 
@@ -102,7 +102,7 @@ git remote add origin https://github.com/AJONPLLC/lesson-2-firebase-ci.git
 git push -u origin master
 ```
 
-![Google Cloud Logo](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_50/v1543865871/ajonp-ajonp-com/Logos/Google%20Cloud/logo_gcp_hexagon_rgb.png)
+![Google Cloud Logo](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_50/v1543865871/ajonp-ajonp-com/Logos/Google%20Cloud/logo_gcp_hexagon_rgb.webp)
 
 # Google Cloud
 {{% blockquote-tertiary %}}
@@ -121,22 +121,22 @@ Now you can select "Add repository".
 
 Select "Create new repository" option.
 
-![Google Cloud Repository Add](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543868087/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_create_repo.png)
+![Google Cloud Repository Add](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543868087/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_create_repo.webp)
 
 From the first lesson you should have a project that was created from firebase, you can use the dropdown under "Project" to select.
 Then Click "Create" (Not Create Project, unless you want this to be seperated).
 
-![Google Cloud Repository Create](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543869018/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_new_repo.png)
+![Google Cloud Repository Create](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543869018/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_new_repo.webp)
 
 ### Add Code to Google Cloud Repository
 
 Typically on a fresh repo you would now clone this and start working.
 
-![Google Cloud Repository Code Clone](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543869150/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_add_code.png)
+![Google Cloud Repository Code Clone](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543869150/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_add_code.webp)
 
 For this example we are going to select "Push code from a local Git repository" because we have an example we are already working with.
 
-![Google Cloud Repository Code Push](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543869327/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_push_code.png)
+![Google Cloud Repository Code Push](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543869327/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcr_push_code.webp)
 
 You can skip the first command (unless you skipped both the Lesson 1 and hosting in GitHub).
 
@@ -168,7 +168,7 @@ Look at your remotes once again and you should see two.
 {{% /blockquote-tertiary %}}
 
 Helpful hint for multiple remotes in VSCode, you can access the git tab, then "...", then "Push to...". This will show you the remotes. 
-![VSCode Hint](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543870094/ajonp-ajonp-com/2-lesson-gcp-cloud-build/vscode_multi_remotes.png)
+![VSCode Hint](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543870094/ajonp-ajonp-com/2-lesson-gcp-cloud-build/vscode_multi_remotes.webp)
 
 To remove your GitHub based remote you can execute, however we will not do this now as we want to test pushing code to both repositories.
 ```sh
@@ -178,7 +178,7 @@ git remote remove origin
 ## Create Dockerfile
 I like to create a folder for all of my dockerfiles, this allows you to easily locate and access them all. There are many references in the [Official Guide](https://cloud.google.com/cloud-build/docs/configuring-builds/build-test-deploy-artifacts#deploying_artifacts), but they always seem to place this file alongside your cloudbuild.yaml file (in my opinion this confuses things).
 
-![Dockerfiles](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543870825/ajonp-ajonp-com/2-lesson-gcp-cloud-build/dockerfiles.png)
+![Dockerfiles](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543870825/ajonp-ajonp-com/2-lesson-gcp-cloud-build/dockerfiles.webp)
 
 This Dockerfile is utilizing a prebuilt node image from node.  
 dockerfiles/firebase/Dockerfile
@@ -194,7 +194,7 @@ ENTRYPOINT ["/usr/local/bin/firebase"]
 We need to make sure that billing and the cloud build API are setup. You can follow a great guide [Enable Billing](https://cloud.google.com/cloud-build/docs/quickstart-docker).
 
 Again we are doing this on the cheap, other places will charge you a monthly fee for this. Google allows for 120 build minutes a day!!
-![Build Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543871788/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcb_build_pricing.png)
+![Build Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543871788/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcb_build_pricing.webp)
 
 ## Create Cloudbuild
 This cloudbuild.yaml file will leverage the gcloud trigger.
@@ -237,17 +237,17 @@ You will need to capture this token, or leave your terminal open for setting up 
 ## Setup trigger
 Go back to Google Cloud Platform [Console](https://console.cloud.google.com/home/dashboard). Using the hamburger navigation Cloud Build > [Triggers](https://console.cloud.google.com/cloud-build/triggers).
 
-![Add Trigger](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543872438/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcp_add_trigger.png)
+![Add Trigger](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543872438/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcp_add_trigger.webp)
 
 ### Github Trigger
 
 Select Github as source, then authenticate.
 
-![Github Authenticate](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543872708/ajonp-ajonp-com/2-lesson-gcp-cloud-build/Github_trigger_source.png)
+![Github Authenticate](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543872708/ajonp-ajonp-com/2-lesson-gcp-cloud-build/Github_trigger_source.webp)
 
 Select Repository
 
-![Github Select Repository](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543872708/ajonp-ajonp-com/2-lesson-gcp-cloud-build/Github_select_repo.png)
+![Github Select Repository](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto,w_700/v1543872708/ajonp-ajonp-com/2-lesson-gcp-cloud-build/Github_select_repo.webp)
 
 Setup Trigger Settings
 
@@ -255,7 +255,7 @@ Setup Trigger Settings
 > Pay close attention to add the Firebase Token from the steps above.
 {{% /blockquote-warning %}}
 
-![Github Trigger Selection](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543872941/ajonp-ajonp-com/2-lesson-gcp-cloud-build/Github_trigger_settings.png)
+![Github Trigger Selection](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543872941/ajonp-ajonp-com/2-lesson-gcp-cloud-build/Github_trigger_settings.webp)
 
 ### GitHub Commit for trigger
 
@@ -273,15 +273,15 @@ git push --set-upstream origin master
 
 You can now check that your trigger didn't fail by going to [Google Cloud Platform - Cloud Build History](https://console.cloud.google.com/cloud-build/builds)
 
-![Cloud Build History](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543873527/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcp_build_history.png)
+![Cloud Build History](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543873527/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcp_build_history.webp)
 
 ### Google Source Repository Trigger
 
 This will be the identical setup.
 
-![Select Source](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543873802/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcp_create_trigger.png)
+![Select Source](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543873802/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcp_create_trigger.webp)
 
-![Select Repo](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543873802/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcp_select_repo.png)
+![Select Repo](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543873802/ajonp-ajonp-com/2-lesson-gcp-cloud-build/gcp_select_repo.webp)
 
 Now we just need to push to a different remote (Google Cloud Repository)
 ```sh
@@ -303,7 +303,7 @@ public/index.html
   </head>
   <body>
     Firebase is not building everytime I commit, just from following<a href="https://ajonp.com/lessons/2-firebase-ci/">Google Cloud Repositories CI/CD</a>
-    <img src="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.png" alt="Hero Image">
+    <img src="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.webp" alt="Hero Image">
   </body>
 </html>
 ```

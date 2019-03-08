@@ -10,7 +10,7 @@ bref = "Stop running sudo on npm."
 toc = true
 languages = ["bash"]
 frameworks = ["npm"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.webp"]
 videos = ["https://www.youtube.com/v/eWc0bg9KMQQ"]
 
 [twitter]
@@ -19,7 +19,7 @@ videos = ["https://www.youtube.com/v/eWc0bg9KMQQ"]
   player = "https://www.youtube.com/embed/eWc0bg9KMQQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/3-npm"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.webp"
   image_alt = "NPM - Tips and Tricks"
 +++
 
@@ -65,7 +65,7 @@ prefix=${HOME}/.npm-packages
 
 Once you change the .npmrc file, you will begin to install packages to ~/.npm-packages. No more issues 
 
-![npm install success](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543984849/ajonp-ajonp-com/3-lesson-npm/npm-packages.png)
+![npm install success](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543984849/ajonp-ajonp-com/3-lesson-npm/npm-packages.webp)
 
 # NPM init defaults
 If you start projects using npm often enough you will want to default some of the authoring items. The basic syntax is `npm config set init.*`

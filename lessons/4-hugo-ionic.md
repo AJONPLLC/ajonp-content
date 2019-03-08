@@ -10,7 +10,7 @@ toc = true
 languages = ["javascript", "json", "go"]
 frameworks = ["hugo", "ionic", "algolia", "cloudinary", "google ads", "google analytics"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.png","https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792067/ajonp-ajonp-com/ajonp-hugo-theme/aj_on_hugo_ionic.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.webp","https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792067/ajonp-ajonp-com/ajonp-hugo-theme/aj_on_hugo_ionic.webp"]
 videos = ["https://www.youtube.com/v/CZmEZ62yMFA"]
 githublinks = ["https://github.com/AJONPLLC/lesson-4-hugo-ionic"]
 
@@ -22,7 +22,7 @@ githublinks = ["https://github.com/AJONPLLC/lesson-4-hugo-ionic"]
   player = "https://www.youtube.com/embed/CZmEZ62yMFA?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.webp"
   image_alt = "AJonP Hugo Ionic"
 +++
 
@@ -70,7 +70,7 @@ cd 4-hugo-ionic
 At this point you will notice that the project remains pretty empty in a generic skeleton.
 
 ![Hugo Skeleton](
-https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544487496/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo_init.png)
+https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544487496/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo_init.webp)
 
 It only has two files config.toml and archetypes/default.md
 
@@ -111,7 +111,7 @@ layouts/index.html
 
 Now run the command `hugo serve` and you will see a page that has
 
-![First markdown sample](https://res.cloudinary.com/ajonp/image/upload/v1544489438/ajonp-ajonp-com/4-lesson-hugo-ionic/orjghz4mteborfyrmdbr.png)
+![First markdown sample](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544489438/ajonp-ajonp-com/4-lesson-hugo-ionic/orjghz4mteborfyrmdbr.webp)
 
 ## Making a Point
 Now I wanted to walk you through all of that to show
@@ -165,7 +165,7 @@ Next Lesson Features
 Taking things a step further you can change any of the colors on the site by using Ionic's [Color Generator](https://beta.ionicframework.com/docs/theming/color-generator).
 
 Here is a Hugo inspired look.
-![Color Generator](https://res.cloudinary.com/ajonp/image/upload/v1544493969/ajonp-ajonp-com/4-lesson-hugo-ionic/dys1lqsodaxwaf8qbmo6.png)
+![Color Generator](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544493969/ajonp-ajonp-com/4-lesson-hugo-ionic/dys1lqsodaxwaf8qbmo6.webp)
 
 Just copy the CSS Variables it produces into 
 static/css/custom.css

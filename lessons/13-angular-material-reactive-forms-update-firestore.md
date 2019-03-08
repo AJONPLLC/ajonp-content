@@ -9,7 +9,7 @@ toc = true
 languages = ["javascript", "typescript", "scss"]
 frameworks = ["angular", "angular material", "firebase"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1549679549/ajonp-ajonp-com/13-angular-material-reactive-forms-update-firestore/angular-material-reactive-forms.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1549679549/ajonp-ajonp-com/13-angular-material-reactive-forms-update-firestore/angular-material-reactive-forms.webp"]
 githublinks = ["https://github.com/AJONPLLC/lesson13-angular-material-reactive-forms"]
 videos = ["https://www.youtube.com/v/92hYB6jivvQ"]
 
@@ -21,7 +21,7 @@ videos = ["https://www.youtube.com/v/92hYB6jivvQ"]
   player = "https://www.youtube.com/embed/92hYB6jivvQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/13-angular-material-reactive-forms-update-firestore.md"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1549679549/ajonp-ajonp-com/13-angular-material-reactive-forms-update-firestore/angular-material-reactive-forms.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1549679549/ajonp-ajonp-com/13-angular-material-reactive-forms-update-firestore/angular-material-reactive-forms.webp"
   image_alt = "Angular Material Froms from Firestore"
 +++
 

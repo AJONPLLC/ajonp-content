@@ -9,7 +9,7 @@ toc = true
 languages = ["javascript", "typescript", "scss"]
 frameworks = ["angular", "angular material", "firebase"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1550035555/ajonp-ajonp-com/14-angular-material-router-awareness/angular-material-router-awareness.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1550035555/ajonp-ajonp-com/14-angular-material-router-awareness/angular-material-router-awareness.webp"]
 githublinks = ["https://github.com/AJONPLLC/lesson14-angular-material-router-awareness"]
 videos = ["https://www.youtube.com/v/3roNVbp3RPg"]
 
@@ -21,7 +21,7 @@ videos = ["https://www.youtube.com/v/3roNVbp3RPg"]
   player = "https://www.youtube.com/embed/3roNVbp3RPg?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/13-angular-material-reactive-forms-update-firestore.md"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1550035555/ajonp-ajonp-com/14-angular-material-router-awareness/angular-material-router-awareness.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1550035555/ajonp-ajonp-com/14-angular-material-router-awareness/angular-material-router-awareness.webp"
   image_alt = "Angular Material Froms from Firestore"
 +++
 

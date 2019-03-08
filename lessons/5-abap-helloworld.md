@@ -10,7 +10,7 @@ bref = "Creating your first ABAP Program"
 toc = true
 frameworks = ["sap"]
 languages = ["abap"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.webp"]
 githublinks = ["https://github.com/AJONPLLC/"]
 videos = ["https://www.youtube.com/v/aNVyjKqgyts"]
 
@@ -22,7 +22,7 @@ videos = ["https://www.youtube.com/v/aNVyjKqgyts"]
   player = "https://www.youtube.com/embed/aNVyjKqgyts?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/5-abap-helloworld/"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.webp"
   image_alt = "ABAP - Hello World"
 +++
 

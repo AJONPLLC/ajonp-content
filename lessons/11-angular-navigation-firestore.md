@@ -9,7 +9,7 @@ toc = true
 languages = ["javascript", "typescript", "scss"]
 frameworks = ["angular", "angular material", "firebase"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.webp"]
 githublinks = ["https://github.com/AJONPLLC/lesson11-angular-navigation-firestore"]
 videos = ["https://www.youtube.com/v/sZoiLcq7N6Q"]
 
@@ -21,7 +21,7 @@ videos = ["https://www.youtube.com/v/sZoiLcq7N6Q"]
   player = "https://www.youtube.com/embed/sZoiLcq7N6Q?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-11-angular-navigation-firestore"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.webp"
   image_alt = "Angular Material Dynamic Navigation using Firestore"
 +++
 
@@ -101,11 +101,11 @@ This service will allow us to connect to Firebase Firestore.
 
 ## Firestore Database Setup
 We want to build this structure inside of Firestore
-![Firestore Hierarchy](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.png)
+![Firestore Hierarchy](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.webp)
 
 In Firestore we will setup this basic structure. Remember every collection must have a document. You can find more in the [Firestore Docs Overview](https://cloud.google.com/firestore/docs/overview)
 
-<video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.png" controls>
+<video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.webp" controls>
 <source src="https://res.cloudinary.com/ajonp/video/upload/v1548347631/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/_firebase_setup.webm" type="video/webm">
 <source src="https://res.cloudinary.com/ajonp/video/upload/v1548347631/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/_firebase_setup.mp4" type="video/mp4">
 </video>

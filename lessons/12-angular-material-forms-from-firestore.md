@@ -9,7 +9,7 @@ toc = true
 languages = ["javascript", "typescript", "scss"]
 frameworks = ["angular", "angular material", "firebase"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.png"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.webp"]
 githublinks = ["https://github.com/AJONPLLC/lesson12-angular-material-forms-firestore"]
 videos = ["https://www.youtube.com/v/LLupkLEszdY"]
 
@@ -21,7 +21,7 @@ videos = ["https://www.youtube.com/v/LLupkLEszdY"]
   player = "https://www.youtube.com/embed/LLupkLEszdY?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-12-angular-material-forms-from-firestore"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.png"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.webp"
   image_alt = "Angular Material Froms from Firestore"
 +++
 
@@ -177,7 +177,7 @@ angularfirebase.service.ts
 
 Example of Book Data in Firestore Console:
 
-![Book Data](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548959741/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/yep4ngt60x0ki8jocisx.png)
+![Book Data](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548959741/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/yep4ngt60x0ki8jocisx.webp)
 
 
 In the snippet above we are also pushing our RxJs Subscription into an array so that we can then loop through any subscriptions during the destroy method and unsubscribe. This is a pattern I often use when I cannot use `pipe(take(1))` or `| async`.
@@ -200,7 +200,7 @@ We can not use our new `book$` Observable in our template to show any of the cur
 <ng-template #spin><mat-spinner></mat-spinner></ng-template>
 ```
 Current title:
-![Title View](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548960658/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/oclrlecxgwgbhbooidhg.png)
+![Title View](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548960658/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/oclrlecxgwgbhbooidhg.webp)
 
 ## Adding Form Input
 > Just a warning here, if you want to see detailed [Angular Reactive Form](https://angular.io/guide/reactive-forms) usage this will be done in the next lesson.
@@ -330,7 +330,7 @@ book-edit.module.ts
 
 These two lists will be contained in a new collection at the base of our Firestore Database called `config`. Within our `config` collection we will create a document called `book`, which will hold many of our different configurations. For these two specifically they will be arrays that are on the `book` object.
 
-![Firestore Fiction/Non-Fiction](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548964455/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/vnxbzg5fnpnuoevun1nu.png)
+![Firestore Fiction/Non-Fiction](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548964455/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/vnxbzg5fnpnuoevun1nu.webp)
 
 First we will create our Observable to the Config Book object.
 book-edit.component.ts
@@ -427,7 +427,7 @@ book-edit.module.ts
        MatCheckboxModule,
 ```
 
-![Firestore Config](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548966831/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/caewhsmpkrkxdo1dcj2d.png)
+![Firestore Config](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548966831/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/caewhsmpkrkxdo1dcj2d.webp)
 
 For us this contains some more of the configuration items from our book, because we already have an Observable created in `bookConfig$` we can just tell Angular to listen for this and assign it to our local template variable `bookConfig`. We then are just assigning these to the directive [NgModel](https://angular.io/api/forms/NgModel). This is a two way binding, for our example doesn't mean much, but again we will drive these things home further in the next lesson.
 
@@ -501,7 +501,7 @@ book-edit.module.ts
 
 For our book component we are once again going to get all of the age categories from our Config Book in Firestore and use those values for our select.
 
-![Mat Select](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548967697/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/rxghw62n7jkgwdilxh80.png)
+![Mat Select](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548967697/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/rxghw62n7jkgwdilxh80.webp)
 
 book-edit.component.html
 ```html
@@ -581,4 +581,4 @@ book-edit-component.html
 # Wrap Up
 Here we have created all of the Angular Material Form Components, many of them with data being pulled from Firestore. Next is to make our form more Reactive.
 
-![Kitchen Sink](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548968315/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/dwg3vmpnxdsam560rvhr.png)
+![Kitchen Sink](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548968315/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/dwg3vmpnxdsam560rvhr.webp)
