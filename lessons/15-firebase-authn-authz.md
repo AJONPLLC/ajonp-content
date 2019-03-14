@@ -1,5 +1,5 @@
 +++
-lesson = "14"
+lesson = "15"
 title = "Firebase Authentication and Authorization"
 description = "Using Firebase and FirebaseUI to Authorize users and Firestore rules to Authenticate within Angular Apps."
 date = 2019-02-27T00:00:50-05:00
@@ -18,7 +18,7 @@ videos = ["https://www.youtube.com/v/II6TAjPWg54"]
   site = "@ajonpcom"
   title = "Firebase Authentication and Authorization"
 description = "Using Firebase and FirebaseUI to Authorize users and Firestore rules to Authenticate within Angular Apps."
-  player = "https://www.youtube.com/embed/II6TAjPWg54?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/13-angular-material-reactive-forms-update-firestore.md"
+  player = "https://www.youtube.com/embed/II6TAjPWg54?autoplay=0&rel=0&showinfo=0&modestbranding=1"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1551289217/ajonp-ajonp-com/15-firebase-authz-authn/firebase-AuthZ-AuthN.webp"
