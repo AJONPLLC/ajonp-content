@@ -10,7 +10,7 @@ languages = ["javascript", "typescript"]
 frameworks = ["angular", "firebase", "android"]
 authors = ["Alex Patterson"]
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1552593285/ajonp-ajonp-com/16-angular-pwa-to-playstore/angular-pwa-to-playstore.jpg"]
-githublinks = ["https://github.com/AJONPLLC/lesson15-firebase-AuthZ-AuthN", ]
+githublinks = ["https://github.com/AJONPLLC/lesson16-angular-pwa-to-playstore", ]
 videos = ["https://www.youtube.com/v/db9Y5jyparA"]
 
 [twitter]
