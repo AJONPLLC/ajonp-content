@@ -10,7 +10,7 @@ bref = "How to manage ABAP types. Learn how to create subroutines."
 toc = true
 frameworks = ["sap"]
 languages = ["abap"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545088105/ajonp-ajonp-com/6-lesson-abap-types-subroutines/types_subroutines.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545088105/ajonp-ajonp-com/6-lesson-abap-types-subroutines/types_subroutines.jpg"]
 githublinks = ["https://github.com/AJONPLLC/"]
 videos = ["https://www.youtube.com/v/1-wDkjy3Sek"]
 
@@ -22,7 +22,7 @@ videos = ["https://www.youtube.com/v/1-wDkjy3Sek"]
   player = "https://www.youtube.com/embed/1-wDkjy3Sek?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/6-abap-types-subroutines/"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.webp"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.jpg"
   image_alt = "ABAP - Types and Subroutines"
 +++
 

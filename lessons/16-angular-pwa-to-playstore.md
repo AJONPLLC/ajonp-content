@@ -9,7 +9,7 @@ toc = true
 languages = ["javascript", "typescript"]
 frameworks = ["angular", "firebase", "android"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1552593285/ajonp-ajonp-com/16-angular-pwa-to-playstore/angular-pwa-to-playstore.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1552593285/ajonp-ajonp-com/16-angular-pwa-to-playstore/angular-pwa-to-playstore.jpg"]
 githublinks = ["https://github.com/AJONPLLC/lesson15-firebase-AuthZ-AuthN", ]
 videos = ["https://www.youtube.com/v/db9Y5jyparA"]
 
@@ -21,7 +21,7 @@ videos = ["https://www.youtube.com/v/db9Y5jyparA"]
   player = "https://www.youtube.com/embed/db9Y5jyparA?autoplay=0&rel=0&showinfo=0&modestbranding=1"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1552593285/ajonp-ajonp-com/16-angular-pwa-to-playstore/angular-pwa-to-playstore.webp"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1552593285/ajonp-ajonp-com/16-angular-pwa-to-playstore/angular-pwa-to-playstore.jpg"
   image_alt = "Angular PWA to Google Play Store"
 +++
 

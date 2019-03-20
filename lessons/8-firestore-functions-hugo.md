@@ -9,7 +9,7 @@ toc = true
 languages = ["javascript", "go", "typescript"]
 frameworks = ["firebase", "angular"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.jpg"]
 githublinks = ["https://github.com/AJONPLLC/lesson-8-hugo","https://github.com/AJONPLLC/lesson-8-firestore-functions"]
 videos = ["https://www.youtube.com/v/rMcpwucRlnU"]
 
@@ -21,7 +21,7 @@ videos = ["https://www.youtube.com/v/rMcpwucRlnU"]
   player = "https://www.youtube.com/embed/rMcpwucRlnU?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-8-firestore-functions-hugo"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.webp"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.jpg"
   image_alt = "Firestore trigger Hugo"
 +++
 
@@ -66,7 +66,7 @@ You can just clone [lesson-8-hugo](https://github.com/AJONPLLC/lesson-8-hugo) bu
 ## Clone your Fork
 I will run through our example by forking to my ajonp account, you should see it "forked from AJONPLLC/lesson-8-hugo"
 
-![Fork Example](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545864186/ajonp-ajonp-com/8-lesson-firestore-functions/qvn7dthjxnhelvyg20rv.webp)
+![Fork Example](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545864186/ajonp-ajonp-com/8-lesson-firestore-functions/qvn7dthjxnhelvyg20rv.jpg)
 
 You can do this by replacing your_name in this command.
 ```sh
@@ -86,11 +86,11 @@ hugo server -t ajonp-hugo-ionic --config config.toml
 
 You should now see the home page listing the latest books at `http://localhost:1313/`.
 
-![Latest Books](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545864982/ajonp-ajonp-com/8-lesson-firestore-functions/dcrwjvqsbycdqflpo4nj.webp)
+![Latest Books](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545864982/ajonp-ajonp-com/8-lesson-firestore-functions/dcrwjvqsbycdqflpo4nj.jpg)
 
 You can also view all the books in a list format at `http://localhost:1313/books/`.
 
-![All Books](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545865091/ajonp-ajonp-com/8-lesson-firestore-functions/g6mu7mmskbfdb2pdpvdv.webp)
+![All Books](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545865091/ajonp-ajonp-com/8-lesson-firestore-functions/g6mu7mmskbfdb2pdpvdv.jpg)
 
 This will be based on whatever the latest content had in `AJONPLLC/lesson-8-hugo` if you don't want any of it feel free to clear all files in `content/books`.
 
@@ -100,13 +100,13 @@ This will be based on whatever the latest content had in `AJONPLLC/lesson-8-hugo
 ## Create firebase project
 Start by Adding a new Project
 
-![Add Project](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545865510/ajonp-ajonp-com/8-lesson-firestore-functions/mlcfmsxq3egli5llns6i.webp)
+![Add Project](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545865510/ajonp-ajonp-com/8-lesson-firestore-functions/mlcfmsxq3egli5llns6i.jpg)
 
 Give the project a good name.
 
 ![Name Project](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545866565/ajonp-ajonp-com/8-lesson-firestore-functions/s7cmb6rmkkft4v0ag7ps.jpg)
 
-You can then follow the Getting started under hosting, or follow the update local firebase files.![](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545866746/ajonp-ajonp-com/8-lesson-firestore-functions/ragqsnmidwfuv1kcb51n.webp)
+You can then follow the Getting started under hosting, or follow the update local firebase files.![](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545866746/ajonp-ajonp-com/8-lesson-firestore-functions/ragqsnmidwfuv1kcb51n.jpg)
 
 
 ## Update local firebase files
@@ -195,23 +195,23 @@ Now that we have manually tested that everything works, we want to validate that
 
 ## Google Cloud Project
 Every Firebase project is really just a Google Platform Project. In order to use the cloud builder we need to enable billing, I suggest switching to the Blaze plan as you won't need to pay anything if you stay under the limits.
-![Blaze Plan](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545875585/ajonp-ajonp-com/8-lesson-firestore-functions/rsuwpz0erldnoexzhowl.webp)
+![Blaze Plan](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545875585/ajonp-ajonp-com/8-lesson-firestore-functions/rsuwpz0erldnoexzhowl.jpg)
 
 Now start by going to [Google Cloud Console](https://console.cloud.google.com).
 
 You should see a dropdown selection for the project, select the correct project.
-![Project Dropdown](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545875207/ajonp-ajonp-com/8-lesson-firestore-functions/ufwyzjjozoxruj7zwqpi.webp)
+![Project Dropdown](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545875207/ajonp-ajonp-com/8-lesson-firestore-functions/ufwyzjjozoxruj7zwqpi.jpg)
 
 ### Google Cloud Trigger Enable
 Now you can navigate to [Products->Tools->Cloud Build->triggers](https://console.cloud.google.com/cloud-build/triggers)
 
-![Cloud Trigger](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545875313/ajonp-ajonp-com/8-lesson-firestore-functions/somhpisvlmnmitqf8apr.webp)
+![Cloud Trigger](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545875313/ajonp-ajonp-com/8-lesson-firestore-functions/somhpisvlmnmitqf8apr.jpg)
 
 If this is a new project you will need to enable the cloud build API. 
 
-![Cloud Build Enable API](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545875377/ajonp-ajonp-com/8-lesson-firestore-functions/mkfsasxbko8bx70oahfy.webp)
+![Cloud Build Enable API](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545875377/ajonp-ajonp-com/8-lesson-firestore-functions/mkfsasxbko8bx70oahfy.jpg)
 
-> If you receive an error, please make sure that you have changed to a Blaze Plan in Firebase.![Builder Error](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545875470/ajonp-ajonp-com/8-lesson-firestore-functions/jgp7vmvazhyi4c5p2y64.webp)
+> If you receive an error, please make sure that you have changed to a Blaze Plan in Firebase.![Builder Error](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545875470/ajonp-ajonp-com/8-lesson-firestore-functions/jgp7vmvazhyi4c5p2y64.jpg)
 
 ### Google Cloud Trigger Create
 If you need more help on this lesson check our [Google Cloud Repositories CI/CD](https://ajonp.com/lessons/2-firebase-ci/) for a full walk through.
@@ -220,18 +220,18 @@ Add a new Trigger
 
 Select the source from GitHub, and consent.
 
-![Select Source](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545876414/ajonp-ajonp-com/8-lesson-firestore-functions/zc1t0zguz0xnccruayzq.webp)
+![Select Source](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545876414/ajonp-ajonp-com/8-lesson-firestore-functions/zc1t0zguz0xnccruayzq.jpg)
 
 After you authenticate to GitHub choose your project and continue.
 
-![Choose GitHub project](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545876452/ajonp-ajonp-com/8-lesson-firestore-functions/knehapxggrolfxkpaeor.webp)
+![Choose GitHub project](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545876452/ajonp-ajonp-com/8-lesson-firestore-functions/knehapxggrolfxkpaeor.jpg)
 
 Settings
 - Name: Hugo CI/CD
 - Branch: master
 - Build configuration: cloudbuild.yaml
 - Substitution variables: _FIREBASE_TOKEN = yourtoken.
-![Final steps](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545876311/ajonp-ajonp-com/8-lesson-firestore-functions/olckoaopc8tv7xhpjij4.webp)
+![Final steps](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545876311/ajonp-ajonp-com/8-lesson-firestore-functions/olckoaopc8tv7xhpjij4.jpg)
 
 # Test Cloud Build Trigger
 Before going further we want to make sure your trigger is working. So lets load a sample file into the `content/books` folder. Either copy the examplebook.md renaming to testtrigger.md or create a new file.
@@ -241,7 +241,7 @@ content/books/testtrigger.md
 +++
 title = "Example Book"
 date = 2018-11-26T14:45:13-05:00
-images = ["https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545282630/ajonp-ajonp-com/8-lesson-firestore-functions/bookExample.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545282630/ajonp-ajonp-com/8-lesson-firestore-functions/bookExample.jpg"]
 +++
 
 This is a commit test creating a book.😸
@@ -262,7 +262,7 @@ git push origin
 ```
 ## Trigger History
 You should now see a history from this trigger listed in [Google Cloud Build History](https://console.cloud.google.com/cloud-build/builds)
-![Trigger History](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545877459/ajonp-ajonp-com/8-lesson-firestore-functions/llkuo8erhprsak23frtv.webp)
+![Trigger History](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545877459/ajonp-ajonp-com/8-lesson-firestore-functions/llkuo8erhprsak23frtv.jpg)
 
 ## Automatically Deployed to Firebase
 The last step in cloudbuild.yaml deploys to to firebase, you should see a successful deploy message in your cloud build logs.
@@ -307,10 +307,10 @@ At this time you are still pointing at the AJONPLLC project database so you will
 > You only need one environment file, but I often have a dev and production setup with both.
 
 In your Firebase Project Overview there is a gear for Settings->Project settings.
-![Project Settings](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545921872/ajonp-ajonp-com/8-lesson-firestore-functions/msoukza2h7qt3caep5op.webp)
+![Project Settings](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545921872/ajonp-ajonp-com/8-lesson-firestore-functions/msoukza2h7qt3caep5op.jpg)
 
 Then select the "Add Firebase to your web app" under the "Your apps" section.
-![Your apps](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545921940/ajonp-ajonp-com/8-lesson-firestore-functions/dt6rddue4ra5oezt4fmi.webp)
+![Your apps](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545921940/ajonp-ajonp-com/8-lesson-firestore-functions/dt6rddue4ra5oezt4fmi.jpg)
 
 Copy the Javascript object that is assigned to config, in the next step we will paste this into our environment files.
 ```js
@@ -326,12 +326,12 @@ Copy the Javascript object that is assigned to config, in the next step we will 
 
 src/environments/environment.ts and src/environment/environment.prod.ts
 
-![environment files](https://res.cloudinary.com/ajonp/image/upload/,f_auto,fl_lossy,q_auto/v1545921794/ajonp-ajonp-com/8-lesson-firestore-functions/k4oljh0egz3ajrt9reo8.webp)
+![environment files](https://res.cloudinary.com/ajonp/image/upload/,f_auto,fl_lossy,q_auto/v1545921794/ajonp-ajonp-com/8-lesson-firestore-functions/k4oljh0egz3ajrt9reo8.jpg)
 
 ## Authentication
 Now because this is a new project that we are directing this app towards, you will most likely see an error if you go back to `http://localhost:4200` as we have not updated our Authentication settings yet.
 
-![Auth Error](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545922204/ajonp-ajonp-com/8-lesson-firestore-functions/tofhpbinmrcwi8c7kzyt.webp)
+![Auth Error](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545922204/ajonp-ajonp-com/8-lesson-firestore-functions/tofhpbinmrcwi8c7kzyt.jpg)
 
 You can update this in Authentication -> Sign-in method. Edit the Google Sign-in provider and enable it.
 You can find more in the [Firebase Authentication Docs](https://firebase.google.com/docs/auth/)
@@ -359,14 +359,14 @@ firebase deploy --only firestore:rules
 You can do a full project find and replace looking for `ajonp-lesson-8-admin` and replace with your-name.
 
 Example I changed mine from `ajonp-lesson-8-admin` to `ajonp-lesson-8-admin2`. If you use VSCode you can do it like below.
-![Find and Replace](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545921323/ajonp-ajonp-com/8-lesson-firestore-functions/fqslxxgc9jyelgl81xkq.webp)
+![Find and Replace](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545921323/ajonp-ajonp-com/8-lesson-firestore-functions/fqslxxgc9jyelgl81xkq.jpg)
 
 ### Update Styles
 src/styles/ajonp-lesson-8-admin -> your_name
 
 If you get an error that looks similar to this, it is because the styles file was changed and we just switched all the references in the line above.
 
-![Style Error](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545921409/ajonp-ajonp-com/8-lesson-firestore-functions/hpldbf8rxw9a4f4c2ztj.webp)
+![Style Error](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545921409/ajonp-ajonp-com/8-lesson-firestore-functions/hpldbf8rxw9a4f4c2ztj.jpg)
 
 I changed mine from `ajonp-lesson-8-admin-app-theme.scss` to `ajonp-lesson-8-admin2-app-theme.scss`.
 
@@ -380,7 +380,7 @@ Grab a quick coffee when you run this one.
 ng build --prod
 ```
 Results
-![Angular Build Results](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545923774/ajonp-ajonp-com/8-lesson-firestore-functions/jzryeqykv2bhtzqvyvem.webp)
+![Angular Build Results](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545923774/ajonp-ajonp-com/8-lesson-firestore-functions/jzryeqykv2bhtzqvyvem.jpg)
 
 Now your entire site is ready for hosting, you can try it locally but running `firebase serve`.
 
@@ -394,7 +394,7 @@ Hosting->Dashboard->Advanced select "Add another site"
 firebase deploy --only hosting
 ```
 Results
-![Hosting Deploy Result](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545924120/ajonp-ajonp-com/8-lesson-firestore-functions/bmvevp4ss4g85fnax9jc.webp)
+![Hosting Deploy Result](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545924120/ajonp-ajonp-com/8-lesson-firestore-functions/bmvevp4ss4g85fnax9jc.jpg)
 
 ## Update Authorized Domains
 Because we are serving this from a different domain than normal you will need to add it to our Authorized Domains. You can find this in Authentication->Sign-in method->Authorized domains, select "Add domain".
@@ -402,7 +402,7 @@ Because we are serving this from a different domain than normal you will need to
 This will be `your-project-admin`.firebaseapp.com
 
 You should now see three localhost, default (our Hugo site), your-project-admin site.
-![Auth Domains](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545924515/ajonp-ajonp-com/8-lesson-firestore-functions/tjwkte0y4bcml9whonre.webp)
+![Auth Domains](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545924515/ajonp-ajonp-com/8-lesson-firestore-functions/tjwkte0y4bcml9whonre.jpg)
 
 # Update Firestore Trigger to match your GitHub repo
 Now that we have both a Hugo site up and running and an Angular admin site up and running we can setup a Firebase Function to trigger everytime we add/delete a book.
@@ -411,7 +411,7 @@ Now that we have both a Hugo site up and running and an Angular admin site up an
 You will need to [Create Github Personal Token](https://github.com/settings/tokens), otherwise you will be sending your password for each request. You can find this in settings->Developer Settings->Personal Access Tokens, select "Generate New Token". This is like a password but you can restrict what access the token is allowed.
 
 For this you can give the repo and read:user access, Name it something meaningful.
-![Personal Token](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545925555/ajonp-ajonp-com/8-lesson-firestore-functions/suutevgobgp1hsgvja3k.webp)
+![Personal Token](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545925555/ajonp-ajonp-com/8-lesson-firestore-functions/suutevgobgp1hsgvja3k.jpg)
 
 ## Add GitHub Personal Token to Firebase Functions
 You can not run this command to save your token out where only Firebase Functions will have access. In a future lesson I am going to show how to secure these better.
@@ -420,7 +420,7 @@ You can not run this command to save your token out where only Firebase Function
 firebase functions:config:set git.token=your-token
 ```
 You should see a message like this.
-![Firebase Config](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545925916/ajonp-ajonp-com/8-lesson-firestore-functions/w2goczy3ydk6ypbf1hny.webp)
+![Firebase Config](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545925916/ajonp-ajonp-com/8-lesson-firestore-functions/w2goczy3ydk6ypbf1hny.jpg)
 
 # Deploy Firebase Functions from CLI
 Now Deploy your functions, this will transcode the typescript and put the js files in the lib directory. I have both of these set to run on Node 8.
@@ -429,17 +429,17 @@ Now Deploy your functions, this will transcode the typescript and put the js fil
 firebase deploy --only functions
 ```
 You should see a success message
-![Successfully Deploy Functions](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545926029/ajonp-ajonp-com/8-lesson-firestore-functions/mneaigflqyxmqoqp557b.webp)
+![Successfully Deploy Functions](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545926029/ajonp-ajonp-com/8-lesson-firestore-functions/mneaigflqyxmqoqp557b.jpg)
 
 # Add a book, watch it show in Hugo site
 > Warning you could have a race condition occur where your first trigger to build happens after your last. There are a few work arounds for this that I don't cover in this lesson. Remember everytime you save a build happens in Google Cloud Build to regenerate your entire Hugo site.
 
 In the bottom right corner you can click the + fab button, this will open the form for a New Book.
-![New Book Form](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545933791/ajonp-ajonp-com/8-lesson-firestore-functions/xyn381bujrehp021yeju.webp)
+![New Book Form](https://res.cloudinary.com/ajonp/image/upload/w_500,f_auto,fl_lossy,q_auto/v1545933791/ajonp-ajonp-com/8-lesson-firestore-functions/xyn381bujrehp021yeju.jpg)
 
 Once you click save this will trigger the Cloud Function `gitBookCreateHugoCommit`. Checkout the [logs](https://console.cloud.google.com/logs/viewer)
 
-![Git Creat Log](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545934369/ajonp-ajonp-com/8-lesson-firestore-functions/bcnequcgzehwyx9hjf1a.webp)
+![Git Creat Log](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545934369/ajonp-ajonp-com/8-lesson-firestore-functions/bcnequcgzehwyx9hjf1a.jpg)
 
 Watch for the build to take place in [Google Coud Builder History](https://console.cloud.google.com/cloud-build/builds)
 

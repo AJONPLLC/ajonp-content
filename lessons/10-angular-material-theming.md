@@ -9,7 +9,7 @@ toc = true
 languages = ["javascript", "typescript", "scss"]
 frameworks = ["angular", "angular material"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.jpg"]
 githublinks = ["https://github.com/AJONPLLC/lesson-10-angular-material-theming"]
 videos = ["https://www.youtube.com/v/V3WiBs-igaY"]
 
@@ -21,7 +21,7 @@ videos = ["https://www.youtube.com/v/V3WiBs-igaY"]
   player = "https://www.youtube.com/embed/V3WiBs-igaY?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-9-angular-material-router-outlet"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.webp"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.jpg"
   image_alt = "Angular Material Theming"
 +++
 
@@ -74,7 +74,7 @@ git clone https://github.com/AJONPLLC/lesson-9-angular-material-router-outlet
 Angular FLex-Layout or fxLayout, offeres a great alternative to creating all the css for a flexlayout by hand. It is very similar to [Bootstrap's Flex](https://getbootstrap.com/docs/4.2/utilities/flex/) but I feel as though it is even more powerful.
 
 This is a great example by tburleson:
-<video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547728736/ajonp-ajonp-com/10-lesson-angular-material-theming/flex-layout.webp" controls>
+<video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547728736/ajonp-ajonp-com/10-lesson-angular-material-theming/flex-layout.jpg" controls>
 <source src="https://res.cloudinary.com/ajonp/video/upload/v1547729145/ajonp-ajonp-com/10-lesson-angular-material-theming/fxlayoutExample.webm" type="video/webm">
 <source src="https://res.cloudinary.com/ajonp/video/upload/v1547729145/ajonp-ajonp-com/10-lesson-angular-material-theming/fxlayoutExample.mov" type="video/mp4">
 </video>
@@ -176,7 +176,7 @@ I prefer to add them directly so that you can create your own branding colors. Y
 The best site I have found for this is [Material Design Palette Generator](http://mcg.mbitson.com) unlike [Google's Material Color Tool](https://material.io/tools/color/), the DPG allows you to export direct to sass variables which is exactly what we need when creating an Angular Material Theme.
 
 Make sure when you choose download (the down arrow), you then choose ANGULAR JS 2 (MATERIAL 2).
-![Download Design Palette Generator](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547730945/ajonp-ajonp-com/10-lesson-angular-material-theming/Screen_Shot_2019-01-17_at_8.14.48_AM.webp)
+![Download Design Palette Generator](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547730945/ajonp-ajonp-com/10-lesson-angular-material-theming/Screen_Shot_2019-01-17_at_8.14.48_AM.jpg)
 
 ## Update theme file
 You can then use all of these custom variables to create new themes. The sass variable should define the full spectrum along with contrast of each color in the palette.
@@ -448,11 +448,11 @@ Include the mixin `@include mat-grid-mixin($theme);` update when each theme clas
 ## Create Mixin outside of Theme
 Lets say that just in our kitchensink example we want to make all the buttons switch from a standard radius
 
-![normal radius button](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547733899/ajonp-ajonp-com/tools/npukfpxtcqygtpsqe9qq.webp)
+![normal radius button](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547733899/ajonp-ajonp-com/tools/npukfpxtcqygtpsqe9qq.jpg)
 
 to a more rounded radius
 
-![45px radius](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547733933/ajonp-ajonp-com/tools/pffvf8nus5pegm0r8qu3.webp) 
+![45px radius](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547733933/ajonp-ajonp-com/tools/pffvf8nus5pegm0r8qu3.jpg) 
 
 We can add a new mixin file
 

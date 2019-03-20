@@ -3,7 +3,7 @@ title= "Ionic Icons"
 description = "Use Ionic Icons in any Project!"
 date= 2019-01-20T01:25:38-05:00
 draft= false
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998164/ajonp-ajonp-com/blog/ionic-icons.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998164/ajonp-ajonp-com/blog/ionic-icons.jpg"]
 +++
 
 # Ever want to just use Ionic Icons?

@@ -3,7 +3,7 @@ title = "Firestore Auto Generate Hugo"
 description = "Creating a Hugo Site from Firestore Updates"
 date = 2018-12-20T02:33:41-05:00
 draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545291322/ajonp-ajonp-com/blog/firestore-autogen-hugo/auto_gen.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545291322/ajonp-ajonp-com/blog/firestore-autogen-hugo/auto_gen.jpg"]
 +++
 
 # Firestore Auto Generate Hugo

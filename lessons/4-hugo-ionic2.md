@@ -10,7 +10,7 @@ toc = true
 languages = ["javascript", "json", "go"]
 frameworks = ["hugo", "ionic", "algolia", "cloudinary", "google ads", "google analytics"]
 authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.jpg"]
 githublinks = ["https://github.com/AJONPLLC/lesson-4-hugo-ionic"]
 videos = ["https://www.youtube.com/v/tgXFNqInA0w"]
 [twitter]
@@ -21,7 +21,7 @@ videos = ["https://www.youtube.com/v/tgXFNqInA0w"]
   player = "https://www.youtube.com/embed/tgXFNqInA0w?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic2"
   player_width = 1280
   player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.webp"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.jpg"
   image_alt = "AJonP Hugo Ionic Dev Ops"
 +++
 
@@ -205,7 +205,7 @@ You should update this file to reflect any changes in your icons folder.
   "gcm_sender_id": "103953800507",
   "icons": [
     {
-      "src": "/icons/android-icon-36x36.webp",
+      "src": "/icons/android-icon-36x36.jpg",
       "sizes": "36x36",
       "type": "image/png",
       "density": "0.75"
@@ -222,19 +222,19 @@ If you are using an older browser the main icon that goes in your browser will b
   rel="icon"
   type="image/png"
   sizes="32x32"
-  href="/icons/favicon-32x32.webp"
+  href="/icons/favicon-32x32.jpg"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="96x96"
-  href="/icons/favicon-96x96.webp"
+  href="/icons/favicon-96x96.jpg"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="16x16"
-  href="/icons/favicon-16x16.webp"
+  href="/icons/favicon-16x16.jpg"
 />
 ```
 
@@ -249,13 +249,13 @@ Please make sure to checkout [Google Cloud Firebase CI/CD](https://ajonp/lessons
 firebase init
 ```
 1. Select Hosting  
-![Firebase Hosting](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544643924/ajonp-ajonp-com/4-lesson-hugo-ionic/xujgloub1npwpgvlccbx.webp)
+![Firebase Hosting](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544643924/ajonp-ajonp-com/4-lesson-hugo-ionic/xujgloub1npwpgvlccbx.jpg)
 
 1. Pick your project  
-![](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544644014/ajonp-ajonp-com/4-lesson-hugo-ionic/tlxmijckkvljjqoxc1wc.webp)
+![](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544644014/ajonp-ajonp-com/4-lesson-hugo-ionic/tlxmijckkvljjqoxc1wc.jpg)
 
 1. Set the output folder to dist, and select no for rewrite all urls.  
-![](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544644082/ajonp-ajonp-com/4-lesson-hugo-ionic/q6k1sok8avnqqesglkmq.webp)
+![](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544644082/ajonp-ajonp-com/4-lesson-hugo-ionic/q6k1sok8avnqqesglkmq.jpg)
 
 # Configure Algolia Indexing
 First signup on [www.algolia.com/](https://www.algolia.com/).
@@ -271,7 +271,7 @@ First signup on [www.algolia.com/](https://www.algolia.com/).
 ![Algolia Your Project](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544652688/ajonp-ajonp-com/4-lesson-hugo-ionic/ozjk0vuaneigikbl8oo0.jpg)
 
 1. Pick Dashboard once you get here  
-![Algolia Dashboard](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544652806/ajonp-ajonp-com/4-lesson-hugo-ionic/fkzflzgad0cgqovz11r4.webp)
+![Algolia Dashboard](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544652806/ajonp-ajonp-com/4-lesson-hugo-ionic/fkzflzgad0cgqovz11r4.jpg)
 
 1. You can run the tutorial or just skip for now.
 
@@ -281,9 +281,9 @@ First signup on [www.algolia.com/](https://www.algolia.com/).
 ## Create Index
 
 1. Example of an Index Creation  
-![Example Index](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544652920/ajonp-ajonp-com/4-lesson-hugo-ionic/jrklg9odo7to6mwdxhks.webp)
+![Example Index](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544652920/ajonp-ajonp-com/4-lesson-hugo-ionic/jrklg9odo7to6mwdxhks.jpg)
 
-1. API Keys are where we can now get the remainder of our information that we will need.![](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544653048/ajonp-ajonp-com/4-lesson-hugo-ionic/oqpgcjirolsqwkdkw3ov.webp)
+1. API Keys are where we can now get the remainder of our information that we will need.![](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544653048/ajonp-ajonp-com/4-lesson-hugo-ionic/oqpgcjirolsqwkdkw3ov.jpg)
 
 ## Add Algolia for Search
 
@@ -308,7 +308,7 @@ You will notice a section later when we use Cloud Depoy that will require you to
 
 # Configure Google Cloud Build
 An important part to any project is setting up a solid CI/CD pipeline (Continuous Integration/Continuous Delivery). I still believe that Google Cloud offers the best pricing for any size development team! If you are a very small shop you will run builds for free, for a very long time.
-![Google Cloud Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544644850/ajonp-ajonp-com/4-lesson-hugo-ionic/xwfyo6ysbxykebpf4wzo.webp)
+![Google Cloud Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544644850/ajonp-ajonp-com/4-lesson-hugo-ionic/xwfyo6ysbxykebpf4wzo.jpg)
 
 
 ## Docker Images / Cloud Build

@@ -5,7 +5,7 @@ tags = ["youtube"]
 draft = false
 description = "Rebranding AJonP"
 weight = 10
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544021089/ajonp-ajonp-com/Logos/ajonp/welcom_card.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544021089/ajonp-ajonp-com/Logos/ajonp/welcom_card.jpg"]
 videos = ['https://www.youtube.com/v/NlXVWtgLNjY']
 +++
 
@@ -27,7 +27,7 @@ So I jumped in (probably head first and too fast), I decided I wanted something 
 
 So I shifted left and started trying to learn some basic Photoshop skills to make the Cat named AJ. I learned very quickly that I should apprectiate designers more because my logo is pretty rough, but it works for now 😀.
 
-{{< figure src="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543499918/ajonp-ajonp-com/welcome/ajonp-ajonp-com-logo-round.webp" title="AJ" alt="AJ" >}}
+{{< figure src="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543499918/ajonp-ajonp-com/welcome/ajonp-ajonp-com-logo-round.jpg" title="AJ" alt="AJ" >}}
 
 ## The Youtube Logo Sting
 
