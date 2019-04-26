@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/14-angular-material-router-awareness/"]
 lesson = "14"
 title = "Angular Material Router Awareness"
 description = "Make your Angular Material components more aware by using the Angular Router's Power"

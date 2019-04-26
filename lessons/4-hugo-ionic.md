@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/4-hugo-ionic/"]
 lesson = "4"
 title = "AJonP Hugo Ionic Template"
 description = "How to use AJonP's Hugo Ionic Template"

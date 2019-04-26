@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/12-angular-material-forms-from-firestore/"]
 lesson = "12"
 title = "Angular Material Forms from Firestore"
 description = "Build all of the Angular Material Form components with data from Firestore."

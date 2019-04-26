@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/5-abap-helloworld/"]
 authors = ["Alex Patterson"]
 lesson = "5"
 title = "ABAP - Hello World"

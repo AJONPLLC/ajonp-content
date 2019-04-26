@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/1-creating-firebase-project/"]
 authors = ["Alex Patterson"]
 lesson = "1"
 title = "Firebase Project Hosting"

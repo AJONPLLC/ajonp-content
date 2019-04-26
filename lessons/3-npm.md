@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/3-npm/"]
 authors = ["Alex Patterson"]
 lesson = "3"
 title = "NPM"

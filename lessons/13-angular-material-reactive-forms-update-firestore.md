@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/13-angular-material-reactive-forms-update-firestore/"]
 lesson = "13"
 title = "Angular Material Reactive Forms Update Firestore"
 description = "Validate your Angular Reactive Form and then update Firebase Firestore"

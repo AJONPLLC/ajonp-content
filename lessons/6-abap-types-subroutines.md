@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/6-abap-types-subroutines/"]
 authors = ["Alex Patterson"]
 lesson = "5"
 title = "ABAP - Types and Subroutines"

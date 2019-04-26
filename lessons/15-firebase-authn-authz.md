@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/15-firebase-authn-authz/"]
 lesson = "15"
 title = "Firebase Authentication and Authorization"
 description = "Using Firebase and FirebaseUI to Authorize users and Firestore rules to Authenticate within Angular Apps."

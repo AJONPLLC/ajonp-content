@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/9-angular-material-router-outlet/"]
 lesson = "9"
 title = "Angular Material Router Outlet"
 description = "How to use Angular Material with Angular Router and Lazy Loading and Named Outlets."

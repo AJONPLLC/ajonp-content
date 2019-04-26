@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/11-angular-navigation-firestore/"]
 lesson = "11"
 title = "Angular Material Dynamic Navigation using Firestore"
 description = "Angular Navigation using Firestore to populate Angular Material Tree and Expand Panels"

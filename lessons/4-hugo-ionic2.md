@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/4-hugo-ionic2/"]
 lesson = "4"
 title = "Hugo Ionic Template"
 description = "How to use AJonP's Hugo Ionic Template, while building Algolia Indexes and deploying to Firebase Hosting"

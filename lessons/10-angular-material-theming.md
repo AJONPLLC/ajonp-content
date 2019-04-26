@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/10-angular-material-theming/"]
 lesson = "10"
 title = "Angular Material Theming"
 description = "How to create a Dynamic switchable theme using Angular Material, Fx-Layout and SASS"

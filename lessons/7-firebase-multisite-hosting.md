@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/7-firebase-multisite-hosting/"]
 lesson = "7"
 title = "Firebase Multisite Hosting"
 description = "Creation of multiple sites within Hugo (main and amp), as well as multiple sites written in Angular (admin and app)."

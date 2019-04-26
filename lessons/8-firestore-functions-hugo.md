@@ -1,4 +1,5 @@
 +++
+aliases = ["/lessons/8-firestore-functions-hugo/"]
 lesson = "8"
 title = "Use Firestore to Build Hugo Content"
 description = "Use a frontend app (Angular), to update a Firestore Backend, trigger Firebase Function, while maintaining git commits, and buld/deploy your Hugo site."
