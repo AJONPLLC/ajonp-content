@@ -1,5 +1,6 @@
 +++
 title = "Google Cloud 4 Words"
+date = 2018-04-28T14:45:13-05:00
 +++
 <blockquote>
     Original README.md from <a href='https://github.com/gregsramblings/google-cloud-4-words.git'>https://github.com/gregsramblings/google-cloud-4-words.git</a>
