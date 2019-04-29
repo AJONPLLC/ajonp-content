@@ -11,14 +11,14 @@ frameworks = ["firebase", "svelte", "rxfire", "rxjs"]
 authors = ["Alex Patterson"]
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png"]
 githublinks = ["https://github.com/AJONPLLC/rxfire-svelte3.git", ]
-videos = ["https://www.youtube.com/v/hTzcRCAm5e0"]
+videos = ["https://www.youtube.com/v/ju80EzhnCE8"]
 
 [twitter]
   card = "player"
   site = "@ajonpcom"
   title = "RxFire in Svelte 3 using Firebase Firestore and Authentication"
   description = "Introduction to Svelte 3, Firebase, and RxFire. RxFire provides a set of observable creation methods. You simply call a function with some parameters to receive an RxJS observable. With that observable in hand you can use any operators provided by RxJS to transform the stream as you like."
-  player = "https://www.youtube.com/embed/hTzcRCAm5e0?autoplay=0&rel=0&showinfo=0&modestbranding=1"
+  player = "https://www.youtube.com/embed/ju80EzhnCE8?autoplay=0&rel=0&showinfo=0&modestbranding=1"
   player_width = 1280
   player_height = 960
   image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png"
@@ -43,7 +43,7 @@ New to Svelte 3, Please checkout
 # Lesson
 
 ## Example
-In the example below it shows a quick preview of how the final React application will work. As you can see there are essentiall 4 steps that will occur.
+In the example below it shows a quick preview osf how the final React application will work. As you can see there are essentiall 4 steps that will occur.
 
 1. Sign In
 1. Add Cat Fact
