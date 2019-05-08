@@ -77,7 +77,7 @@ This new component can be used simply by providing it into an `<html>` page. You
 <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
 ```
 
-This might seem like magic, well it is kinda magic! If you look closely at the `index.html` you will notice that there is a `script` being imported `<script src="/build/mycomponent.js"></script>` which provides the required javascript that 
+This might seem like magic, well it is kinda magic! If you look closely at the `index.html` you will notice that there is a `script` being imported `<script src="/build/mycomponent.js"></script>` which provides the required javascript that is used for your component.
 
 You can then run this project and see it in your browser.
 ```sh
@@ -89,6 +89,187 @@ For a much further detailed guide please checkout [Getting Started](https://sten
 ### Create Atoms
 
 #### Button
+For the button we will build out a simple Blue Button which takes in a [slot](https://stenciljs.com/docs/templating-jsx#slots) that allows for child components to be passed. In our case this will just be some text.
+
+src/components/ajonp-button/ajonp-button.tsx
+```tsx
+import { Component } from '@stencil/core';
+
+@Component({
+  tag: 'ajonp-button',
+  styleUrl: 'ajonp-button.css',
+  shadow: true
+})
+export class AjonpButton {
+  render() {
+    return (
+      <button>
+        <slot />
+      </button>
+    );
+  }
+}
+```
+src/components/ajonp-button/ajonp-button.css
+```css
+button {
+  background: #5851ff;
+  color: white;
+  margin: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 20px;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  outline: 0;
+  letter-spacing: 0.04em;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+```
+index.html
+```html
+    <ajonp-button>AJonP Button</ajonp-button>
+```
+
+To get an idea of how detailed a button can become see what Ionic built with [ion-button](https://github.com/ionic-team/ionic/blob/master/core/src/components/button/button.tsx)!
+
+#### Label
+This is just a simple text element that you can pass in a hex color code to change the color, however this element will always be uppercase and a predefined size of 13. Notice here we introduces the element 
+
+src/components/ajonp-label/ajonp-label.tsx
+```tsx
+import { Component, Prop } from '@stencil/core';
+
+@Component({
+  tag: 'ajonp-label',
+  styleUrl: 'ajonp-label.css',
+  shadow: true
+})
+export class AjonpLabel {
+  @Prop() color: any;
+  render() {
+    return (
+      <p style={{ color: this.color }}>
+        <slot />
+      </p>
+    );
+  }
+}
+```
+src/components/ajonp-label/ajonp-label.css
+```css
+p {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+```
+index.html
+```html
+        <ajonp-label color="#4b0a75">AJonP Label</ajonp-label>
+```
+
+#### Avatar
+This is again a very simple `atom` style of component that takes in an image url again using props into the src attribute and makes it round like an avatar.
+
+src/components/ajonp-avatar/ajonp-avatar.tsx
+```tsx
+import { Component, Prop } from '@stencil/core';
+
+@Component({
+  tag: 'ajonp-avatar',
+  styleUrl: 'ajonp-avatar.css',
+  shadow: true
+})
+export class AjonpAvatar {
+  @Prop() src: any;
+  render() {
+    return <img src={this.src} />;
+  }
+}
+
+```
+src/components/ajonp-avatar/ajonp-avatar.css
+```css
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  overflow: hidden;
+}
+```
+index.html
+```html
+    <ajonp-avatar src="http://placekitten.com/200/300"></ajonp-avatar>
+```
+
+### Atoms Displayed
+Now we should start to see that all of these Web Components can easily be shown on the screen each time when we added them to our `index.html`. These are by no means production ready, but you get the general idea of what the makeup of an Atom should contain.
+
+You should see something like this if you run
+```sh
+npm start
+```
+
+![Atoms](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557346675/ajonp-ajonp-com/gxv5lnpggkccvhs5phjn.png)
+
+### Create Molecules
+We can now take the three atoms that we built above and create a single Molecule for displaying the three items inline.
+
+src/components/ajonp-item/ajonp-item.tsx
+```tsx
+import { Component, Prop } from '@stencil/core';
+
+@Component({
+  tag: 'ajonp-item',
+  styleUrl: 'ajonp-item.css',
+  shadow: true
+})
+export class AjonpItem {
+  @Prop() color: string;
+  @Prop() src: string;
+  @Prop() labelText: string;
+  @Prop() buttonText: string;
+  render() {
+    return (
+      <span>
+        <p>I am a Item Molecule</p>
+        <div>
+          <ajonp-avatar src={this.src} />
+          <ajonp-label color={this.color}>{this.labelText}</ajonp-label>
+          <ajonp-button>{this.buttonText}</ajonp-button>
+        </div>
+      </span>
+    );
+  }
+}
+
+```
+
+src/components/ajonp-item/ajonp-item.css
+```css
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+```
 
 
 
