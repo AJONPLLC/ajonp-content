@@ -1,8 +1,8 @@
 +++
 title = "Design Systems with Web Components"
-description = "How Stencil can build Web Components for any Design System."
+description = "How Stencil can build Web Components for any Design System. This is a developers view into how a design system will work in any size organization."
 date = 2019-05-07T02:33:41-05:00
-draft = true
+draft = false
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png"]
 +++
 
@@ -213,7 +213,6 @@ index.html
     <ajonp-avatar src="http://placekitten.com/200/300"></ajonp-avatar>
 ```
 
-### Atoms Displayed
 Now we should start to see that all of these Web Components can easily be shown on the screen each time when we added them to our `index.html`. These are by no means production ready, but you get the general idea of what the makeup of an Atom should contain.
 
 You should see something like this if you run
@@ -226,6 +225,7 @@ npm start
 ### Create Molecules
 We can now take the three atoms that we built above and create a single Molecule for displaying the three items inline.
 
+#### Item
 src/components/ajonp-item/ajonp-item.tsx
 ```tsx
 import { Component, Prop } from '@stencil/core';
@@ -243,7 +243,6 @@ export class AjonpItem {
   render() {
     return (
       <span>
-        <p>I am a Item Molecule</p>
         <div>
           <ajonp-avatar src={this.src} />
           <ajonp-label color={this.color}>{this.labelText}</ajonp-label>
@@ -268,10 +267,172 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 1px;
+  border-style: solid;
 }
 ```
 
+![Molecule Item](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557356079/ajonp-ajonp-com/gwchtihnryyezuqgop15.png)
 
+### Create Organisms
+Now that we have a molecule we can use this inside of an organism, to repeat the molecule several times. We will take a very simple form which will allow us to add each of the `ajonp-item` molecules, but you will notice we are also going to use the `ajonp-button` atom inside this organism as well.
+
+> In hindsight maybe I should have called this a list 😺
+#### Item Grid
+This grid starts to become more complex as it takes in [@Props](https://stenciljs.com/docs/properties) like our other components, but now we introduce [@State](https://stenciljs.com/docs/state) so that our component can manage the internal data to that component, in our case all the items that belong within the grid. The final class property is [@Element](https://stenciljs.com/docs/host-element#element-decorator)which allows us to access the host HTMLElement, allowing us to find the form input fields and for each individual `ajonp-item-grid`.
+
+src/components/ajonp-item-grid/ajonp-item-grid.tsx
+```tsx
+import { Component, Element, Prop, State } from '@stencil/core';
+
+import { Item } from '../../models/Item';
+
+@Component({
+  tag: 'ajonp-item-grid',
+  styleUrl: 'ajonp-item-grid.css'
+})
+export class AjonpItemGrid {
+  // Incoming Property elements
+  @Prop() defaultColor: string;
+  @Prop() defaultSrc: string;
+  @Prop() defaultLabelText: string;
+  @Prop() defaultButtonText: string;
+
+  // State to track inside of the component
+  @State() items: Item[] = [];
+
+  //Host Element to access the form data instead of looking at entire document
+  @Element() el: HTMLElement;
+
+  addItem() {
+    const item = new Item();
+    item.src = (this.el.querySelector('#src') as HTMLInputElement).value;
+    item.labelText = (this.el.querySelector(
+      '#labelText'
+    ) as HTMLInputElement).value;
+    item.color = (this.el.querySelector('#color') as HTMLInputElement).value;
+    item.buttonText = (this.el.querySelector(
+      '#buttonText'
+    ) as HTMLInputElement).value;
+    //Add newly created Item to array non-mutated
+    this.items = [...this.items, item];
+  }
+  scratchItem(key: number) {
+    //Remove newly created Item to array non-mutated
+    this.items = [...this.items.slice(0, key), ...this.items.slice(key + 1)]; //Return an array from before the key and after the key.
+  }
+
+  render() {
+    return (
+      <div>
+        <h3>Grid Items {this.items.length}</h3>
+        <hr />
+        Avatar
+        <input type="text" id="src" value={this.defaultSrc} />
+        <br />
+        Label
+        <input type="text" id="labelText" value={this.defaultLabelText} />
+        <br />
+        Color
+        <input type="text" id="color" value={this.defaultColor} />
+        <br />
+        Button
+        <input type="text" id="buttonText" value={this.defaultButtonText} />
+        <br />
+        <ajonp-button onClick={this.addItem.bind(this)}>Add Item</ajonp-button>
+        {this.items.map((item: Item, key: number) => {
+          return (
+            <ajonp-item
+              src={item.src}
+              color={item.color}
+              label-text={item.labelText}
+              button-text={item.buttonText}
+              onClick={this.scratchItem.bind(this, key)}
+            />
+          );
+        })}
+      </div>
+    );
+  }
+}
+```
+src/components/ajonp-item-grid/ajonp-item-grid.css
+```css
+input {
+  width: 100%;
+}
+ajonp-item {
+  display: flex;
+}
+```
+
+Now if you look closely we are using the two organisms within our page, but we could also use them 100's of times in __ANY__ of our pages!
+
+index.html
+```html
+    <div style="display: flex; justify-content: space-around">
+      <ajonp-item-grid
+        default-src="https://placekitten.com/300/300"
+        default-label-text="Kitty"
+        default-color="#4b0a75"
+        default-button-text="Scratch"
+      ></ajonp-item-grid>
+      <ajonp-item-grid
+        default-src="https://placedog.net/300/300"
+        default-label-text="Puppy"
+        default-color="#F97912"
+        default-button-text="Bark Away"
+      ></ajonp-item-grid>
+    </div>
+```
+
+![Organisms](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557366081/ajonp-ajonp-com/kmkxesgnqvgxcbo8ndt6.png)
+
+## Templates
+I am not going to dive into all of the code it would take to create a template, implementation but Ionic has offered up a solid solution for this as well in its [Layout](https://ionicframework.com/docs/layout/structure) functionality. What is great here is that you can again work between your development and design team to quickly create a Hi-Fi Wireframe that will fit for your future components. I again have to say I love Figma, as anything built with Web Tech will always hold a special place in my heart. With that said an easy solution for this common task of creating templates can be found in [Product Design Kit](https://pdkit.co/), checkout the [Intro to Product Design Kit for Figma](https://blog.prototypr.io/introduction-to-product-design-kit-for-figma-f477cf76ba90).
+
+What we can do very quickly is setup the template for our page, so that the designers and developers can talk through breaking down all of the components and making sure that you have a template to be successful.
+
+> Please don't kill me I am not a designer (yes I should work with one). Here is an example of our template.
+
+![Item Grid Skeleton](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557369571/ajonp-ajonp-com/blog/Template_Example_1.png)
+
+## Pages
+So what templates allow are us to see is that we can adjust our components right away. We can see that our `ajonp-button` will need to allow for both a __primary__ and __secondary__ type, so we should make sure to update a property to allow for that as well as the corner radius on all buttons should be the same, so we should update the css. The colors and content stay out of the way, until it is time to see page examples. Now we can start to see the real page as the user will interact with it on a daily basis, but because we built our entire system on components from the ground up we can adjust eact Atom, Molecule, and Organism to guarantee that we have the perfect fit in our system.
+
+So something as simple as primary vs. secondary can be adjusted
+
+```tsx
+      <span>
+        {this.buttonType ? (
+          <button class="secondary">
+            <slot />
+          </button>
+        ) : (
+          <button class="primary">
+            <slot />
+          </button>
+        )}
+      </span>
+```
+
+```css
+button.primary {
+  background: #4b0a75;
+  color: white;
+}
+
+button.secondary {
+  background: white;
+  color: #4b0a75;
+}
+```
+
+![Button Type Updates](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557371683/ajonp-ajonp-com/z8heurbn50kcbsuelyg1.jpg)
 
 # Creating and Adopting an Enterprise Design System
-I have seen many great companies spend millions of dollars maintaining disparate systems, just in order to try and keep up with the pace of their marketing departments branding changes. An example of a disjointed company might have sites built utilizing [Sitefinity](https://www.progress.com/sitefinity-cms), [Adobe AEM](https://www.adobe.com/marketing/experience-manager.html), [Angular](https://angular.io/), and [React](https://reactjs.org/). Now on each of these stacks lets say they have built 5 different sites. In order to update just the Footer component across these systems would mean at best you need to change it in 4 places, but more than likely you will need to update it in 20 places then build, test, and deploy each of those systems.
+I have seen many great companies spend millions of dollars maintaining disparate systems, just in order to try and keep up with the pace of their marketing departments branding changes. An example of a disjointed company might have sites built utilizing [Sitefinity](https://www.progress.com/sitefinity-cms), [Adobe AEM](https://www.adobe.com/marketing/experience-manager.html), [Angular](https://angular.io/), and [React](https://reactjs.org/). Now on each of these stacks lets say they have built 5 different sites. In order to update just the button component across these systems would mean at best you need to change it in 4 places, but more than likely you will need to update it in 20 places then build, test, and deploy each of those systems.
+
+In a component system this takes a single update to that component!!
+
+You need to get buy-in from both departments and work as a cohesive unit to become truly successful, but in the end you will save multitudes of time and money!!!
