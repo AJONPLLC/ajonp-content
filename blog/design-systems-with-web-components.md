@@ -10,6 +10,9 @@ images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/
 
 If you have ever worked for a company that has several disparate sites, built with multiple technologies, keep reading. We will walk through building principles behind good Atomic Design, how to create Web Components using Stencil, and finally (perhaps most importantly) how to allow your company to create and adopt a design system.
 
+# TL;DR - Use Web Components to make a successful Design System.
+[Demo](https://ajonp-stencil-examples.firebaseapp.com/)
+
 ## Flipping the Script on Design Systems
 I was recently able to sit down with some of the core members of [Ionic](https://ionicframework.com/), who also created [Stencil](https://stenciljs.com/) a toolchain for building Design Systems and Progressive Web Apps. We talked at great length how typically companies are approaching Ionic from a Design Team and need help building components. As a developer I wanted to talk about the Web Components that are used within the Design System first. There was a decent amount of surprise, so I thought I would break down what a Design System is and why it doesn't matter which end you start with, as long as you have both your Design and Development teams working together to build your Design System.
 
@@ -435,4 +438,8 @@ I have seen many great companies spend millions of dollars maintaining disparate
 
 In a component system this takes a single update to that component!!
 
+## Add central location
+In order for the adoption to take place you will need to host your components in a centralized location like NPM. Here is a great guide on how to [Publish to NPM](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry). Because you worked so hard to create this system you will most likely want to keep it within your companies private npm registry.
+
+# How to be successful
 You need to get buy-in from both departments and work as a cohesive unit to become truly successful, but in the end you will save multitudes of time and money!!!
