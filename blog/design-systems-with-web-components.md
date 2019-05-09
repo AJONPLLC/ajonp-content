@@ -5,6 +5,12 @@ date = 2019-05-07T02:33:41-05:00
 draft = false
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png"]
 githublinks = ["https://github.com/AJONPLLC/ajonp-stencil-example"]
+
+[twitter]
+  card = "summary_large_image"
+  site = "@ajonpcom"
+  creator = "@ajonpcom"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png"
 +++
 
 # Design Systems with Web Components
