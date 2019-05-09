@@ -71,7 +71,7 @@ npm init stencil
 ``` 
 Choose:
 
-1. comopnent  
+1. component  
 1. Project Name: ajonp-core
 
 
