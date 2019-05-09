@@ -281,6 +281,7 @@ span {
 Now that we have a molecule we can use this inside of an organism, to repeat the molecule several times. We will take a very simple form which will allow us to add each of the `ajonp-item` molecules, but you will notice we are also going to use the `ajonp-button` atom inside this organism as well.
 
 > In hindsight maybe I should have called this a list 😺
+
 #### Item Grid
 This grid starts to become more complex as it takes in [@Props](https://stenciljs.com/docs/properties) like our other components, but now we introduce [@State](https://stenciljs.com/docs/state) so that our component can manage the internal data to that component, in our case all the items that belong within the grid. The final class property is [@Element](https://stenciljs.com/docs/host-element#element-decorator)which allows us to access the host HTMLElement, allowing us to find the form input fields and for each individual `ajonp-item-grid`.
 
