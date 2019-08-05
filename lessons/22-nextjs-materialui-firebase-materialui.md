@@ -2,7 +2,7 @@
 lesson = "22"
 title = "Next.js using MaterialUI and Firebase - MaterialUI"
 description = ""
-date = 2019-05-03T00:00:50-05:00
+date = 2019-08-01T00:00:50-05:00
 weight = 20
 draft = true
 toc = true
