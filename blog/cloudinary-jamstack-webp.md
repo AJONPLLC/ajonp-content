@@ -3,14 +3,14 @@ title = "Cloudinary in Jamstacks using Webp"
 description = "Create a single source for all of your posting needs, using the best format for the browser!"
 date = 2019-07-31T02:33:41-05:00
 draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png"]
 githublinks = ["https://github.com/AJONPLLC/"]
 
 [twitter]
   card = "summary_large_image"
   site = "@ajonpcom"
   creator = "@ajonpcom"
-  image = "https://res.cloudinary.com/ajonp/image/upload/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png"
 +++
 
 # Cloudinary and Jamstacks
