@@ -1,19 +1,23 @@
 +++
 lesson = "21"
 title = "Next.js using MaterialUI and Firebase - Setup"
-description = ""
-date = 2019-08-01T00:00:50-05:00
+description = "Setting up our Next.js site with React, Next.js, "
+date = 2019-08-02T00:00:50-05:00
 weight = 20
 draft = true
 toc = true
 languages = ["javascript"]
 frameworks = ["firebase", "nextjs", "rxfire", "rxjs", "materialui"]
 authors = ["Alex Patterson"]
-images = [""]
-githublinks = ["https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs", ]
+tags = ["nextjs9"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/v1565354225/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.png"]
+githublinks = ["https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs"]
 videos = ["https://www.youtube.com/v/ju80EzhnCE8"]
 
 +++
+
+> Please note the lesson was originaly written using Next 8 and later upgraded, if you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
+> [Next.js v8 to v9 Upgrade Guide](https://github.com/zeit/next.js/blob/canary/UPGRADING.md)
 
 # Initial Setup
 ## Create Directory
@@ -26,7 +30,7 @@ mkdir ajonp-ajsbooks-nextjs && cd ajonp-ajsbooks-nextjs
 - [React Dom](https://www.npmjs.com/package/react-dom)
 - [Material UI](https://www.npmjs.com/package/@material-ui/core)
 - [Next.js](https://www.npmjs.com/package/next)
-- [Next.js Typescript](https://www.npmjs.com/package/@zeit/next-typescript)
+- ~~[Next.js Typescript](https://www.npmjs.com/package/@zeit/next-typescript)~~
 - [Firebase](https://www.npmjs.com/package/firebase)
 - [RxFire](https://www.npmjs.com/package/rxfire)
 
@@ -89,7 +93,7 @@ Now that we have content make sure that your server is still running or run comm
 # Typescript
 We will now update our index page to become more strictly typed by changing its file type from .js to .tsx, which will allow VSCode to understand that we are now going to be using typescript in our jsx files.
 
- The `"jsx": "preserve"` (in our `.tsconfig`) mode will keep the JSX as part of the output to be further consumed by another transform step. In our case this is done with Babel using `"presets": ["next/babel", "@zeit/next-typescript/babel"]`.
+ The `"jsx": "preserve"` (in our `.tsconfig`) mode will keep the JSX as part of the output to be further consumed by another transform step. In our case this is done with Babel using `"presets": ["next/babel"]`.
 
 For the remainder of this tutorial we will now be switching over to Typescript. There are a few things that we need to update:
 - Let Next.js know that we are making this change (or more correctly webpack) and update the config.
@@ -98,6 +102,10 @@ For the remainder of this tutorial we will now be switching over to Typescript. 
 
 ## Next Config
 
+As of Next version 9, you no longer need to add typescript support 😸
+https://github.com/zeit/next.js/blob/canary/UPGRADING.md#breaking-changes
+
+> For Next.js v8
 next.config.js
 ```js
 const withTypescript = require('@zeit/next-typescript');
@@ -109,7 +117,7 @@ module.exports = withTypescript();
 .babelrc
 ```json
 {
-  "presets": ["next/babel", "@zeit/next-typescript/babel"]
+  "presets": ["next/babel"]
 }
 ```
 
@@ -121,7 +129,10 @@ module.exports = withTypescript();
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve",
-    "lib": ["dom", "es2017"],
+    "lib": [
+      "dom",
+      "es2017"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
@@ -132,9 +143,22 @@ module.exports = withTypescript();
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "esnext"
-  }
+    "target": "esnext",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
+
 ```
 
 ## Include Next.js types definition
@@ -155,7 +179,7 @@ export default IndexPage;
 ```
 
 # Tracking changes
-Now that we have a solid start to our project lets add tracking from here on out.
+Now that we have a solid start to our project lets add tracking from here on out, we will be using [git](https://git-scm.com/)
 
 First lets add an ignore file so we don't pickup our unintended files that we don't want to track. 
 - `node_modules` this is the folder where our dependencies are held.

@@ -1,7 +1,7 @@
 +++
 lesson = "20"
 title = "Next.js using MaterialUI and Firebase - Intro"
-description = ""
+description = "Introduction to building Next.js with MaterialUI."
 date = 2019-08-01T00:00:50-05:00
 weight = 20
 draft = true
@@ -9,11 +9,15 @@ toc = true
 languages = ["javascript"]
 frameworks = ["firebase", "nextjs", "rxfire", "rxjs", "materialui"]
 authors = ["Alex Patterson"]
-images = [""]
-githublinks = ["https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs", ]
+tags = ["nextjs9"]
+images = ["https://res.cloudinary.com/ajonp/image/upload/v1565354225/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Intro.png"]
+githublinks = ["https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs"]
 videos = [""]
 
 +++
+
+> Please note the lesson was originaly written using Next 8 and later upgraded, if you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
+> [Next.js v8 to v9 Upgrade Guide](https://github.com/zeit/next.js/blob/canary/UPGRADING.md)
 
 # AJ on Purr-fect Solutions introduces Next.js using MaterialUI and Firebase
 
