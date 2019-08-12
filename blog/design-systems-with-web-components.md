@@ -1,4 +1,6 @@
 +++
+authors = ["Alex Patterson"]
+tags = ["ionic, stencil"]
 title = "Design Systems with Web Components"
 description = "How Stencil can build Web Components for any Design System. This is a developers view into how a design system will work in any size organization."
 date = 2019-05-07T02:33:41-05:00

@@ -1,9 +1,17 @@
 +++
+authors = ["Alex Patterson"]
+tags = ["cloudinary"]
 title= "Cloud Function GitHub Update"
 description = "Changing git libraries"
 date= 2018-12-26T01:25:37-05:00
 draft= false
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.jpg"]
+
+[twitter]
+  card = "summary_large_image"
+  site = "@ajonpcom"
+  creator = "@ajonpcom"
+  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.jpg"
 +++
 
 # Goal

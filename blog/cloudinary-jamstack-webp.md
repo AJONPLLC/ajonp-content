@@ -1,4 +1,6 @@
 +++
+authors = ["Alex Patterson"]
+tags = ["cloudinary"]
 title = "Cloudinary in Jamstacks using Webp"
 description = "Create a single source for all of your posting needs, using the best format for the browser!"
 date = 2019-07-31T02:33:41-05:00

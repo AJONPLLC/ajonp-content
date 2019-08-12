@@ -1,6 +1,6 @@
 +++
-aliases = ["/lessons/5-abap-helloworld/"]
 authors = ["Alex Patterson"]
+aliases = ["/lessons/5-abap-helloworld/"]
 lesson = "5"
 title = "ABAP - Hello World"
 description = "Creating your first ABAP Program"

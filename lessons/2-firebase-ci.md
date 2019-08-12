@@ -1,6 +1,6 @@
 +++
-aliases = ["/lessons/2-firebase-ci/"]
 authors = ["Alex Patterson"]
+aliases = ["/lessons/2-firebase-ci/"]
 lesson = "2"
 title = "Google Cloud Repositories CI/CD"
 description = "Google Cloud Continuous Integration and Delivery"

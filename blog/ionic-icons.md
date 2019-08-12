@@ -1,4 +1,6 @@
 +++
+authors = ["Alex Patterson"]
+tags = ["ionic"]
 title= "Ionic Icons"
 description = "Use Ionic Icons in any Project!"
 date= 2019-01-20T01:25:38-05:00

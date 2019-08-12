@@ -1,4 +1,5 @@
 +++
+authors = ["Alex Patterson"]
 aliases = ["/lessons/4-hugo-ionic2/"]
 lesson = "4"
 title = "Hugo Ionic Template"
@@ -10,7 +11,6 @@ bref = "Creating a Hugo site, by using AJonP's Hugo Ionic Template"
 toc = true
 languages = ["javascript", "json", "go"]
 frameworks = ["hugo", "ionic", "algolia", "cloudinary", "google ads", "google analytics"]
-authors = ["Alex Patterson"]
 images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.jpg"]
 githublinks = ["https://github.com/AJONPLLC/lesson-4-hugo-ionic"]
 videos = ["https://www.youtube.com/v/tgXFNqInA0w"]

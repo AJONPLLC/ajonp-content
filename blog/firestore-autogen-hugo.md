@@ -1,4 +1,6 @@
 +++
+authors = ["Alex Patterson"]
+tags = ["hugo, firebase, firestore"]
 title = "Firestore Auto Generate Hugo"
 description = "Creating a Hugo Site from Firestore Updates"
 date = 2018-12-20T02:33:41-05:00
