@@ -146,7 +146,14 @@ Once this is uploaded you should see some a returned json payload.
 }
 ```
 
-The key line here is that it actually picked up a face in the coordinates `"coordinates": { "faces": [[132, 906, 808, 1077]] },`. It is still no 💯% perfect yet. Here is an example that wont work.
+The key line here is that it actually picked up a face in the coordinates
+```json
+"coordinates": { "faces": [[132, 906, 808, 1077]] }
+``` 
+
+The facial detection is still not 💯% perfect yet. 
+
+Here is an example that wont work below, might be the shadows from my hat 😾!
 
 ![Alex Ionic Hat Outside](https://res.cloudinary.com/ajonp/image/upload/w_200/v1565636611/AlexPics/alex_ionic_hat.jpg)
 
@@ -168,12 +175,16 @@ Here is our sample image as a thumbnail
 http://res.cloudinary.com/ajonp/image/upload/w_1000,h_1000,c_crop,g_face,r_max/w_200/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg
 ```
 
-![Cropped Sample Thumbnail](http://res.cloudinary.com/ajonp/image/upload/w_1000,h_1000,c_crop,g_face,r_max/w_200/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg)
+> Please note I fixed the sample and this is a seperate uploaded picture showing an issue with detection
 
+> ![Issue face detection](https://res.cloudinary.com/ajonp/image/upload/v1565659059/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.16.51_PM.png)
 
+> Here is the coordinates of the face detection, and why this does not work that well.
 
-## Understandable Sidenote
+> ![Example coordinates](https://res.cloudinary.com/ajonp/image/upload/v1565658698/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.10.16_PM.png)
 
-I can’t help but think of [Facemash from the Social Network](https://youtu.be/VSKoVsHs_Ko), and don't want their to be confusion, this is a very fun project and we won't be rating anyone 🤢!!  I am hoping that the Amazon Rekognition AI Moderation will catch most the bad stuff. If it gets out of hand I am going to take it down.
+![Cropped Sample Thumbnail](http://res.cloudinary.com/ajonp/image/upload/w_1001,h_1001,c_crop,g_face,r_max/w_200/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg)
 
-So I just want everyone to remain calm, this app won't be degrading anyone! I don't ever want to degrade anyone and write a [facemash apology](https://www.thecrimson.com/article/2003/11/19/facemash-creator-survives-ad-board-the/) like Zuck, so we will be using photos that you can upload yourself.
+## Being careful in naming apps
+
+I can’t help but think of [Facemash from the Social Network](https://youtu.be/VSKoVsHs_Ko), and don't want their to be confusion, this is a very fun project and we won't be rating anyone 🤢!!  I am hoping that the Amazon Rekognition AI Moderation will catch most the bad stuff. If it gets out of hand I am going to take it down. I don't ever want to degrade anyone and write a [facemash apology](https://www.thecrimson.com/article/2003/11/19/facemash-creator-survives-ad-board-the/) like Zuck 😼!
