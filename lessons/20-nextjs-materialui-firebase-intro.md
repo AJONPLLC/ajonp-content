@@ -4,7 +4,7 @@ title = "Next.js using MaterialUI and Firebase - Intro"
 description = "Introduction to building Next.js with MaterialUI."
 date = 2019-08-01T00:00:50-05:00
 weight = 20
-draft = true
+draft = false
 toc = true
 languages = ["javascript"]
 frameworks = ["firebase", "nextjs", "reactjs", "rxfire", "rxjs", "materialui"]
@@ -33,7 +33,7 @@ This is a sample application showcasing the power of Next.js.
 ## React
 [ReactJs](https://reactjs.org/) - A JavaScript library for building user interfaces
 
-[ReactJS Logo](https://res.cloudinary.com/ajonp/image/upload/v1565700059/ajonp-ajonp-com/20-lesson-nextjs/Screen_Shot_2019-08-13_at_8.32.27_AM.png)
+![ReactJS Logo](https://res.cloudinary.com/ajonp/image/upload/v1565700059/ajonp-ajonp-com/20-lesson-nextjs/Screen_Shot_2019-08-13_at_8.32.27_AM.png)
 
 ## What is MaterialUI
 [MaterialUI](https://material-ui.com/) - React Components that Implement Google's Material Design.
@@ -53,4 +53,4 @@ This is a sample application showcasing the power of Next.js.
 ## What is RxFire
 [RxFire](https://firebase.googleblog.com/2018/09/introducing-rxfire-easy-async-firebase.html) - RxFire provides a set of observable creation methods that utilize both Firebase and RxJS.
 
-[RxFire](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556308985/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png)
+![RxFire](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556308985/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png)
