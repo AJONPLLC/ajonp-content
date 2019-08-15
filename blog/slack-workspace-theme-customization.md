@@ -37,3 +37,9 @@ videos = ["https://www.youtube.com/v/vbtncEcoO9o"]
 <a href="https://slackthemes.net/#/myplanet" target="_blank">
 ![SlackThemes.net](https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Screen_Shot_2019-08-14_at_10.36.02_PM.png)
 </a>
+
+### Fork SlackThemes Repo
+
+If you make a cool theme add it to [paracycle/slackthemes](https://github.com/paracycle/slackthemes) GitHub repository. It is as simple as making a pull request.
+
+[Fork a repo - GitHub Help](https://help.github.com/en/articles/fork-a-repo)
