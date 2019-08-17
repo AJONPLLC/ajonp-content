@@ -17,4 +17,15 @@ image = "https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/bl
 
 # Better Performance through analysis
 
-The current web standard for initial page load is 2.0 seconds.
+The current web standard for initial page load is 2.0 seconds. But this is only part of the performance story. Let's dive in a little deeper and see how else we can improve performance. 
+In terms of data reduction and user experience, sometimes these things are not as noticeable.
+
+## Web.dev
+
+[Web.dev learning](https://web.dev/learn) is one of the best sources to increase performance on your site.
+<video src="https://res.cloudinary.com/ajonp/video/upload/v1566057653/ajonp-ajonp-com/blog/20190817_115842.mp4">
+</video>
+
+As you can see in the video, they have several subjects to help improve your sites performance.
+
+I actually find myself using the [measure](https://web.dev/measure) feature prior to diving into the learning section. But I never was good at "hitting the books" in school, I am a visual hands on learner 😺.
