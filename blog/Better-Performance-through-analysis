@@ -8,4 +8,13 @@ draft = false
 images = ["https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg"]
 githublinks = ["https://github.com/AJONPLLC"]
 
+[twitter] 
+card = "summary_large_image" 
+site = "@ajonpcom" 
+creator = "@ajonpcom" 
+image = "https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg" 
 +++
+
+# Better Performance through analysis
+
+The current web standard for initial page load is 2.0 seconds.
