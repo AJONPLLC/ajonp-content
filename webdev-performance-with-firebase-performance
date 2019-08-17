@@ -1,0 +1,22 @@
++++
+authors = ["Alex Patterson"]
+tags = ["firebase, performance"]
+title = "Better Performance through analysis."
+description = "Example of how to use Web.dev to maintain a timeline of performance, while running firebase performance for constant monitoring."
+date = 2019-08-17T10:33:41-05:00
+draft = false
+images = ["https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg"]
+githublinks = ["https://github.com/AJONPLLC"]
+
+[twitter]
+  card = "player"
+  site = "@ajonpcom"
+  title = "Slack Workspace Theme Customization"
+  description = "A quick tutorial on how to customize your Slack workspace theme."
+  player = "https://www.youtube.com/embed/vbtncEcoO9o?autoplay=0&rel=0&showinfo=0&modestbranding=1"
+  player_width = 1280
+  player_height = 960
+  image = "https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png"
+  image_alt = "Slack Workspace Theme Customization"
++++
+
