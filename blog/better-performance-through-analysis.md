@@ -80,10 +80,23 @@ Google cares about the user and uses the [RAIL method](https://developers.google
 As Google's post points out
 
 [Chrome DevTools](https://developers.google.com/web/fundamentals/performance/rail#devtools) The developer tools built into Google Chrome. Provides in-depth analysis on everything that happens while your page loads or runs.
+
 [Lighthouse](https://developers.google.com/web/fundamentals/performance/rail#lighthouse) Available in Chrome DevTools, as a Chrome Extension, as a Node.js module, and within WebPageTest. You give it a URL, it simulates a mid-range device with a slow 3G connection, runs a series of audits on the page, and then gives you a report on load performance, as well as suggestions on how to improve. Also provides audits to improve accessibility, make the page easier to maintain, qualify as a Progressive Web App, and more.
+
 [WebPageTest](https://developers.google.com/web/fundamentals/performance/rail#webpagetest) Available at webpagetest.org/easy. You give it a URL, it loads the page on a real Moto G4 device with a slow 3G connection, and then gives you a detailed report on the page's load performance. You can also configure it to include a Lighthouse audit.
 
-An example where I can improve performance still!
+## Difference on what you test
+
+If the majority of your users are on desktop, you probably care more about testing for desktop. However, if you are looking to build a broader user base, especially in developing world's, you better check low end mobile results!
+
+### Desktop for AJonP
+
+I try to get an all A rating, but this shows even smaller items that you can fix.
+
+
+### Mobile low-end for AJonP
+
+An example where I can improve performance still on low end devices.
 
 ![first byte](https://res.cloudinary.com/ajonp/image/upload/v1566097242/ajonp-ajonp-com/blog/Screenshot_20190817-225336.png)
 
