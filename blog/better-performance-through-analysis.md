@@ -1,6 +1,6 @@
 +++
 authors = ["Alex Patterson"]
-tags = ["firebase, performance"]
+tags = ["firebase", "performance"]
 title = "Better Performance through analysis."
 description = "Example of how to use Web.dev to maintain a timeline of performance, while running firebase performance for constant monitoring."
 date = 2019-08-17T10:33:41-05:00
