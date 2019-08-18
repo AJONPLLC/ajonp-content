@@ -71,9 +71,9 @@ Humans can't perceive things much faster than one second, but past that they sta
 Google cares about the user and uses the [RAIL method](https://developers.google.com/web/fundamentals/performance/rail).
 
 - **Response**  - How quickly browser reacts
-- **Animation** - effects that make a site look good.
+- **Animation** - effects that make a site look good
 - **Idle** - Settling down so browser does not have to process
-- **Load** - How quick does this page load.
+- **Load** - How quick does this page load
 
 ## Additional tools
 
@@ -93,6 +93,11 @@ If the majority of your users are on desktop, you probably care more about testi
 
 I try to get an all A rating, but this shows even smaller items that you can fix.
 
+![AJonP desktop sample](https://res.cloudinary.com/ajonp/image/upload/v1566153666/ajonp-ajonp-com/blog/Screenshot_20190818-124358.png)
+
+It allows you to really dig down into the details.
+
+![AJonP desktop details](https://res.cloudinary.com/ajonp/image/upload/v1566153680/ajonp-ajonp-com/blog/Screenshot_20190818-124455.png)
 
 ### Mobile low-end for AJonP
 
