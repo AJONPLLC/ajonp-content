@@ -15,6 +15,9 @@ creator = "@ajonpcom"
 image = "https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg" 
 +++
 
+> Please note I wrote this on my phone driving 6 hours, so I hope to update in more detail.
+> Fun fact I now know how to do git remote recursive from Android 😆
+
 # Better Performance through analysis
 
 The current web standard for initial page load is 2.0 seconds. 
@@ -67,7 +70,21 @@ You really need to make all pages feel like less than one second, why?
 Humans can't perceive things much faster than one second, but past that they start to think things are wrong.
 Google cares about the user and uses the [RAIL method](https://developers.google.com/web/fundamentals/performance/rail).
 
-- **Response** 
-- **Animation**
-- **Idle**
-- **Load**
+- **Response**  - How quickly browser reacts
+- **Animation** - effects that make a site look good.
+- **Idle** - Settling down so browser does not have to process
+- **Load** - How quick does this page load.
+
+## Additional tools
+
+As Google's post points out
+
+[Chrome DevTools](https://developers.google.com/web/fundamentals/performance/rail#devtools) The developer tools built into Google Chrome. Provides in-depth analysis on everything that happens while your page loads or runs.
+[Lighthouse](https://developers.google.com/web/fundamentals/performance/rail#lighthouse) Available in Chrome DevTools, as a Chrome Extension, as a Node.js module, and within WebPageTest. You give it a URL, it simulates a mid-range device with a slow 3G connection, runs a series of audits on the page, and then gives you a report on load performance, as well as suggestions on how to improve. Also provides audits to improve accessibility, make the page easier to maintain, qualify as a Progressive Web App, and more.
+[WebPageTest](https://developers.google.com/web/fundamentals/performance/rail#webpagetest) Available at webpagetest.org/easy. You give it a URL, it loads the page on a real Moto G4 device with a slow 3G connection, and then gives you a detailed report on the page's load performance. You can also configure it to include a Lighthouse audit.
+
+An example where I can improve performance still!
+
+![first byte](https://res.cloudinary.com/ajonp/image/upload/v1566097242/ajonp-ajonp-com/blog/Screenshot_20190817-225336.png)
+
+![technical](https://res.cloudinary.com/ajonp/image/upload/v1566097259/ajonp-ajonp-com/blog/Screenshot_20190817-225421.png)
