@@ -1,19 +1,23 @@
-+++
-authors = ["Alex Patterson"]
-tags = ["ionic, stencil"]
-title = "Design Systems with Web Components"
-description = "How Stencil can build Web Components for any Design System. This is a developers view into how a design system will work in any size organization."
-date = 2019-05-07T02:33:41-05:00
-draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png"]
-githublinks = ["https://github.com/AJONPLLC/ajonp-stencil-example"]
-
-[twitter]
-  card = "summary_large_image"
-  site = "@ajonpcom"
-  creator = "@ajonpcom"
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png"
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-05-07T02:33:41-05:00"
+description: How Stencil can build Web Components for any Design System. This is a
+  developers view into how a design system will work in any size organization.
+draft: false
+githublinks:
+- https://github.com/AJONPLLC/ajonp-stencil-example
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png
+tags:
+- ionic, stencil
+title: Design Systems with Web Components
+twitter:
+  card: summary_large_image
+  creator: '@ajonpcom'
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png
+  site: '@ajonpcom'
+---
 
 # Design Systems with Web Components
 

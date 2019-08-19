@@ -1,19 +1,23 @@
-+++
-authors = ["Alex Patterson"]
-tags = ["podcast"]
-title = "Front End Web Development Podcasts"
-description = "This is my current list of front end web development podcasts, and just a little detail on why I listen to each one of them."
-date = 2019-08-18T00:33:41-05:00
-draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/v1566190588/ajonp-ajonp-com/blog/FrontendPodcats.png"]
-githublinks = ["https://github.com/AJONPLLC/ajonp-content/tree/master/blog/frontend-web-development-podcasts.md"]
-
-[twitter] 
-card = "summary_large_image" 
-site = "@ajonpcom" 
-creator = "@ajonpcom" 
-image = "https://res.cloudinary.com/ajonp/image/upload/v1566190588/ajonp-ajonp-com/blog/FrontendPodcats.png" 
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-08-18T00:33:41-05:00"
+description: This is my current list of front end web development podcasts, and just
+  a little detail on why I listen to each one of them.
+draft: false
+githublinks:
+- https://github.com/AJONPLLC/ajonp-content/tree/master/blog/frontend-web-development-podcasts.md
+images:
+- https://res.cloudinary.com/ajonp/image/upload/v1566190588/ajonp-ajonp-com/blog/FrontendPodcats.png
+tags:
+- podcast
+title: Front End Web Development Podcasts
+twitter:
+  card: summary_large_image
+  creator: '@ajonpcom'
+  image: https://res.cloudinary.com/ajonp/image/upload/v1566190588/ajonp-ajonp-com/blog/FrontendPodcats.png
+  site: '@ajonpcom'
+---
 
 
 # Front End Web Development Podcasts

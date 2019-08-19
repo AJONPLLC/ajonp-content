@@ -1,30 +1,42 @@
-+++
-aliases = ["/lessons/8-firestore-functions-hugo/"]
-lesson = "8"
-title = "Use Firestore to Build Hugo Content"
-description = "Use a frontend app (Angular), to update a Firestore Backend, trigger Firebase Function, while maintaining git commits, and buld/deploy your Hugo site."
-date = 2018-12-28T01:04:50-05:00
-weight = 20
-draft = false
-toc = true
-languages = ["javascript", "go", "typescript"]
-frameworks = ["firebase", "angular"]
-authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.jpg"]
-githublinks = ["https://github.com/AJONPLLC/lesson-8-hugo","https://github.com/AJONPLLC/lesson-8-firestore-functions"]
-videos = ["https://www.youtube.com/v/rMcpwucRlnU"]
-
-[twitter]
-  card = "player"
-  title = "Use Firestore to Build Hugo Content"
-  site = "@ajonpcom"
-  description = "Use a frontend app (Angular), to update a Firestore Backend, trigger Firebase Function, while maintaining git commits, and buld/deploy your Hugo site."
-  player = "https://www.youtube.com/embed/rMcpwucRlnU?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-8-firestore-functions-hugo"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.jpg"
-  image_alt = "Firestore trigger Hugo"
-+++
+---
+aliases:
+- /lessons/8-firestore-functions-hugo/
+authors:
+- Alex Patterson
+date: "2018-12-28T01:04:50-05:00"
+description: Use a frontend app (Angular), to update a Firestore Backend, trigger
+  Firebase Function, while maintaining git commits, and buld/deploy your Hugo site.
+draft: false
+frameworks:
+- firebase
+- angular
+githublinks:
+- https://github.com/AJONPLLC/lesson-8-hugo
+- https://github.com/AJONPLLC/lesson-8-firestore-functions
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.jpg
+languages:
+- javascript
+- go
+- typescript
+lesson: "8"
+title: Use Firestore to Build Hugo Content
+toc: true
+twitter:
+  card: player
+  description: Use a frontend app (Angular), to update a Firestore Backend, trigger
+    Firebase Function, while maintaining git commits, and buld/deploy your Hugo site.
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545844636/ajonp-ajonp-com/8-lesson-firestore-functions/auto_gen.jpg
+  image_alt: Firestore trigger Hugo
+  player: https://www.youtube.com/embed/rMcpwucRlnU?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-8-firestore-functions-hugo
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: Use Firestore to Build Hugo Content
+videos:
+- https://www.youtube.com/v/rMcpwucRlnU
+weight: 20
+---
 
 # Firestore to Hugo
 

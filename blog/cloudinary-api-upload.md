@@ -1,19 +1,24 @@
-+++
-authors = ["Alex Patterson"]
-tags = ["cloudinary"]
-title = "Cloudinary Unsigned Upload and Face Detection"
-description = "Do you need a repository that allows any uploads to happen, but also revokable when you have enough? Want to take it a step further and look for faces in those uploads? Well do I have something fun for you coming!"
-date = 2019-08-12T02:33:41-05:00
-draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/v1565651312/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png"]
-githublinks = ["https://github.com/AJONPLLC/"]
-
-[twitter]
-  card = "summary_large_image"
-  site = "@ajonpcom"
-  creator = "@ajonpcom"
-  image = "https://res.cloudinary.com/ajonp/image/upload/v1565651312/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png"
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-08-12T02:33:41-05:00"
+description: Do you need a repository that allows any uploads to happen, but also
+  revokable when you have enough? Want to take it a step further and look for faces
+  in those uploads? Well do I have something fun for you coming!
+draft: false
+githublinks:
+- https://github.com/AJONPLLC/
+images:
+- https://res.cloudinary.com/ajonp/image/upload/v1565651312/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png
+tags:
+- cloudinary
+title: Cloudinary Unsigned Upload and Face Detection
+twitter:
+  card: summary_large_image
+  creator: '@ajonpcom'
+  image: https://res.cloudinary.com/ajonp/image/upload/v1565651312/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png
+  site: '@ajonpcom'
+---
 
 # Face Smash Demo Project
 

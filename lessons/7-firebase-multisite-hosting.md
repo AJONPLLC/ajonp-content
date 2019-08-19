@@ -1,31 +1,43 @@
-+++
-aliases = ["/lessons/7-firebase-multisite-hosting/"]
-lesson = "7"
-title = "Firebase Multisite Hosting"
-description = "Creation of multiple sites within Hugo (main and amp), as well as multiple sites written in Angular (admin and app)."
-date = 2018-12-17T23:04:50-05:00
-weight = 20
-draft = false
-bref = "Creation of multiple sites within Hugo (main and amp), as well as multiple sites written in Angular (admin and app)."
-toc = true
-languages = ["javascript", "go", "typescript"]
-frameworks = ["firebase", "angular"]
-authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.jpg"]
-githublinks = ["https://github.com/AJONPLLC/lesson-7-firebase-multisite-hosting"]
-videos = ["https://www.youtube.com/v/bLrZxoC0VlQ"]
-
-[twitter]
-  card = "player"
-  title = "Firebase Multisite Hosting (Multiple Site), using Hugo and Angular"
-  site = "@ajonpcom"
-  description = "Creation of multiple sites within Hugo (main and amp), as well as multiple sites written in Angular (admin and app)."
-  player = "https://www.youtube.com/embed/bLrZxoC0VlQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-7-firebase-multisite-hosting"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.jpg"
-  image_alt = "Firebase Multisite Hosting"
-+++
+---
+aliases:
+- /lessons/7-firebase-multisite-hosting/
+authors:
+- Alex Patterson
+bref: Creation of multiple sites within Hugo (main and amp), as well as multiple sites
+  written in Angular (admin and app).
+date: "2018-12-17T23:04:50-05:00"
+description: Creation of multiple sites within Hugo (main and amp), as well as multiple
+  sites written in Angular (admin and app).
+draft: false
+frameworks:
+- firebase
+- angular
+githublinks:
+- https://github.com/AJONPLLC/lesson-7-firebase-multisite-hosting
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.jpg
+languages:
+- javascript
+- go
+- typescript
+lesson: "7"
+title: Firebase Multisite Hosting
+toc: true
+twitter:
+  card: player
+  description: Creation of multiple sites within Hugo (main and amp), as well as multiple
+    sites written in Angular (admin and app).
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.jpg
+  image_alt: Firebase Multisite Hosting
+  player: https://www.youtube.com/embed/bLrZxoC0VlQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-7-firebase-multisite-hosting
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: Firebase Multisite Hosting (Multiple Site), using Hugo and Angular
+videos:
+- https://www.youtube.com/v/bLrZxoC0VlQ
+weight: 20
+---
 
 # Firebase Multisite Hosting (Multiple Sites)
 

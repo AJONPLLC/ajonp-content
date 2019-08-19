@@ -1,18 +1,20 @@
-+++
-authors = ["Alex Patterson"]
-tags = ["git"]
-title= "Cloud Function GitHub Update"
-description = "Changing git libraries"
-date= 2018-12-26T01:25:37-05:00
-draft= false
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.jpg"]
-
-[twitter]
-  card = "summary_large_image"
-  site = "@ajonpcom"
-  creator = "@ajonpcom"
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.jpg"
-+++
+---
+authors:
+- Alex Patterson
+date: "2018-12-26T01:25:37-05:00"
+description: Changing git libraries
+draft: false
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.jpg
+tags:
+- git
+title: Cloud Function GitHub Update
+twitter:
+  card: summary_large_image
+  creator: '@ajonpcom'
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.jpg
+  site: '@ajonpcom'
+---
 
 # Goal
 My goal is to clone a Repo using, add a new file, then push that new file to GitHub.

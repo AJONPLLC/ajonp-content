@@ -1,11 +1,13 @@
-+++
-authors = ["Alex Patterson"]
-date = 2019-01-16T12:04:50-05:00
-draft = false
-title = "CSS Tools"
-description = "Tools for CSS"
-images = ["https://res.cloudinary.com/ajonp/image/upload/w_300,f_auto,fl_lossy,q_auto/v1547671718/ajonp-ajonp-com/Logos/css/CSS3_logo_and_wordmark.svg.jpg"]
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-01-16T12:04:50-05:00"
+description: Tools for CSS
+draft: false
+images:
+- https://res.cloudinary.com/ajonp/image/upload/w_300,f_auto,fl_lossy,q_auto/v1547671718/ajonp-ajonp-com/Logos/css/CSS3_logo_and_wordmark.svg.jpg
+title: CSS Tools
+---
 
 # CSS
 

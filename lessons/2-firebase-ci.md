@@ -1,31 +1,38 @@
-+++
-authors = ["Alex Patterson"]
-aliases = ["/lessons/2-firebase-ci/"]
-lesson = "2"
-title = "Google Cloud Repositories CI/CD"
-description = "Google Cloud Continuous Integration and Delivery"
-date = 2018-11-26T14:45:13-05:00
-weight = 20
-draft = false
-bref = "Google Cloud CI/CD, for a simple build and forget solution"
-toc = true
-languages = ["yaml"]
-frameworks = ["firebase", "google cloud"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.jpg"]
-videos = ["https://www.youtube.com/v/MijHRE5h6Gg"]
-githublinks = ["https://github.com/AJONPLLC/lesson-2-firebase-ci"]
-
-[twitter]
-  card = "player"
-  title = "Google Cloud Repositories CI/CD"
-  site = "@ajonpcom"
-  description = "Google Cloud Continuous Integration and Delivery"
-  player = "https://www.youtube.com/embed/MijHRE5h6Gg?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/2-firebase-ci.md"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.jpg"
-  image_alt = "Google Cloud CI/CD"
-+++
+---
+aliases:
+- /lessons/2-firebase-ci/
+authors:
+- Alex Patterson
+bref: Google Cloud CI/CD, for a simple build and forget solution
+date: "2018-11-26T14:45:13-05:00"
+description: Google Cloud Continuous Integration and Delivery
+draft: false
+frameworks:
+- firebase
+- google cloud
+githublinks:
+- https://github.com/AJONPLLC/lesson-2-firebase-ci
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.jpg
+languages:
+- yaml
+lesson: "2"
+title: Google Cloud Repositories CI/CD
+toc: true
+twitter:
+  card: player
+  description: Google Cloud Continuous Integration and Delivery
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.jpg
+  image_alt: Google Cloud CI/CD
+  player: https://www.youtube.com/embed/MijHRE5h6Gg?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/2-firebase-ci.md
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: Google Cloud Repositories CI/CD
+videos:
+- https://www.youtube.com/v/MijHRE5h6Gg
+weight: 20
+---
 
 # Summary
 We will continue our hello world example from [Firebase Project Hosting](https://ajonp.com/lessons/1-creating-firebase-project/) and extend this into publishing our site to firebase using CI/CD. The final hosting example will create the site in the initial project folder (in my case ajonp-lesson-1)

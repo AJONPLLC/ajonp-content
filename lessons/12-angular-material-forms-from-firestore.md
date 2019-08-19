@@ -1,30 +1,40 @@
-+++
-aliases = ["/lessons/12-angular-material-forms-from-firestore/"]
-lesson = "12"
-title = "Angular Material Forms from Firestore"
-description = "Build all of the Angular Material Form components with data from Firestore."
-date = 2019-01-30T00:22:50-05:00
-weight = 20
-draft = false
-toc = true
-languages = ["javascript", "typescript", "scss"]
-frameworks = ["angular", "angular material", "firebase"]
-authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.jpg"]
-githublinks = ["https://github.com/AJONPLLC/lesson12-angular-material-forms-firestore"]
-videos = ["https://www.youtube.com/v/LLupkLEszdY"]
-
-[twitter]
-  card = "player"
-  title = "Angular Material Forms from Firestore"
-  site = "@ajonpcom"
-  description = "Build all of the Angular Material Form components with data from Firestore."
-  player = "https://www.youtube.com/embed/LLupkLEszdY?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-12-angular-material-forms-from-firestore"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.jpg"
-  image_alt = "Angular Material Froms from Firestore"
-+++
+---
+aliases:
+- /lessons/12-angular-material-forms-from-firestore/
+authors:
+- Alex Patterson
+date: "2019-01-30T00:22:50-05:00"
+description: Build all of the Angular Material Form components with data from Firestore.
+draft: false
+frameworks:
+- angular
+- angular material
+- firebase
+githublinks:
+- https://github.com/AJONPLLC/lesson12-angular-material-forms-firestore
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.jpg
+languages:
+- javascript
+- typescript
+- scss
+lesson: "12"
+title: Angular Material Forms from Firestore
+toc: true
+twitter:
+  card: player
+  description: Build all of the Angular Material Form components with data from Firestore.
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.jpg
+  image_alt: Angular Material Froms from Firestore
+  player: https://www.youtube.com/embed/LLupkLEszdY?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-12-angular-material-forms-from-firestore
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: Angular Material Forms from Firestore
+videos:
+- https://www.youtube.com/v/LLupkLEszdY
+weight: 20
+---
 
 # Angular Material Forms from Firestore
 🌎 Demo: https://ajonp-lesson-12.firebaseapp.com/books/FirstBook/edit
