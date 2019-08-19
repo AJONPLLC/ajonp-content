@@ -28,7 +28,7 @@ In terms of data reduction and user experience, sometimes these things are not a
 
 [Web.dev learning](https://web.dev/learn) is one of the best sources to increase performance on your site.
 
-<video width="320" height="240" controls>
+<video controls poster="https://res.cloudinary.com/ajonp/image/upload/v1566092168/ajonp-ajonp-com/blog/Screenshot_20190817-083308_2.png" height="800">
   <source src="https://res.cloudinary.com/ajonp/video/upload/v1566057653/ajonp-ajonp-com/blog/20190817_115842.mp4" type="video/mp4">
 </video>
 
