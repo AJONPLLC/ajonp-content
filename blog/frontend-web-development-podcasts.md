@@ -2,7 +2,7 @@
 authors = ["Alex Patterson"]
 tags = ["podcast"]
 title = "Front End Web Development Podcasts"
-description = "This is my current list of front end web development podcasts, and just a little detail on why I watch each one of them."
+description = "This is my current list of front end web development podcasts, and just a little detail on why I listen to each one of them."
 date = 2019-08-18T00:33:41-05:00
 draft = false
 images = ["https://res.cloudinary.com/ajonp/image/upload/v1566190588/ajonp-ajonp-com/blog/FrontendPodcats.png"]
