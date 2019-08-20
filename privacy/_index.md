@@ -1,9 +1,9 @@
-+++
-date = "2018-12-14T00:00:00-05:00"
-title = "Terms"
-draft = false
-weight = 10
-+++
+---
+date: "2018-12-14T00:00:00-05:00"
+draft: false
+title: Terms
+weight: 10
+---
 
 # PRIVACY POLICY
 **Last updated January 2, 2018**

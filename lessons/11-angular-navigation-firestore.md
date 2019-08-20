@@ -1,30 +1,42 @@
-+++
-aliases = ["/lessons/11-angular-navigation-firestore/"]
-lesson = "11"
-title = "Angular Material Dynamic Navigation using Firestore"
-description = "Angular Navigation using Firestore to populate Angular Material Tree and Expand Panels"
-date = 2019-01-22T00:04:50-05:00
-weight = 20
-draft = false
-toc = true
-languages = ["javascript", "typescript", "scss"]
-frameworks = ["angular", "angular material", "firebase"]
-authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.jpg"]
-githublinks = ["https://github.com/AJONPLLC/lesson11-angular-navigation-firestore"]
-videos = ["https://www.youtube.com/v/sZoiLcq7N6Q"]
-
-[twitter]
-  card = "player"
-  title = "Angular Material Dynamic Navigation using Firestore"
-  site = "@ajonpcom"
-  description = "Angular Navigation using Firestore to populate Angular Material Tree and Expand Panels"
-  player = "https://www.youtube.com/embed/sZoiLcq7N6Q?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-11-angular-navigation-firestore"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.jpg"
-  image_alt = "Angular Material Dynamic Navigation using Firestore"
-+++
+---
+aliases:
+- /lessons/11-angular-navigation-firestore/
+authors:
+- Alex Patterson
+date: "2019-01-22T00:04:50-05:00"
+description: Angular Navigation using Firestore to populate Angular Material Tree
+  and Expand Panels
+draft: false
+frameworks:
+- angular
+- angular material
+- firebase
+githublinks:
+- https://github.com/AJONPLLC/lesson11-angular-navigation-firestore
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.jpg
+languages:
+- javascript
+- typescript
+- scss
+lesson: "11"
+title: Angular Material Dynamic Navigation using Firestore
+toc: true
+twitter:
+  card: player
+  description: Angular Navigation using Firestore to populate Angular Material Tree
+    and Expand Panels
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.jpg
+  image_alt: Angular Material Dynamic Navigation using Firestore
+  player: https://www.youtube.com/embed/sZoiLcq7N6Q?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-11-angular-navigation-firestore
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: Angular Material Dynamic Navigation using Firestore
+videos:
+- https://www.youtube.com/v/sZoiLcq7N6Q
+weight: 20
+---
 
 # Angular Material Dynamic Navigation using Firestore
 

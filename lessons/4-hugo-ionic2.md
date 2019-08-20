@@ -1,30 +1,45 @@
-+++
-authors = ["Alex Patterson"]
-aliases = ["/lessons/4-hugo-ionic2/"]
-lesson = "4"
-title = "Hugo Ionic Template"
-description = "How to use AJonP's Hugo Ionic Template, while building Algolia Indexes and deploying to Firebase Hosting"
-date = 2018-12-12T23:04:50-05:00
-weight = 20
-draft = false
-bref = "Creating a Hugo site, by using AJonP's Hugo Ionic Template"
-toc = true
-languages = ["javascript", "json", "go"]
-frameworks = ["hugo", "ionic", "algolia", "cloudinary", "google ads", "google analytics"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.jpg"]
-githublinks = ["https://github.com/AJONPLLC/lesson-4-hugo-ionic"]
-videos = ["https://www.youtube.com/v/tgXFNqInA0w"]
-[twitter]
-  card = "player"
-  title = "AJonP Hugo Ionic Template Firebase Hosting"
-  site = "@ajonpcom"
-  description = "Google Cloud Build and Firebase Deploy Hugo project."
-  player = "https://www.youtube.com/embed/tgXFNqInA0w?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic2"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.jpg"
-  image_alt = "AJonP Hugo Ionic Dev Ops"
-+++
+---
+aliases:
+- /lessons/4-hugo-ionic2/
+authors:
+- Alex Patterson
+bref: Creating a Hugo site, by using AJonP's Hugo Ionic Template
+date: "2018-12-12T23:04:50-05:00"
+description: How to use AJonP's Hugo Ionic Template, while building Algolia Indexes
+  and deploying to Firebase Hosting
+draft: false
+frameworks:
+- hugo
+- ionic
+- algolia
+- cloudinary
+- google ads
+- google analytics
+githublinks:
+- https://github.com/AJONPLLC/lesson-4-hugo-ionic
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.jpg
+languages:
+- javascript
+- json
+- go
+lesson: "4"
+title: Hugo Ionic Template
+toc: true
+twitter:
+  card: player
+  description: Google Cloud Build and Firebase Deploy Hugo project.
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.jpg
+  image_alt: AJonP Hugo Ionic Dev Ops
+  player: https://www.youtube.com/embed/tgXFNqInA0w?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic2
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: AJonP Hugo Ionic Template Firebase Hosting
+videos:
+- https://www.youtube.com/v/tgXFNqInA0w
+weight: 20
+---
 
 
 

@@ -1,19 +1,23 @@
-+++
-authors = ["Alex Patterson"]
-tags = ["cloudinary"]
-title = "Cloudinary in Jamstacks using Webp"
-description = "Create a single source for all of your posting needs, using the best format for the browser!"
-date = 2019-07-31T02:33:41-05:00
-draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png"]
-githublinks = ["https://github.com/AJONPLLC/"]
-
-[twitter]
-  card = "summary_large_image"
-  site = "@ajonpcom"
-  creator = "@ajonpcom"
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png"
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-07-31T02:33:41-05:00"
+description: Create a single source for all of your posting needs, using the best
+  format for the browser!
+draft: false
+githublinks:
+- https://github.com/AJONPLLC/
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png
+tags:
+- cloudinary
+title: Cloudinary in Jamstacks using Webp
+twitter:
+  card: summary_large_image
+  creator: '@ajonpcom'
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png
+  site: '@ajonpcom'
+---
 
 # Cloudinary and Jamstacks
 The awesome part about hosting on Cloudinary is that it provides a very extensive API for developers. However for content creators they often don't care that much about the technical aspects that are required to show images on the Web. We have been told repeatedly that storage is cheap and it doesn't matter if we just throw these images on an unmanaged server, or a CMS like Adobe AEM or Wordpress. However as we start moving more items to the "Cloud" pricing and functionality do start to matter, for both the producer and consumer of this content.

@@ -1,31 +1,45 @@
-+++
-authors = ["Alex Patterson"]
-aliases = ["/lessons/4-hugo-ionic/"]
-lesson = "4"
-title = "AJonP Hugo Ionic Template"
-description = "How to use AJonP's Hugo Ionic Template"
-date = 2018-12-09T23:04:50-05:00
-weight = 20
-draft = false
-bref = "Creating a Hugo site, by using AJonP's Hugo Ionic Template"
-toc = true
-languages = ["javascript", "json", "go"]
-frameworks = ["hugo", "ionic", "algolia", "cloudinary", "google ads", "google analytics"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.jpg","https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792067/ajonp-ajonp-com/ajonp-hugo-theme/aj_on_hugo_ionic.jpg"]
-videos = ["https://www.youtube.com/v/CZmEZ62yMFA"]
-githublinks = ["https://github.com/AJONPLLC/lesson-4-hugo-ionic"]
-
-[twitter]
-  card = "player"
-  title = "AJonP Hugo Ionic Template"
-  site = "@ajonpcom"
-  description = "How to use AJonP's Hugo Ionic Template"
-  player = "https://www.youtube.com/embed/CZmEZ62yMFA?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.jpg"
-  image_alt = "AJonP Hugo Ionic"
-+++
+---
+aliases:
+- /lessons/4-hugo-ionic/
+authors:
+- Alex Patterson
+bref: Creating a Hugo site, by using AJonP's Hugo Ionic Template
+date: "2018-12-09T23:04:50-05:00"
+description: How to use AJonP's Hugo Ionic Template
+draft: false
+frameworks:
+- hugo
+- ionic
+- algolia
+- cloudinary
+- google ads
+- google analytics
+githublinks:
+- https://github.com/AJONPLLC/lesson-4-hugo-ionic
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.jpg
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792067/ajonp-ajonp-com/ajonp-hugo-theme/aj_on_hugo_ionic.jpg
+languages:
+- javascript
+- json
+- go
+lesson: "4"
+title: AJonP Hugo Ionic Template
+toc: true
+twitter:
+  card: player
+  description: How to use AJonP's Hugo Ionic Template
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.jpg
+  image_alt: AJonP Hugo Ionic
+  player: https://www.youtube.com/embed/CZmEZ62yMFA?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: AJonP Hugo Ionic Template
+videos:
+- https://www.youtube.com/v/CZmEZ62yMFA
+weight: 20
+---
 
 >Just a little donation reminder as Hugo says "Hugo stands on the shoulder of many great open source libraries", as does many of my tutorials.   
 >[Brew](https://github.com/Homebrew/brew#donations)  

@@ -1,19 +1,24 @@
-+++
-authors = ["Alex Patterson"]
-tags = ["firebase", "performance"]
-title = "Better Performance through analysis."
-description = "Example of how to use Web.dev to maintain a timeline of performance, while running firebase performance for constant monitoring."
-date = 2019-08-17T10:33:41-05:00
-draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg"]
-githublinks = ["https://github.com/AJONPLLC"]
-
-[twitter] 
-card = "summary_large_image" 
-site = "@ajonpcom" 
-creator = "@ajonpcom" 
-image = "https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg" 
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-08-17T10:33:41-05:00"
+description: Example of how to use Web.dev to maintain a timeline of performance,
+  while running firebase performance for constant monitoring.
+draft: false
+githublinks:
+- https://github.com/AJONPLLC
+images:
+- https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg
+tags:
+- firebase
+- performance
+title: Better Performance through analysis.
+twitter:
+  card: summary_large_image
+  creator: '@ajonpcom'
+  image: https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg
+  site: '@ajonpcom'
+---
 
 > Please note I wrote this on my phone driving 6 hours, so I hope to update in more detail.
 > Fun fact I now know how to do git remote recursive from Android 😆

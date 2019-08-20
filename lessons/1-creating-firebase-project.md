@@ -1,29 +1,35 @@
-+++
-aliases = ["/lessons/1-creating-firebase-project/"]
-authors = ["Alex Patterson"]
-lesson = "1"
-title = "Firebase Project Hosting"
-description = "Creating a firebase project."
-date = 2018-11-26T14:45:13-05:00
-weight = 20
-draft = false
-bref = "This is a guide to creating your first firebase project."
-toc = true
-languages = ["html"]
-frameworks = ["firebase"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543773086/ajonp-ajonp-com/1-lesson/aj_on_firebase.jpg"]
-videos = ["https://www.youtube.com/v/sOn3YMdpYR4"]
-githublinks = ["https://github.com/AJONPLLC/lesson-1-firebase-project"]
-
-[twitter]
-  card = "player"
-  site = "@ajonpcom"
-  player = "https://www.youtube.com/embed/sOn3YMdpYR4?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/1-creating-firebase-project/"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543773086/ajonp-ajonp-com/1-lesson/aj_on_firebase.jpg"
-  image_alt = "Firebase Hosting"
-+++
+---
+aliases:
+- /lessons/1-creating-firebase-project/
+authors:
+- Alex Patterson
+bref: This is a guide to creating your first firebase project.
+date: "2018-11-26T14:45:13-05:00"
+description: Creating a firebase project.
+draft: false
+frameworks:
+- firebase
+githublinks:
+- https://github.com/AJONPLLC/lesson-1-firebase-project
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543773086/ajonp-ajonp-com/1-lesson/aj_on_firebase.jpg
+languages:
+- html
+lesson: "1"
+title: Firebase Project Hosting
+toc: true
+twitter:
+  card: player
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543773086/ajonp-ajonp-com/1-lesson/aj_on_firebase.jpg
+  image_alt: Firebase Hosting
+  player: https://www.youtube.com/embed/sOn3YMdpYR4?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/1-creating-firebase-project/
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+videos:
+- https://www.youtube.com/v/sOn3YMdpYR4
+weight: 20
+---
 
 ## Firebase Console
 

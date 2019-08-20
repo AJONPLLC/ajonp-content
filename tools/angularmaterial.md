@@ -1,11 +1,13 @@
-+++
-authors = ["Alex Patterson"]
-date = 2019-01-16T12:04:50-05:00
-draft = false
-title = "Angular Material"
-description = "Material Design components for Angular"
-images = ["https://res.cloudinary.com/ajonp/image/upload/w_300,f_auto,fl_lossy,q_auto/v1547650400/ajonp-ajonp-com/Logos/Angular/material.jpg"]
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-01-16T12:04:50-05:00"
+description: Material Design components for Angular
+draft: false
+images:
+- https://res.cloudinary.com/ajonp/image/upload/w_300,f_auto,fl_lossy,q_auto/v1547650400/ajonp-ajonp-com/Logos/Angular/material.jpg
+title: Angular Material
+---
 
 # Angular Material
 

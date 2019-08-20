@@ -1,29 +1,43 @@
-+++
-lesson = "18"
-title = "RxFire in Svelte 3 using Firebase Firestore and Authentication"
-description = "Introduction to Svelte3, Firebase, and RxFire. RxFire provides a set of observable creation methods. You simply call a function with some parameters to receive an RxJS observable. With that observable in hand you can use any operators provided by RxJS to transform the stream as you like."
-date = 2019-04-29T00:00:50-05:00
-weight = 20
-draft = false
-toc = true
-languages = ["javascript"]
-frameworks = ["firebase", "svelte", "rxfire", "rxjs"]
-authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png"]
-githublinks = ["https://github.com/AJONPLLC/rxfire-svelte3.git", ]
-videos = ["https://www.youtube.com/v/ju80EzhnCE8"]
-
-[twitter]
-  card = "player"
-  site = "@ajonpcom"
-  title = "RxFire in Svelte 3 using Firebase Firestore and Authentication"
-  description = "Introduction to Svelte 3, Firebase, and RxFire. RxFire provides a set of observable creation methods. You simply call a function with some parameters to receive an RxJS observable. With that observable in hand you can use any operators provided by RxJS to transform the stream as you like."
-  player = "https://www.youtube.com/embed/ju80EzhnCE8?autoplay=0&rel=0&showinfo=0&modestbranding=1"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png"
-  image_alt = "RxFire in Svelte 3 using Firebase Firestore and Authentication"
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-04-29T00:00:50-05:00"
+description: Introduction to Svelte3, Firebase, and RxFire. RxFire provides a set
+  of observable creation methods. You simply call a function with some parameters
+  to receive an RxJS observable. With that observable in hand you can use any operators
+  provided by RxJS to transform the stream as you like.
+draft: false
+frameworks:
+- firebase
+- svelte
+- rxfire
+- rxjs
+githublinks:
+- https://github.com/AJONPLLC/rxfire-svelte3.git
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png
+languages:
+- javascript
+lesson: "18"
+title: RxFire in Svelte 3 using Firebase Firestore and Authentication
+toc: true
+twitter:
+  card: player
+  description: Introduction to Svelte 3, Firebase, and RxFire. RxFire provides a set
+    of observable creation methods. You simply call a function with some parameters
+    to receive an RxJS observable. With that observable in hand you can use any operators
+    provided by RxJS to transform the stream as you like.
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png
+  image_alt: RxFire in Svelte 3 using Firebase Firestore and Authentication
+  player: https://www.youtube.com/embed/ju80EzhnCE8?autoplay=0&rel=0&showinfo=0&modestbranding=1
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: RxFire in Svelte 3 using Firebase Firestore and Authentication
+videos:
+- https://www.youtube.com/v/ju80EzhnCE8
+weight: 20
+---
 
 # RxFire in Svelte 3 using Firebase Firestore and Authentication
 [RxFire](https://github.com/firebase/firebase-js-sdk/tree/master/packages/rxfire) was created by [David East](https://twitter.com/_davideast), who is a Firebase Developer Advocate. Although [Firebase Blog](https://firebase.googleblog.com/2018/09/introducing-rxfire-easy-async-firebase.html) introduced RxFire in September, 2018. I thought it would be a good point of reference for beginners starting out with both [Svelte 3](https://svelte.dev) and [Firebase](https://www.firebase.com/).

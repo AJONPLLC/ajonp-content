@@ -1,31 +1,37 @@
-+++
-aliases = ["/lessons/6-abap-types-subroutines/"]
-authors = ["Alex Patterson"]
-lesson = "5"
-title = "ABAP - Types and Subroutines"
-description = "How to manage ABAP types. Learn how to create subroutines."
-date = 2016-12-04T22:45:13-05:00
-weight = 20
-draft = false
-bref = "How to manage ABAP types. Learn how to create subroutines."
-toc = true
-frameworks = ["sap"]
-languages = ["abap"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545088105/ajonp-ajonp-com/6-lesson-abap-types-subroutines/types_subroutines.jpg"]
-githublinks = ["https://github.com/AJONPLLC/"]
-videos = ["https://www.youtube.com/v/1-wDkjy3Sek"]
-
-[twitter]
-  card = "player"
-  title = "ABAP - Types and Sub Routines"
-  site = "@ajonpcom"
-  description = "ABAP - Types and Subroutines"
-  player = "https://www.youtube.com/embed/1-wDkjy3Sek?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/6-abap-types-subroutines/"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.jpg"
-  image_alt = "ABAP - Types and Subroutines"
-+++
+---
+aliases:
+- /lessons/6-abap-types-subroutines/
+authors:
+- Alex Patterson
+bref: How to manage ABAP types. Learn how to create subroutines.
+date: "2016-12-04T22:45:13-05:00"
+description: How to manage ABAP types. Learn how to create subroutines.
+draft: false
+frameworks:
+- sap
+githublinks:
+- https://github.com/AJONPLLC/
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545088105/ajonp-ajonp-com/6-lesson-abap-types-subroutines/types_subroutines.jpg
+languages:
+- abap
+lesson: "5"
+title: ABAP - Types and Subroutines
+toc: true
+twitter:
+  card: player
+  description: ABAP - Types and Subroutines
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.jpg
+  image_alt: ABAP - Types and Subroutines
+  player: https://www.youtube.com/embed/1-wDkjy3Sek?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/6-abap-types-subroutines/
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: ABAP - Types and Sub Routines
+videos:
+- https://www.youtube.com/v/1-wDkjy3Sek
+weight: 20
+---
 
 # Types
 [Predefined ABAP Types](https://help.sap.com/doc/saphelp_nw70/7.0.31/en-US/fc/eb2fd9358411d1829f0000e829fbfe/content.htm?no_cache=true)

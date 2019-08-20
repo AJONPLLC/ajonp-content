@@ -1,30 +1,41 @@
-+++
-aliases = ["/lessons/9-angular-material-router-outlet/"]
-lesson = "9"
-title = "Angular Material Router Outlet"
-description = "How to use Angular Material with Angular Router and Lazy Loading and Named Outlets."
-date = 2019-01-13T12:04:50-05:00
-weight = 20
-draft = false
-toc = true
-languages = ["javascript", "go", "typescript"]
-frameworks = ["firebase", "angular"]
-authors = ["Alex Patterson"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547495858/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/angular-material-router-outlet.jpg"]
-githublinks = ["https://github.com/AJONPLLC/lesson-9-angular-material-router-outlet"]
-videos = ["https://www.youtube.com/v/niJrSNQ1KwI"]
-
-[twitter]
-  card = "player"
-  title = "Angular Material Router Outlet"
-  site = "@ajonpcom"
-  description = "How to use Angular Material with Angular Router and Lazy Loading and Named Outlets."
-  player = "https://www.youtube.com/embed/niJrSNQ1KwI?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-9-angular-material-router-outlet"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547495858/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/angular-material-router-outlet.jpg"
-  image_alt = "Angular Material Router Outlet"
-+++
+---
+aliases:
+- /lessons/9-angular-material-router-outlet/
+authors:
+- Alex Patterson
+date: "2019-01-13T12:04:50-05:00"
+description: How to use Angular Material with Angular Router and Lazy Loading and
+  Named Outlets.
+draft: false
+frameworks:
+- firebase
+- angular
+githublinks:
+- https://github.com/AJONPLLC/lesson-9-angular-material-router-outlet
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547495858/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/angular-material-router-outlet.jpg
+languages:
+- javascript
+- go
+- typescript
+lesson: "9"
+title: Angular Material Router Outlet
+toc: true
+twitter:
+  card: player
+  description: How to use Angular Material with Angular Router and Lazy Loading and
+    Named Outlets.
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547495858/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/angular-material-router-outlet.jpg
+  image_alt: Angular Material Router Outlet
+  player: https://www.youtube.com/embed/niJrSNQ1KwI?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-9-angular-material-router-outlet
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: Angular Material Router Outlet
+videos:
+- https://www.youtube.com/v/niJrSNQ1KwI
+weight: 20
+---
 
 # Angular Material Router Outlet
 

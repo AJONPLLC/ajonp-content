@@ -1,20 +1,31 @@
-+++
-lesson = "22"
-title = "Next.js using MaterialUI and Firebase - MaterialUI"
-description = "Adding MaterialUI to Next.js"
-date = 2019-08-03T00:00:50-05:00
-weight = 20
-draft = true
-toc = true
-languages = ["javascript"]
-frameworks = ["firebase", "nextjs", "reactjs", "rxfire", "rxjs", "materialui"]
-authors = ["Alex Patterson"]
-tags = ["nextjs9"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/v1565354225/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png"]
-githublinks = ["https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs"]
-videos = ["https://www.youtube.com/v/ju80EzhnCE8"]
-
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-08-03T00:00:50-05:00"
+description: Adding MaterialUI to Next.js
+draft: true
+frameworks:
+- firebase
+- nextjs
+- reactjs
+- rxfire
+- rxjs
+- materialui
+githublinks:
+- https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
+images:
+- https://res.cloudinary.com/ajonp/image/upload/v1565354225/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png
+languages:
+- javascript
+lesson: "22"
+tags:
+- nextjs9
+title: Next.js using MaterialUI and Firebase - MaterialUI
+toc: true
+videos:
+- https://www.youtube.com/v/ju80EzhnCE8
+weight: 20
+---
 
 > Please note the lesson was originaly written using Next 8 and later upgraded, if you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
 > [Next.js v8 to v9 Upgrade Guide](https://github.com/zeit/next.js/blob/canary/UPGRADING.md)

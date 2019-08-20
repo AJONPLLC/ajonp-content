@@ -1,14 +1,18 @@
-+++
-authors = ["Alex Patterson"]
-date = "2018-11-04T21:56:55+01:00"
-title = "AJonP - Rebranded"
-tags = ["youtube"]
-draft = false
-description = "Rebranding AJonP"
-weight = 10
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544021089/ajonp-ajonp-com/Logos/ajonp/welcom_card.jpg"]
-videos = ['https://www.youtube.com/v/NlXVWtgLNjY']
-+++
+---
+authors:
+- Alex Patterson
+date: "2018-11-04T21:56:55+01:00"
+description: Rebranding AJonP
+draft: false
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544021089/ajonp-ajonp-com/Logos/ajonp/welcom_card.jpg
+tags:
+- youtube
+title: AJonP - Rebranded
+videos:
+- https://www.youtube.com/v/NlXVWtgLNjY
+weight: 10
+---
 
 # AJonP - Purr-fect Solutions
 

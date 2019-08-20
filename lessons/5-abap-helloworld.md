@@ -1,31 +1,37 @@
-+++
-authors = ["Alex Patterson"]
-aliases = ["/lessons/5-abap-helloworld/"]
-lesson = "5"
-title = "ABAP - Hello World"
-description = "Creating your first ABAP Program"
-date = 2016-12-04T22:45:13-05:00
-weight = 20
-draft = false
-bref = "Creating your first ABAP Program"
-toc = true
-frameworks = ["sap"]
-languages = ["abap"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.jpg"]
-githublinks = ["https://github.com/AJONPLLC/"]
-videos = ["https://www.youtube.com/v/aNVyjKqgyts"]
-
-[twitter]
-  card = "player"
-  title = "ABAP - Hello World"
-  site = "@ajonpcom"
-  description = "Creating your first ABAP Program"
-  player = "https://www.youtube.com/embed/aNVyjKqgyts?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/5-abap-helloworld/"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.jpg"
-  image_alt = "ABAP - Hello World"
-+++
+---
+aliases:
+- /lessons/5-abap-helloworld/
+authors:
+- Alex Patterson
+bref: Creating your first ABAP Program
+date: "2016-12-04T22:45:13-05:00"
+description: Creating your first ABAP Program
+draft: false
+frameworks:
+- sap
+githublinks:
+- https://github.com/AJONPLLC/
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.jpg
+languages:
+- abap
+lesson: "5"
+title: ABAP - Hello World
+toc: true
+twitter:
+  card: player
+  description: Creating your first ABAP Program
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.jpg
+  image_alt: ABAP - Hello World
+  player: https://www.youtube.com/embed/aNVyjKqgyts?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/5-abap-helloworld/
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: ABAP - Hello World
+videos:
+- https://www.youtube.com/v/aNVyjKqgyts
+weight: 20
+---
 
 # A Simple Hello World Example
 

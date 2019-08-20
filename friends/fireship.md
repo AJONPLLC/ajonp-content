@@ -1,19 +1,21 @@
-+++
-authors = ["Alex Patterson"]
-title = "fireship.io"
-description = "Build and ship 🔥 your app ⚡ faster"
-date = 2019-07-31T02:33:41-05:00
-draft = false
-images = ["https://fireship.io/img/covers/default.png"]
-githublinks = ["https://github.com/fireship-io"]
-site_url = "https://fireship.io"
-
-[twitter]
-  card = "summary_large_image"
-  site = "@fireship_dev"
-  creator = "@fireship_dev"
-  image = "https://fireship.io/img/covers/default.png"
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-07-31T02:33:41-05:00"
+description: "Build and ship \U0001F525 your app ⚡ faster"
+draft: false
+githublinks:
+- https://github.com/fireship-io
+images:
+- https://fireship.io/img/covers/default.png
+site_url: https://fireship.io
+title: fireship.io
+twitter:
+  card: summary_large_image
+  creator: '@fireship_dev'
+  image: https://fireship.io/img/covers/default.png
+  site: '@fireship_dev'
+---
 
 # Fireship.io
 

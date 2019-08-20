@@ -1,25 +1,29 @@
-+++
-authors = ["Alex Patterson"]
-tags = ["slack"]
-title = "Slack Workspace Theme Customization"
-description = "A quick tutorial on how to customize your Slack workspace theme."
-date = 2019-08-14T20:33:41-05:00
-draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png"]
-githublinks = ["https://github.com/ajonp/slackthemes"]
-videos = ["https://www.youtube.com/v/vbtncEcoO9o"]
-
-[twitter]
-  card = "player"
-  site = "@ajonpcom"
-  title = "Slack Workspace Theme Customization"
-  description = "A quick tutorial on how to customize your Slack workspace theme."
-  player = "https://www.youtube.com/embed/vbtncEcoO9o?autoplay=0&rel=0&showinfo=0&modestbranding=1"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png"
-  image_alt = "Slack Workspace Theme Customization"
-+++
+---
+authors:
+- Alex Patterson
+date: "2019-08-14T20:33:41-05:00"
+description: A quick tutorial on how to customize your Slack workspace theme.
+draft: false
+githublinks:
+- https://github.com/ajonp/slackthemes
+images:
+- https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png
+tags:
+- slack
+title: Slack Workspace Theme Customization
+twitter:
+  card: player
+  description: A quick tutorial on how to customize your Slack workspace theme.
+  image: https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png
+  image_alt: Slack Workspace Theme Customization
+  player: https://www.youtube.com/embed/vbtncEcoO9o?autoplay=0&rel=0&showinfo=0&modestbranding=1
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: Slack Workspace Theme Customization
+videos:
+- https://www.youtube.com/v/vbtncEcoO9o
+---
 
 # Slack Workspace Theme Customization
 

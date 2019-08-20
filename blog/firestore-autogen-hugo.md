@@ -1,12 +1,15 @@
-+++
-authors = ["Alex Patterson"]
-tags = ["hugo, firebase, firestore"]
-title = "Firestore Auto Generate Hugo"
-description = "Creating a Hugo Site from Firestore Updates"
-date = 2018-12-20T02:33:41-05:00
-draft = false
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545291322/ajonp-ajonp-com/blog/firestore-autogen-hugo/auto_gen.jpg"]
-+++
+---
+authors:
+- Alex Patterson
+date: "2018-12-20T02:33:41-05:00"
+description: Creating a Hugo Site from Firestore Updates
+draft: false
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545291322/ajonp-ajonp-com/blog/firestore-autogen-hugo/auto_gen.jpg
+tags:
+- hugo, firebase, firestore
+title: Firestore Auto Generate Hugo
+---
 
 # Firestore Auto Generate Hugo
 I have been looking for a way to get better SEO into many sites, what I am going to attempt is having an admin type of site (or app). That will take in key front matter values for Hugo page and page content, and write those out to a GitHub repository that will trigger the Hugo site to build and deploy.

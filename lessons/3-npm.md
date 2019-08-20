@@ -1,28 +1,33 @@
-+++
-aliases = ["/lessons/3-npm/"]
-authors = ["Alex Patterson"]
-lesson = "3"
-title = "NPM"
-description = "Quick Tips for NPM"
-date = 2018-12-01T14:45:13-05:00
-weight = 20
-draft = false
-bref = "Stop running sudo on npm."
-toc = true
-languages = ["bash"]
-frameworks = ["npm"]
-images = ["https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.jpg"]
-videos = ["https://www.youtube.com/v/eWc0bg9KMQQ"]
-
-[twitter]
-  card = "player"
-  site = "@ajonpcom"
-  player = "https://www.youtube.com/embed/eWc0bg9KMQQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/3-npm"
-  player_width = 1280
-  player_height = 960
-  image = "https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.jpg"
-  image_alt = "NPM - Tips and Tricks"
-+++
+---
+aliases:
+- /lessons/3-npm/
+authors:
+- Alex Patterson
+bref: Stop running sudo on npm.
+date: "2018-12-01T14:45:13-05:00"
+description: Quick Tips for NPM
+draft: false
+frameworks:
+- npm
+images:
+- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.jpg
+languages:
+- bash
+lesson: "3"
+title: NPM
+toc: true
+twitter:
+  card: player
+  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.jpg
+  image_alt: NPM - Tips and Tricks
+  player: https://www.youtube.com/embed/eWc0bg9KMQQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/3-npm
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+videos:
+- https://www.youtube.com/v/eWc0bg9KMQQ
+weight: 20
+---
 
 {{% blockquote-danger %}}
 >Please note in order for you to run commands, you **must** update your .bash_profile
