@@ -36,7 +36,7 @@ twitter:
   title: Angular Material Reactive Forms Update Firestore
 videos:
 - https://www.youtube.com/v/92hYB6jivvQ
-weight: 20
+weight: 13
 ---
 
 # Angular Material Reactive Forms Update Firestore

@@ -37,7 +37,7 @@ twitter:
   title: Angular Material Dynamic Theming
 videos:
 - https://www.youtube.com/v/V3WiBs-igaY
-weight: 20
+weight: 10
 ---
 
 > I was a little rushed on this lesson/video so if you have any questions jump on the [Slack Channel](https://ajonp-com.slack.com/join/shared_invite/enQtNDk4NjMyNDUxMzM0LWQwMThkZDE3MDAzNzVmNWE3N2M1NzkwMzg1YWQ5NzIxZmIyYTM3ZjEyOGU3YjQ0NTFkYzRmZjMyYzExNDNlNTg)

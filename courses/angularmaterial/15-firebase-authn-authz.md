@@ -38,7 +38,7 @@ twitter:
   title: Firebase Authentication and Authorization
 videos:
 - https://www.youtube.com/v/II6TAjPWg54
-weight: 20
+weight: 15
 ---
 
 # Firebase Authentication and Authorization

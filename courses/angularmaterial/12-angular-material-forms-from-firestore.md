@@ -36,7 +36,7 @@ twitter:
   title: Angular Material Forms from Firestore
 videos:
 - https://www.youtube.com/v/LLupkLEszdY
-weight: 20
+weight: 12
 ---
 
 # Angular Material Forms from Firestore

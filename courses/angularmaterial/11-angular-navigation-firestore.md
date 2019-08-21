@@ -38,7 +38,7 @@ twitter:
   title: Angular Material Dynamic Navigation using Firestore
 videos:
 - https://www.youtube.com/v/sZoiLcq7N6Q
-weight: 20
+weight: 11
 ---
 
 # Angular Material Dynamic Navigation using Firestore

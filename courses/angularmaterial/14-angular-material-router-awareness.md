@@ -38,7 +38,7 @@ twitter:
   title: Angular Material Router Awareness
 videos:
 - https://www.youtube.com/v/3roNVbp3RPg
-weight: 20
+weight: 14
 ---
 
 # Angular Material Router Awareness

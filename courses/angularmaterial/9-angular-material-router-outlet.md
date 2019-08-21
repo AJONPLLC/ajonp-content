@@ -37,7 +37,7 @@ twitter:
   title: Angular Material Router Outlet
 videos:
 - https://www.youtube.com/v/niJrSNQ1KwI
-weight: 20
+weight: 9
 ---
 
 # Angular Material Router Outlet
