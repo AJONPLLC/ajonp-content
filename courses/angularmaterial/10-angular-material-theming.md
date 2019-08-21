@@ -1,6 +1,7 @@
 ---
 aliases:
 - /lessons/10-angular-material-theming/
+- /lessons/angular-material-theming/
 authors:
 - Alex Patterson
 date: "2019-01-16T00:04:50-05:00"

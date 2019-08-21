@@ -1,6 +1,7 @@
 ---
 aliases:
 - /lessons/9-angular-material-router-outlet/
+- /lessons/angular-material-router-outlet/
 authors:
 - Alex Patterson
 date: "2019-01-13T12:04:50-05:00"

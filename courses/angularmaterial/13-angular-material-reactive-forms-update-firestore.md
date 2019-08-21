@@ -1,6 +1,7 @@
 ---
 aliases:
 - /lessons/13-angular-material-reactive-forms-update-firestore/
+- /lessons/angular-material-reactive-forms-update-firestore/
 authors:
 - Alex Patterson
 date: "2019-02-08T00:22:50-05:00"

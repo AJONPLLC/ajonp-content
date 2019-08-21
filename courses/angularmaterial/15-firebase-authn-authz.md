@@ -1,6 +1,7 @@
 ---
 aliases:
 - /lessons/15-firebase-authn-authz/
+- /lessons/firebase-authentication-and-authorization/
 authors:
 - Alex Patterson
 date: "2019-02-27T00:00:50-05:00"
@@ -20,6 +21,8 @@ languages:
 - typescript
 - scss
 lesson: "15"
+tags: 
+- angularmaterial
 title: Firebase Authentication and Authorization
 toc: true
 twitter:

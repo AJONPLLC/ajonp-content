@@ -1,6 +1,7 @@
 ---
 aliases:
 - /lessons/14-angular-material-router-awareness/
+- /lessons/angular-material-router-awareness/
 authors:
 - Alex Patterson
 date: "2019-02-13T00:00:50-05:00"
@@ -20,6 +21,8 @@ languages:
 - typescript
 - scss
 lesson: "14"
+tags: 
+- angularmaterial
 title: Angular Material Router Awareness
 toc: true
 twitter:
@@ -40,4 +43,3 @@ weight: 20
 
 # Angular Material Router Awareness
 
-Coming soon....

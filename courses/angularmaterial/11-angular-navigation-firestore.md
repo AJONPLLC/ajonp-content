@@ -1,6 +1,7 @@
 ---
 aliases:
 - /lessons/11-angular-navigation-firestore/
+- /lessons/angular-material-dynamic-navigation-using-firestore/
 authors:
 - Alex Patterson
 date: "2019-01-22T00:04:50-05:00"

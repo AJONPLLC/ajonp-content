@@ -1,6 +1,7 @@
 ---
 aliases:
 - /lessons/12-angular-material-forms-from-firestore/
+- /lessons/angular-material-forms-from-firestore/
 authors:
 - Alex Patterson
 date: "2019-01-30T00:22:50-05:00"
