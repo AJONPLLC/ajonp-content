@@ -18,13 +18,11 @@ images:
 languages:
 - javascript
 lesson: "22"
-tags:
-- nextjs9
-title: Next.js using MaterialUI and Firebase - MaterialUI
+title: Nextjs using MaterialUI and Firebase - MaterialUI
 toc: true
 videos:
 - https://www.youtube.com/v/ju80EzhnCE8
-weight: 20
+weight: 3
 ---
 
 > Please note the lesson was originaly written using Next 8 and later upgraded, if you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).

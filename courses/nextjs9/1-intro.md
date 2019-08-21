@@ -18,13 +18,11 @@ images:
 languages:
 - javascript
 lesson: "20"
-tags:
-- nextjs9
-title: Next.js using MaterialUI and Firebase - Intro
+title: Nextjs using MaterialUI and Firebase - Intro
 toc: true
 videos:
 - ""
-weight: 20
+weight: 1
 ---
 
 > Please note the lesson was originaly written using Next 8 and later upgraded, if you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
