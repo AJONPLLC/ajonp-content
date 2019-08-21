@@ -10,7 +10,8 @@ githublinks:
 images:
 - https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png
 tags:
-- ionic, stencil
+- ionic
+- stencil
 title: Design Systems with Web Components
 twitter:
   card: summary_large_image
