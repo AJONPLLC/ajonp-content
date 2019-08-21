@@ -48,7 +48,7 @@ We can start from the previous lesson and build out our material router.
 Previous Lesson: [Angular Material Reactive Forms Update Firestore](https://github.com/AJONPLLC/lesson13-angular-material-reactive-forms)
 
 ```sh
-git clone https://github.com/AJONPLLC/lesson13-angular-material-reactive-forms
+git clone https://github.com/AJONPLLC/lesson13-angular-material-reactive-forms.git
 ```
 This will give us a solid base to start working from, however if you are creating a new firebase project you should change the environment/environment.ts file to match your firebase details. If you have never done this please see [Angular Navigation Firestore](https://ajonp.com/lessons/11-angular-navigation-firestore/) as this will provide more details on how to update.
 
