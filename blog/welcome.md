@@ -1,7 +1,7 @@
 ---
 authors:
 - Alex Patterson
-date: "2018-11-04T21:56:55+01:00"
+date: "2018-11-04T21:56:55-05:00"
 description: Rebranding AJonP
 draft: false
 images:
@@ -11,7 +11,6 @@ tags:
 title: AJonP - Rebranded
 videos:
 - https://www.youtube.com/v/NlXVWtgLNjY
-weight: 10
 ---
 
 # AJonP - Purr-fect Solutions
