@@ -7,7 +7,9 @@ draft: false
 images:
 - https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545291322/ajonp-ajonp-com/blog/firestore-autogen-hugo/auto_gen.jpg
 tags:
-- hugo, firebase, firestore
+- hugo
+- firebase
+- firestore
 title: Firestore Auto Generate Hugo
 ---
 
