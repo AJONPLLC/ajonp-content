@@ -19,6 +19,8 @@ languages:
 - typescript
 - scss
 lesson: "10"
+tags: 
+- angularmaterial
 title: Angular Material Theming
 toc: true
 twitter:

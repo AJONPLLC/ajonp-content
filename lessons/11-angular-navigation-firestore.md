@@ -20,6 +20,8 @@ languages:
 - typescript
 - scss
 lesson: "11"
+tags: 
+- angularmaterial
 title: Angular Material Dynamic Navigation using Firestore
 toc: true
 twitter:
