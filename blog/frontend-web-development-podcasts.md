@@ -250,3 +250,18 @@ Guy Raz dives into the stories behind some of the world's best known companies. 
 ### Alex's Thoughts
 
 This is probably more for wanting to keep AJonP going 😺, keeping anything as a side hustle takes work, so it helps to hear others story!
+
+## Ten Thousand Feet, the OST Podcast
+![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566737777/ajonp-ajonp-com/blog/frontend_podcast_images/tenthousandfeetost.png)
+
+- [PocketCasts Link](https://pca.st/1X91ut)
+- [Link](https://www.ostusa.com/podcast/)
+- [Twitter](https://twitter.com/OSTgr)
+
+### Pocket Casts Description
+
+All areas of an organization, even those still in the analog world, are being transformed by technology. This shift isn't just modernizing manual processes with digital tools, but changing the fabric of an organization to support a new way of thinking. So while it may be a buzzword, digital transformation is happening and we're here to unpack it with you. Between big ideas and tiny details is the ten thousand foot view. Join the technology consultants from OST as we discuss the changing landscape of technology and what we're learning along the way. OST is a technology consultancy, specializing in all things digital. With offices in Minneapolis, Grand Rapids and Detroit, we have spent the last 22 years working with companies to grow, innovate and better serve their customers using technology.
+
+### Alex's Thoughts
+
+I might be a little biased on this one as I just started working here. However, the content is amazing! If you only listen to one checkout [Ep. 5 - Experience Design Week Recap](https://pca.st/sZs42J), I guarantee you will love the leprechaun tale, and how it fits into design and the digital world.
