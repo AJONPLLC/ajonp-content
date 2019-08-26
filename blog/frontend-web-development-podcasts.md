@@ -8,14 +8,14 @@ draft: false
 githublinks:
 - https://github.com/AJONPLLC/ajonp-content/tree/master/blog/frontend-web-development-podcasts.md
 images:
-- https://res.cloudinary.com/ajonp/image/upload/v1566190588/ajonp-ajonp-com/blog/FrontendPodcats.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/FrontendPodcats.png
 tags:
 - podcast
 title: Front End Web Development Podcasts
 twitter:
   card: summary_large_image
   creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/v1566190588/ajonp-ajonp-com/blog/FrontendPodcats.png
+  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/FrontendPodcats.png
   site: '@ajonpcom'
 ---
 
@@ -28,7 +28,7 @@ I listen to all of my podcasts using [Pocket Casts](https://www.pocketcasts.com/
 
 
 ## Front End Happy Hour
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/frontendhappyhour.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/frontendhappyhour.png)
 
 - [PocketCasts Link](https://pca.st/QwjO)
 - [Link](http://frontendhappyhour.com/)
@@ -43,7 +43,7 @@ A podcast featuring panelists of engineers from [@Netflix](https://twitter.com/@
 Front End Happy Hour has become my weekly cast. I enjoy how light the conversation remains, while the technical material is amazingly relevant. Of course it is easy to this when you have some of the top experts in some of the biggest Tech companies as guests 😺.
 
 ## Syntax - Tasty Web
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/syntaxfm.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/syntaxfm.png)
 
 - [PocketCasts Link](https://pca.st/fmx9)
 - [Link](https://syntax.fm)
@@ -58,7 +58,7 @@ Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development 
 Syntax is hosted by [Wes Bos](https://twitter.com/@wesbos) and [Scott Tolinski](https://twitter.com/@stolinski). Both are gifted teachers and have great tutorial based websites [wesbos.com](https://wesbos.com/) and [leveluptutorials.com](https://www.leveluptutorials.com/) respectively. I usually catch up on these while 🏃.
 
 ## JS Party
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566192583/ajonp-ajonp-com/blog/frontend_podcast_images/jsparty.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/jsparty.png)
 
 - [PocketCasts Link](https://pca.st/ijqf)
 - [Link](https://changelog.com/jsparty)
@@ -73,7 +73,7 @@ A community celebration of JavaScript and the web. This show records LIVE on Thu
 This really is a party, not in the sense everyone is filling up balloons all the time. It is more of the kind of party where all the Stranger Things get around a table and nerd out for a while! I really enjoy how empowering the episodes make you feel after listening.
 
 ## Ladybug Podcast
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/ladybug.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/ladybug.png)
 
 - [PocketCasts Link](https://pca.st/ZD17)
 - [Link](https://ladybug.dev/)
@@ -88,7 +88,7 @@ We're [Emma Wedekind](@EmmaWedekind), [Kelly Vaughn](@kvlly), [Lindsey Kopacz](@
 They hosts are absolute rock stars in the [#webdev](https://twitter.com/search?q=webdev) community! They are 9 episodes into the start of this podcast series, I can't wait to listen to more.
 
 ## Developer Tea
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566192547/ajonp-ajonp-com/blog/frontend_podcast_images/developertea.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/developertea.png)
 
 - [PocketCasts Link](https://pca.st/devtea)
 - [Link](https://spec.fm/podcasts/developer-tea)
@@ -103,7 +103,7 @@ Developer Tea exists to help driven developers connect to their ultimate purpose
 Jonathan's voice is so soothing, you won't be able to stop listening (be careful while driving). This podcast fits great on most commutes as it usually seems to be about 15 minutes or less (a few are longer). This podcast is basically yoga for my ears, it makes me settle down and really appreciate the goals that are constantly rolling around in my mind. As of writing this there are 720 episodes, I don't know how anyone can make that many so quickly, but they are all really well made and though out.
 
 ## The Web Platform Podcast
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/webplatform.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/webplatform.png)
 
 - [PocketCasts Link](https://pca.st/QeXX)
 - [Link](https://thewebplatformpodcast.com/)
@@ -116,7 +116,7 @@ The Web Platform Podcast was founded in 2014 by HTML W3C Invited Expert [Erik Is
 The Web Platform Podcast is one of my favorites, it was my weekly listen. They are releasing a little less regularly now, but still great guests and content.
 
 ## Angular Air
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/angularair.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/angularair.png)
 
 - [PocketCasts Link](https://pca.st/09GX)
 - [Link](https://angularair.podbean.com)
@@ -131,7 +131,7 @@ AngularAir is a video podcast about the Google Angular platform hosted by Justin
 Angular Air has a weird way of publishing their podcasts. So I will usually catch theirs on [YouTube](https://www.youtube.com/channel/UCdCOpvRk1lsBk26ePGDPLpQ), as it tends to be interactive which is awesome!
 
 ## Full Stack Radio
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/fullstackradio.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/fullstackradio.png)
 
 - [PocketCasts Link](https://pca.st/fullstack)
 - [Link](http://www.fullstackradio.com/)
@@ -146,7 +146,7 @@ A podcast for developers interested in building great software products. Every e
 Full Stack Radio helps remind me as an aspiring front end developer, to remember the backend. I actually stumbled into this one because [Adam Wathan](https://twitter.com/adamwathan) is one of the creators of [tailwindcss](https://tailwindcss.com/) and is a great author.
 
 ## Toolsday
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/toolsday.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/toolsday.png)
 
 - [PocketCasts Link](https://pca.st/LihQ)
 - [Link](https://spec.fm/podcasts/toolsday)
@@ -161,7 +161,7 @@ Toolsday is a 20-ish-minute podcast hosted by Una Kravets & Chris Dhanaraj. Tool
 Toolsday pulls you in at the very beginning with Una playing an awesome new ukulele song! Because of [Una Kravets](https://twitter.com/una) and [Chris Dhanaraj](https://twitter.com/chrisdhanaraj)'s amazing UI/Frontend experience working at Google and Netflix.
 
 ## Adventures in Angular
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/adventuresinangular.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/adventuresinangular.png)
 
 - [PocketCasts Link](https://pca.st/SLpU)
 - [Link](http://www.adventuresinangular.com/)
@@ -176,7 +176,7 @@ Adventures in Angular is a weekly podcast about developments in the Angular comm
 Adventures in Angular is new for me but after listening to the latest with [Hans Larsen](https://twitter.com/@hanslatwork) and the work on the Angular CLI I am eager to work through the backlog, it is currently episode 252 so it might take me a minute 😺
 
 ## React Podcast
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/reactpodcast.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/reactpodcast.png)
 
 - [PocketCasts Link](https://pca.st/bWXP)
 - [Link](https://reactpodcast.com/)
@@ -191,7 +191,7 @@ Conversations about React with your favorite developers.
 React Podcast is hosted by [Michael Chan](https://twitter.com/@chantastic), in full honesty I haven't listened to a cast yet, but this came up as a suggestion since I am new to the ReactJS community. So it is now in my queue 🤞to learn a lot!
 
 ## ShopTalk
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566194422/ajonp-ajonp-com/blog/frontend_podcast_images/shoptalkshow.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/shoptalkshow.png)
 
 - [PocketCasts Link](https://pca.st/P08F)
 - [Link](https://shoptalkshow.com/)
@@ -207,7 +207,7 @@ I found Shop Talk Show very recently and have been really enjoying it. [Dave Rup
 
 
 ## Google Cloud Platform Podcast
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/gcloud.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/gcloud.png)
 
 - [PocketCasts Link](https://pca.st/rThD)
 - [Link](https://www.gcppodcast.com/)
@@ -222,7 +222,7 @@ The Google Cloud Platform Podcast, coming to you every week. Discussing everythi
 I am a huge Google Cloud fan so I try to catch up on all of these episodes. I will admit if there is something (like networking) I will often skip, until it is an episode geared more towards development.
 
 ## Y Combinator
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/ycombinator.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/ycombinator.png)
 
 - [PocketCasts Link](https://pca.st/3Gld)
 - [Link](https://www.ycombinator.com/)
@@ -237,7 +237,7 @@ We talk with people who are shaping the future. A show about technology in busin
 Y Combinator always keeps me up on what is happening next with technology in business. Yes I do have a day job and I need to stay in touch with the heartbeat of our economy!
 
 ## How I Built This with Guy Raz
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566190504/ajonp-ajonp-com/blog/frontend_podcast_images/howibuiltthis.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/howibuiltthis.png)
 
 - [PocketCasts Link](https://pca.st/howibuiltthis)
 - [Link](https://www.npr.org/podcasts/510313/how-i-built-this)
@@ -252,7 +252,7 @@ Guy Raz dives into the stories behind some of the world's best known companies. 
 This is probably more for wanting to keep AJonP going 😺, keeping anything as a side hustle takes work, so it helps to hear others story!
 
 ## Ten Thousand Feet, the OST Podcast
-![Logo](https://res.cloudinary.com/ajonp/image/upload/v1566737777/ajonp-ajonp-com/blog/frontend_podcast_images/tenthousandfeetost.png)
+![Logo](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/frontend_podcast_images/tenthousandfeetost.png)
 
 - [PocketCasts Link](https://pca.st/1X91ut)
 - [Link](https://www.ostusa.com/podcast/)

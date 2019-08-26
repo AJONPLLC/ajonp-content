@@ -46,7 +46,7 @@ New to `npm` checkout [The NodeSource Blog](https://nodesource.com/blog/an-absol
 
 # NPM Global install fail
 Ever get the dreaded EACCES error after running npm install -g? You're not alone!
-<video controls src="https://res.cloudinary.com/ajonp/video/upload/v1543982749/ajonp-ajonp-com/3-lesson-npm/npm-g-install-fail.mov" title="npm -g install failure"></video>
+<video controls src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/3-lesson-npm/npm-g-install-fail.mov" title="npm -g install failure"></video>
 
 You will notice that npm is trying to install its packages to this path:
 

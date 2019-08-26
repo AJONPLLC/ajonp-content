@@ -62,8 +62,8 @@ In the example below it shows a quick preview of how the final React application
 1. Sign Out
 
 <video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556308985/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png" controls width="100%">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1556399505/ajonp-ajonp-com/17-rxfire-react-cats/5.webm" type="video/webm">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1556399505/ajonp-ajonp-com/17-rxfire-react-cats/5.mov" type="video/mp4">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/5.webm" type="video/webm">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/5.mov" type="video/mp4">
 </video>
 
 ## Setup
@@ -174,7 +174,7 @@ class Instructions extends React.Component {
           }}
         >
           <img
-            src="https://res.cloudinary.com/ajonp/image/upload/v1556308985/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png"
+            src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png"
             alt="rxfire for cats"
             width="100%"
           />

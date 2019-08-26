@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/v1566357324/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
 languages:
 - javascript
 lesson: "20"
@@ -24,7 +24,7 @@ title: Next.js - Version 9
 twitter:
   card: player
   description: Introduction to building Next.js - Version 9 with MaterialUI and Firebase.
-  image: https://res.cloudinary.com/ajonp/image/upload/v1566357324/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
+  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
   image_alt: Introduction to building Next.js - Version 9 with MaterialUI and Firebase.
   player: https://www.youtube.com/embed/y1ZH1dMUVPw?autoplay=0&rel=0&showinfo=0&modestbranding=1
   player_height: 960

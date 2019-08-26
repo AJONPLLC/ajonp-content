@@ -5,7 +5,7 @@ date: "2019-08-22T02:33:41-05:00"
 description: Set your version history for firebase hosting, to avoid storage costs.
 draft: false
 images:
-- https://res.cloudinary.com/ajonp/image/upload/v1566500191/ajonp-ajonp-com/blog/Firebase_Hosting_Versions.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Firebase_Hosting_Versions.png
 tags:
 - firebase
 - hosting
@@ -13,7 +13,7 @@ title: Firebase Hosting Version Settings
 twitter:
   card: summary_large_image
   creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/v1566500191/ajonp-ajonp-com/blog/Firebase_Hosting_Versions.png
+  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Firebase_Hosting_Versions.png
   site: '@ajonpcom'
 ---
 

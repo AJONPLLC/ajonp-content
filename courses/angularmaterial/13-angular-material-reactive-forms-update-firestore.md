@@ -185,7 +185,7 @@ Some of the more interesting use cases for FormControl validation is with someth
 
 ### Form Field Errors
 Like magic (okay programming), if a fields validation is incorrect you will see an error appear.
-![Form Field](https://res.cloudinary.com/ajonp/image/upload/v1553629225/ajonp-ajonp-com/12-angular-material-from-firestore/sr7u3gojyeztganortmm.png)
+![Form Field](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/12-angular-material-from-firestore/sr7u3gojyeztganortmm.png)
 
 This is handled via html with component `mat-error` this must be inside of `mat-form-field` like all of the Angular Material Form components. In our case we are showing two messages for title it is blank we show required, then if it is in error and not currently required we show that max length of 50.
 
@@ -204,13 +204,13 @@ This is handled via html with component `mat-error` this must be inside of `mat-
 Some of the logic here looks a little backwards but because we are disabling the buttons everything is applied in reverse. For cancel we only care if data was changed so we check for `pristine` (entered data), for the submit button data must be pristine and also valid. Meaning none of the Validators can be false, like required and length.
 
 Before Data Entered, we only have option to cancel.
-![No Data](https://res.cloudinary.com/ajonp/image/upload/v1553629673/ajonp-ajonp-com/12-angular-material-from-firestore/u2cngx79xvpu9h1hfybp.png)
+![No Data](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/12-angular-material-from-firestore/u2cngx79xvpu9h1hfybp.png)
 
 After Data Entered if invalid we can only revert.
-![Bad Data](https://res.cloudinary.com/ajonp/image/upload/v1553629709/ajonp-ajonp-com/12-angular-material-from-firestore/jafwiibebcbqn7digvhe.png)
+![Bad Data](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/12-angular-material-from-firestore/jafwiibebcbqn7digvhe.png)
 
 Finally good data we can save.
-![Good Data](https://res.cloudinary.com/ajonp/image/upload/v1553629744/ajonp-ajonp-com/12-angular-material-from-firestore/fqqrn4hsnytvcadwag51.png)
+![Good Data](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/12-angular-material-from-firestore/fqqrn4hsnytvcadwag51.png)
 
 ## Submit and Save data
 Once all the data is pristine and valid we can then push SAVE.

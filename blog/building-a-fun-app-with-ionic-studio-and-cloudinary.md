@@ -12,14 +12,14 @@ frameworks:
 githublinks:
   - https://github.com/AJONPLLC/
 images:
-  - https://res.cloudinary.com/ajonp/image/upload/v1565651312/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png
+  - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png
 tags:
   - cloudinary
 title: Building a Fun App With Ionic Studio and Cloudinary
 twitter:
   card: summary_large_image
   creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/v1565651312/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png
+  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png
   site: '@ajonpcom'
 ---
 
@@ -48,7 +48,7 @@ Upload this picture of me in the much-coveted Ionic hat—
 —by specifying the JPEG image with the `file` parameter, like this:
 
 ```url
-file=https://res.cloudinary.com/ajonp/image/upload/v1565636611/AlexPics/alex_ionic_hat_inside.jpg
+file=https://res.cloudinary.com/ajonp/image/upload/q_auto/AlexPics/alex_ionic_hat_inside.jpg
 ```
 
 Cloudinary then adds a copy of that image to a location on a Cloudinary server.
@@ -69,7 +69,7 @@ As a workaround, create an upload preset in this screen in the Cloudinary [Conso
 ![Upload Preset](https://res.cloudinary.com/ajonp/image/upload/w_800/v1565637994/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_3.26.07_PM.png)
 
 That preset places all the newly uploaded photos in a folder called `ajonp-ionic-cloudinary-facesmash`, as specified at the bottom of the settings screen:.
-![preset folder](https://res.cloudinary.com/ajonp/image/upload/v1565638259/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_3.30.49_PM.png)
+![preset folder](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_3.30.49_PM.png)
 
 `upload_preset` is now all set for incorporation into the code:
 
@@ -83,13 +83,13 @@ Now complete the upload through the endpoint:
 
 ```
 <video controls="controls" height="600">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1565651945/ajonp-ajonp-com/blog/cloudinary_api_endpoing_upload.webm" type="video/webm">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1565651945/ajonp-ajonp-com/blog/cloudinary_api_endpoing_upload.mp4" type="video/mp4">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/blog/cloudinary_api_endpoing_upload.webm" type="video/webm">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/blog/cloudinary_api_endpoing_upload.mp4" type="video/mp4">
 </video>
 ```
 
 ```url
-https://api.cloudinary.com/v1_1/ajonp/image/upload?file=https://res.cloudinary.com/ajonp/image/upload/v1565636611/AlexPics/alex_ionic_hat_inside.jpg&upload_preset=kuqm4xkg
+https://api.cloudinary.com/v1_1/ajonp/image/upload?file=https://res.cloudinary.com/ajonp/image/upload/q_auto/AlexPics/alex_ionic_hat_inside.jpg&upload_preset=kuqm4xkg
 ```
 
 Afterwards, a JSON payload returns, as in this example:
@@ -119,8 +119,8 @@ Afterwards, a JSON payload returns, as in this example:
   "type": "upload",
   "etag": "4ae8ba0edfb90689101fdfbb8b97548d",
   "placeholder": false,
-  "url": "http://res.cloudinary.com/ajonp/image/upload/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg",
-  "secure_url": "https://res.cloudinary.com/ajonp/image/upload/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg",
+  "url": "http://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg",
+  "secure_url": "https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg",
   "access_mode": "public",
   "moderation": [
     {
@@ -172,9 +172,9 @@ However, facial detection sometimes doesn’t work. For example, it did not reco
 
 Here’s another problematic picture that resulted from erroneous coordinates of face detection, as shown in the second picture:
 
-![Issue face detection](https://res.cloudinary.com/ajonp/image/upload/v1565659059/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.16.51_PM.png)
+![Issue face detection](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.16.51_PM.png)
 
-![Example coordinates](https://res.cloudinary.com/ajonp/image/upload/v1565658698/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.10.16_PM.png)
+![Example coordinates](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.10.16_PM.png)
 
 I’d be happy to work with the Cloudinary team to improve the success rate for facial detection.
 

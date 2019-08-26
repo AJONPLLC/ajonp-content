@@ -125,7 +125,7 @@ Now you just need to run the deploy command.
 ```sh
 firebase deploy
 ```
-<video control src="https://res.cloudinary.com/ajonp/video/upload/v1543784633/ajonp-ajonp-com/1-lesson/firebase-deploy.mov" title="Firebase Deploy"></video>
+<video control src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/1-lesson/firebase-deploy.mov" title="Firebase Deploy"></video>
 
 Now back inside the firebase console you should see that hosting has now been completed.
 ![Firebase Hosting Files](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543784444/ajonp-ajonp-com/1-lesson/hosting_after_deploy.jpg)

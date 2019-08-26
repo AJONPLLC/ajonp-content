@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/v1566357324/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
 languages:
 - javascript
 lesson: "20"

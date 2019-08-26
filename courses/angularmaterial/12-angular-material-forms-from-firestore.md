@@ -329,8 +329,8 @@ book-edit.component.ts
 
 ### Autocomplete
 <video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548963828/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/bcpt5ojwuwqicbhasl7w.jpg" controls autoplay loop>
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1548963680/ajonp-ajonp-com/12-angular-material-from-firestore/autocomplete.webm" type="video/webm">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1548963680/ajonp-ajonp-com/12-angular-material-from-firestore/autocomplete.mp4" type="video/mp4">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/12-angular-material-from-firestore/autocomplete.webm" type="video/webm">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/12-angular-material-from-firestore/autocomplete.mp4" type="video/mp4">
 </video>
 
 - [Autocomplete](https://material.angular.io/components/autocomplete/overview) is just another input type in our case for text. However it also has a Panel that is associated to provide a list of options. For our use case it will list out two different lists based on our Slide Toggle. So we will either filter the Genere Fiction list of values, or a Non-Fiction list of values.

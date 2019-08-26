@@ -37,18 +37,18 @@ HTTP Calls:
 
 Original Call 134 KB
 
-URL: https://res.cloudinary.com/ajonp/image/upload/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png
-![Title Photo PNG](https://res.cloudinary.com/ajonp/image/upload/v1564601664/ajonp-ajonp-com/blog/hffb2m4yoewvtwd2np2f.webp)
+URL: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png
+![Title Photo PNG](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/hffb2m4yoewvtwd2np2f.webp)
 
 Webp Call 49.7 KB - 63% reduction
 
-URL: https://res.cloudinary.com/ajonp/image/upload/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp
-![Title Photo Webp](https://res.cloudinary.com/ajonp/image/upload/v1564601710/ajonp-ajonp-com/blog/kjzt6byjwsdwou7pw19w.webp)
+URL: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp
+![Title Photo Webp](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/kjzt6byjwsdwou7pw19w.webp)
 
 Webp Call @ width of 800px 49.7 KB - 92.5% reduction
 
 URL: https://res.cloudinary.com/ajonp/image/upload/w_800/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp
-![Title Photo WEbp - 800px](https://res.cloudinary.com/ajonp/image/upload/v1564601806/ajonp-ajonp-com/blog/tnvs0tqkfawkzmseeae3.webp)
+![Title Photo WEbp - 800px](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/tnvs0tqkfawkzmseeae3.webp)
 
 Without doing anything more than changing png to webp, you can automatically reduce the call by 63%. Now most software can take this a step further and authomatically consider the screen size that your browser should request so an example above would be to request the picture width is 800px ('w_800). 
 
@@ -56,7 +56,7 @@ Without doing anything more than changing png to webp, you can automatically red
 
 As you can see below Webp format is supported in all major browsers except for Safari (and iOS Safari). 
 
-![caniuse webp](https://res.cloudinary.com/ajonp/image/upload/v1564962316/ajonp-ajonp-com/blog/fevcd3nnmbjwdtosomva.webp)
+![caniuse webp](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/fevcd3nnmbjwdtosomva.webp)
 https://caniuse.com/#feat=webp
 
 As you can see on Android using Chrome there is no issue with looking up the image using Webp.
@@ -73,20 +73,20 @@ So as a developer I can't honestly say "well just have people use anything excep
 
 ```html
 <picture>
-  <source srcset="https://res.cloudinary.com/ajonp/image/upload/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp" type="image/webp">
-  <img src="https://res.cloudinary.com/ajonp/image/upload/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png" alt="Cloudinary Webp">
+  <source srcset="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp" type="image/webp">
+  <img src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png" alt="Cloudinary Webp">
 </picture>
 ```
 
 <picture>
-  <source srcset="https://res.cloudinary.com/ajonp/image/upload/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp" type="image/webp">
-  <img src="https://res.cloudinary.com/ajonp/image/upload/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png" alt="Cloudinary Webp">
+  <source srcset="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp" type="image/webp">
+  <img src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png" alt="Cloudinary Webp">
 </picture>
 
 As you can see below Safari will use the `<img>` tag and not refer back to the `<source>` tag, and it will show the image correctly.
-![Webp Picture Safari](https://res.cloudinary.com/ajonp/image/upload/v1564964403/ajonp-ajonp-com/blog/pwbznjt7jh166kacevkx.webp)
+![Webp Picture Safari](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/pwbznjt7jh166kacevkx.webp)
 
-![Network img vs source](https://res.cloudinary.com/ajonp/image/upload/v1564964815/ajonp-ajonp-com/blog/ylcgjkzqau17g3cov6by.webp)
+![Network img vs source](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/ylcgjkzqau17g3cov6by.webp)
 
 In Chrome the `<source>` tag is used so it will automatically pickup the webp extension and work correctly.
 

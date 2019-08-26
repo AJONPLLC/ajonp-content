@@ -113,7 +113,7 @@ If you have never heard of a fab button it stands for [Floating Action Button](h
 
 Below you will see that we are going to create a pink button (our accent color). So that we can add books to our book list only when we are __verified__ user and in the __correct__ view.
 
-![fab button](https://res.cloudinary.com/ajonp/image/upload/v1566415728/ajonp-ajonp-com/14-angular-material-router-awareness/Screen_Shot_2019-02-11_at_12.19.40_PM.png)
+![fab button](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/14-angular-material-router-awareness/Screen_Shot_2019-02-11_at_12.19.40_PM.png)
 
 
 ### Adding Required Modules
@@ -234,9 +234,9 @@ Now that we are correctly passing the boolean (true/false) value to our Behavior
 
 When we are on the `/books` path we want to see the button.
 
-![books path](https://res.cloudinary.com/ajonp/image/upload/v1566415728/ajonp-ajonp-com/14-angular-material-router-awareness/Screen_Shot_2019-02-11_at_12.19.40_PM.png)
+![books path](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/14-angular-material-router-awareness/Screen_Shot_2019-02-11_at_12.19.40_PM.png)
 
 When we are on any other subpath of `/books/*` we want to hide the button, for example the chapter section.
 
-![chapter path](https://res.cloudinary.com/ajonp/image/upload/v1566415728/ajonp-ajonp-com/14-angular-material-router-awareness/Screen_Shot_2019-02-11_at_12.19.51_PM.png)
+![chapter path](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/14-angular-material-router-awareness/Screen_Shot_2019-02-11_at_12.19.51_PM.png)
 

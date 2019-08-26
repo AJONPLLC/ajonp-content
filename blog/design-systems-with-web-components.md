@@ -82,7 +82,7 @@ Choose:
 1. Project Name: ajonp-core
 
 
-<video controls src="https://res.cloudinary.com/ajonp/video/upload/v1557259772/ajonp-ajonp-com/blog/Screen_Recording_2019-05-07_at_4.07.54_PM.mov" title="Stencil Component Setup" style="width:100%"></video>
+<video controls src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/blog/Screen_Recording_2019-05-07_at_4.07.54_PM.mov" title="Stencil Component Setup" style="width:100%"></video>
 
 ![Stencil Structure](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557260425/ajonp-ajonp-com/blog/Screen_Shot_2019-05-07_at_4.17.02_PM.png)
 

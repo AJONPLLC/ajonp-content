@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/v1565354225/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png
 languages:
 - javascript
 lesson: "22"
@@ -252,11 +252,11 @@ If you are new to ReactJS (like myself), I would recommend installing [React Dev
 
 Here you can inspect the layout of our full application. If you take a look 
 
-![React Dev Tools](https://res.cloudinary.com/ajonp/image/upload/v1565368824/ajonp-ajonp-com/20-lesson-nextjs/f8mmv34ulizhtxmknbpx.png)
+![React Dev Tools](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/f8mmv34ulizhtxmknbpx.png)
 
 As you highlight components you can see the Props that are passed through them, highlight `ThemeProvider` this is where much of the theming for MaterialUI will come from in the updates will will continue to make in our app.
 
-![MaterialUI ThemeProvider](https://res.cloudinary.com/ajonp/image/upload/v1565368983/ajonp-ajonp-com/20-lesson-nextjs/cnhji8alguos2tt3rnzz.png)
+![MaterialUI ThemeProvider](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/cnhji8alguos2tt3rnzz.png)
 
 # Run Next.js Development server
 ```cmd
@@ -264,8 +264,8 @@ npm run dev
 ```
 Open your browser at http://localhost:3000 (your port may differ).
 
-![Next.js Hello](https://res.cloudinary.com/ajonp/image/upload/v1565353991/ajonp-ajonp-com/20-lesson-nextjs/oy53wlavfbw3efhdqrpf.png)
+![Next.js Hello](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/oy53wlavfbw3efhdqrpf.png)
 
 You should also notice the lightning bolt showing the prerender page, showing the dev server running.
 
-![Next.js Lightning Bolt](https://res.cloudinary.com/ajonp/image/upload/v1565354116/ajonp-ajonp-com/20-lesson-nextjs/ri4rbjbtykjhrysscyw2.jpg)
+![Next.js Lightning Bolt](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/ri4rbjbtykjhrysscyw2.jpg)

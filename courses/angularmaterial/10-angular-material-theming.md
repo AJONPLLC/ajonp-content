@@ -90,8 +90,8 @@ Angular FLex-Layout or fxLayout, offeres a great alternative to creating all the
 
 This is a great example by tburleson:
 <video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547728736/ajonp-ajonp-com/10-lesson-angular-material-theming/flex-layout.jpg" controls>
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1547729145/ajonp-ajonp-com/10-lesson-angular-material-theming/fxlayoutExample.webm" type="video/webm">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1547729145/ajonp-ajonp-com/10-lesson-angular-material-theming/fxlayoutExample.mov" type="video/mp4">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/10-lesson-angular-material-theming/fxlayoutExample.webm" type="video/webm">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/10-lesson-angular-material-theming/fxlayoutExample.mov" type="video/mp4">
 </video>
 
 ## Toolbar

@@ -122,8 +122,8 @@ We want to build this structure inside of Firestore
 In Firestore we will setup this basic structure. Remember every collection must have a document. You can find more in the [Firestore Docs Overview](https://cloud.google.com/firestore/docs/overview)
 
 <video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.jpg" controls>
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1548347631/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/_firebase_setup.webm" type="video/webm">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1548347631/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/_firebase_setup.mp4" type="video/mp4">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/_firebase_setup.webm" type="video/webm">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/_firebase_setup.mp4" type="video/mp4">
 </video>
 
 ## Add Angular Firebase Service

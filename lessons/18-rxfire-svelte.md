@@ -65,8 +65,8 @@ In the example below it shows a quick preview osf how the final React applicatio
 1. Sign Out
 
 <video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png" controls width="100%">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1556399505/ajonp-ajonp-com/17-rxfire-react-cats/5.webm" type="video/webm">
-<source src="https://res.cloudinary.com/ajonp/video/upload/v1556399505/ajonp-ajonp-com/17-rxfire-react-cats/5.mov" type="video/mp4">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/5.webm" type="video/webm">
+<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/5.mov" type="video/mp4">
 </video>
 
 ## Setup
@@ -82,7 +82,7 @@ You will also need to create your own Firebase project and initialize a Firestor
 [Example rules](https://github.com/AJONPLLC/rxfire-react-cats/blob/master/firestore.rules);
 
 ## Final App Structure
-![](https://res.cloudinary.com/ajonp/image/upload/v1556565487/ajonp-ajonp-com/18-rxfire-svelte-cats/djkgve67f4opo5oh6jqr.png)![](https://res.cloudinary.com/ajonp/image/upload/v1556565487/ajonp-ajonp-com/18-rxfire-svelte-cats/pzf7b3rmcfmfmmgicsii.png)
+![](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/18-rxfire-svelte-cats/djkgve67f4opo5oh6jqr.png)![](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/18-rxfire-svelte-cats/pzf7b3rmcfmfmmgicsii.png)
 
 ## Install dependencies
 You will need [rxfire](https://www.npmjs.com/package/rxfire),   [firebase](https://www.npmjs.com/package/firebase), and [rxjs](https://www.npmjs.com/package/rxjs)
