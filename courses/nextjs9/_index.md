@@ -21,10 +21,18 @@ lesson: "20"
 tags:
 - nextjs9
 title: Next.js - Version 9
+twitter:
+  card: player
+  description: Introduction to building Next.js - Version 9 with MaterialUI and Firebase.
+  image: https://res.cloudinary.com/ajonp/image/upload/v1566357324/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
+  image_alt: Introduction to building Next.js - Version 9 with MaterialUI and Firebase.
+  player: https://www.youtube.com/embed/y1ZH1dMUVPw?autoplay=0&rel=0&showinfo=0&modestbranding=1
+  player_height: 960
+  player_width: 1280
+  site: '@ajonpcom'
+  title: Introduction to building Next.js - Version 9 with MaterialUI and Firebase.
 toc: true
 videos:
-- ""
+- https://www.youtube.com/v/y1ZH1dMUVPw
 weight: 20
 ---
-
-# Next.js - Version 9
