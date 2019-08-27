@@ -26,12 +26,24 @@ weight: 2
 ---
 
 > Please note the lesson was originaly written using Next 8 and later upgraded, if you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
+
 > [Next.js v8 to v9 Upgrade Guide](https://github.com/zeit/next.js/blob/canary/UPGRADING.md)
 
+> If at any point in time you feel as though the course/module is moving at a pace you are not comfortable, please let me know in our [Slack Channel](http://bit.ly/ajonp-slack-invite).
+
 # Initial Setup
+
+We will be using [Visual Studio Code](https://code.visualstudio.com/download) throughout the Course for all of the coding requirements, however you can use the IDE of your choice. My recommendation is to open two tabs, one with the Youtube video, and the other with the lesson page.
+
 ## Create Directory
 ```sh
 mkdir ajonp-ajsbooks-nextjs && cd ajonp-ajsbooks-nextjs
+```
+
+## Initialize NPM
+
+```sh
+npm init
 ```
 
 ## Install Initial Dependencies
@@ -39,14 +51,13 @@ mkdir ajonp-ajsbooks-nextjs && cd ajonp-ajsbooks-nextjs
 - [React Dom](https://www.npmjs.com/package/react-dom)
 - [Material UI](https://www.npmjs.com/package/@material-ui/core)
 - [Next.js](https://www.npmjs.com/package/next)
-- ~~[Next.js Typescript](https://www.npmjs.com/package/@zeit/next-typescript)~~
 - [Firebase](https://www.npmjs.com/package/firebase)
 - [RxFire](https://www.npmjs.com/package/rxfire)
 
 
 
 ```sh
-npm i react react-dom next @zeit/next-typescript @material-ui/core @material-ui/styles firebase rxfire rxjs
+npm i react react-dom next @material-ui/core @material-ui/styles firebase rxfire rxjs
 ```
 
 ## Create pages Directory
@@ -99,6 +110,7 @@ export default Index
 
 Now that we have content make sure that your server is still running or run command `npm run dev` and refresh the browser.
 
+~~~
 # Typescript
 We will now update our index page to become more strictly typed by changing its file type from .js to .tsx, which will allow VSCode to understand that we are now going to be using typescript in our jsx files.
 
@@ -120,6 +132,7 @@ next.config.js
 const withTypescript = require('@zeit/next-typescript');
 module.exports = withTypescript();
 ```
+~~~
 
 ## Babel Config
 
@@ -221,4 +234,13 @@ Add the remote repository and then push your changes.
 ```sh
 git remote add origin <your_repo>
 git push -u origin master
+```
+
+## Optional: Checkout Branch Forcibly
+
+The modules are built one on top of the other, so you can always jump around if you wish by executing `git checkout <branch_name> -f`.
+You will not receive any warnings for overwrite but it will set you back to a nice starting point.
+
+```sh
+git checkout 01-Introl -f 
 ```
