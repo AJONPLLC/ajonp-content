@@ -14,8 +14,6 @@ images:
 languages:
 - javascript
 lesson: "19"
-tags:
-- slack
 title: Slap Someone with Slack Commands
 toc: true
 twitter:

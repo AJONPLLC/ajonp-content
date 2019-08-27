@@ -4,12 +4,12 @@ authors:
 date: "2019-08-14T20:33:41-05:00"
 description: A quick tutorial on how to customize your Slack workspace theme.
 draft: false
+frameworks:
+- slack
 githublinks:
 - https://github.com/ajonp/slackthemes
 images:
 - https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png
-tags:
-- slack
 title: Slack Workspace Theme Customization
 twitter:
   card: player
