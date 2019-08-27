@@ -34,5 +34,4 @@ twitter:
 toc: true
 videos:
 - https://www.youtube.com/v/y1ZH1dMUVPw
-weight: 0
 ---

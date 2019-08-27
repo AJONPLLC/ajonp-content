@@ -24,7 +24,6 @@ title: Angular Material
 toc: true
 videos:
 - ""
-weight: 20
 ---
 
 # Angular Material Series
