@@ -61,10 +61,9 @@ In the example below it shows a quick preview of how the final React application
 1. Show Added Cat Fact in List
 1. Sign Out
 
-<video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556308985/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png" controls width="100%">
-<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/5.webm" type="video/webm">
-<source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/5.mov" type="video/mp4">
-</video>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/WC7eZ-PxZJc?autoplay=0&amp;rel=0&amp;showinfo=0&amp;modestbranding=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video" frameborder="0"></iframe>
+</div>
 
 ## Setup
 
