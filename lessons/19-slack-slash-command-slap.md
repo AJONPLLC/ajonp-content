@@ -10,7 +10,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/slack-slap.git
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/19-slack-slash-command-slap/Slack_Slash_Command_Slap.png
+- https://res.cloudinary.com/ajonp/image/upload/v1566671111/ajonp-ajonp-com/19-slack-slash-command-slap/Slack_Slash_Command_Slap.png
 languages:
 - javascript
 lesson: "19"
@@ -21,7 +21,7 @@ toc: true
 twitter:
   card: player
   description: Deploying Firebase Cloud Function to use with Slack slash commands. Sending someone a /slap!
-  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/19-slack-slash-command-slap/Slack_Slash_Command_Slap.png
+  image: https://res.cloudinary.com/ajonp/image/upload/v1566671111/ajonp-ajonp-com/19-slack-slash-command-slap/Slack_Slash_Command_Slap.png
   image_alt: Slap Someone with Slack Commands
   player: https://www.youtube.com/embed/3A4iucpZiwo?autoplay=0&rel=0&showinfo=0&modestbranding=1
   player_height: 960
@@ -38,7 +38,7 @@ weight: 20
 So one of the Purr-fect Peeps on the channel wanted a fun `/slap` command added to our Slack channel. I basically said, challange accepted!
 A quick Google search led me down the right path and found [Spicefactory Slapbot](https://spicefactory.co/blog/2015/12/09/slapbot-for-slack-good-old-slap-available-again/). I cloned this and then started making some tweaks!
 
-![slap challenge](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.08.04_PM.png)
+![slap challenge](https://res.cloudinary.com/ajonp/image/upload/v1566663387/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.08.04_PM.png)
 
 ## Installation
 
@@ -56,17 +56,17 @@ firebase init
 
 When presented with your choices arrow down and hit space bar on `Functions: Configure and deploy Cloud Functions`.
 
-![Firebase Functions select](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.26.04_PM.png)
+![Firebase Functions select](https://res.cloudinary.com/ajonp/image/upload/v1566664040/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.26.04_PM.png)
 
 If you would like to start using a new project select `Create a new project`, for more info checkout [Firebase Init Docs](https://firebase.google.com/docs/cli).
 
 After that you can select Javascript
 
-![JS selection for firebase init](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.26.20_PM.png)
+![JS selection for firebase init](https://res.cloudinary.com/ajonp/image/upload/v1566664040/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.26.20_PM.png)
 
 For the final settings select N (No) for everything except "Do you want to install dependencies with npm now?", for this Y (Yes).
 
-![Firebase init Selections](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.27.07_PM.png).
+![Firebase init Selections](https://res.cloudinary.com/ajonp/image/upload/v1566664040/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.27.07_PM.png).
 
 Now that you have this complete you should see two new files `.firebaserc` and `firebase.json`.
 
@@ -77,7 +77,7 @@ What we really want is to deploy this to Firebase so that Slack can access it. S
 
 In order for us to access an external network you will need to switch your Firebase Subscription for this project, I recommend the Blaze plan as you will not get charged until you go over 125K Invocations a month, I don't know about your slack fans but that would be very impressive! You can select Modify project at the bottom left of the screen and it should open a modal like below.
 
-![Firebase Modal(https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.31.47_PM.png)
+![Firebase Modal(https://res.cloudinary.com/ajonp/image/upload/v1566667914/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.31.47_PM.png)
 
 Now it is time to deploy our function:
 
@@ -86,11 +86,11 @@ firebase deploy
 ```
 
 It should result in a successful creation of a cloud function with this output:
-![cloud deploy output](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.24.11_PM.png)
+![cloud deploy output](https://res.cloudinary.com/ajonp/image/upload/v1566667465/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.24.11_PM.png)
 
 You can check in the [Firebase Console](https://console.firebase.com/) under Develop->Functions
 
-![Functions in Console](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.28.22_PM.png)
+![Functions in Console](https://res.cloudinary.com/ajonp/image/upload/v1566667721/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.28.22_PM.png)
 
 ### Example of local testing
 
@@ -127,19 +127,19 @@ Go to Slack services section https://<your_slack_team>.slack.com/apps. For examp
 
 First we need a way to have Slack accept our `/slap` messages coming back into Slack's system for our account. We will add an inbound Webhook to allow this interaction to succeed.
 
-![slash incoming webhooks](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.37.36_PM.png)
+![slash incoming webhooks](https://res.cloudinary.com/ajonp/image/upload/v1566668484/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.37.36_PM.png)
 
 - Choose any channel to post to (don't worry, bot will use the channel you type in when you do your slapping)
 - Copy and paste tha token part of the URL that you got (it will be something like : `https://hooks.slack.com/services/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`
 - So it would be the `/T2UR5KNQ2/BMNTDRAG0/mPToTmuARk2BqYhn93Izzbbb` portion as we will need this for our slash command.
 
-![Full configuration](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.41.05_PM.png)
+![Full configuration](https://res.cloudinary.com/ajonp/image/upload/v1566668484/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_1.41.05_PM.png)
 
 ### Slash Command App
 
 Now we need to add and app for the slash command configuration.
 
-![Slash Command Search](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.49.28_PM.png)
+![Slash Command Search](https://res.cloudinary.com/ajonp/image/upload/v1566667140/ajonp-ajonp-com/blog/Screen_Shot_2019-08-24_at_12.49.28_PM.png)
 
 
 
