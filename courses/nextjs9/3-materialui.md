@@ -1,7 +1,7 @@
 ---
 authors:
 - Alex Patterson
-date: "2019-08-03T00:00:50-05:00"
+date: "2019-08-28T00:00:50-05:00"
 description: Adding MaterialUI to Next.js
 draft: true
 frameworks:
@@ -17,17 +17,19 @@ images:
 - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png
 languages:
 - javascript
-lesson: "22"
 title: Nextjs using MaterialUI and Firebase - MaterialUI
 toc: true
-youtube: false
 weight: 3
 ---
 
-> If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
+> You must have [Node](https://nodejs.org/en/download/) installed so you can leverage npm.
 
+> This module is part of a series if you would like to start from here please execute
+```sh 
+git clone https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs.git && cd ajonp-ajsbooks-nextjs && git checkout 02-Setup && npm i && code .
+```
 
-# Material-UI
+> If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/pulls).
 
 # Next.js with Material-UI
 There are a couple of updates that we will make to our project structure in order to make using Material-UI the most performant within our Next.js project.
@@ -92,7 +94,7 @@ Per the [Next.js App docs](https://nextjs.org/docs#custom-app).
 
 It is for persisting the layout that we are going to create the `_app.tsx` file. This will allow things like our theme and `MenuAppBar` to not require rerender.
 
-pages/_app.tsx
+[pages/_app.tsx](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/blob/03-MaterialUI/pages/_app.tsx)
 ```tsx
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/styles';
@@ -146,7 +148,7 @@ Per the [Next.js Document docs](https://nextjs.org/docs#custom-document).
 
 This again works great while using MaterialUI, because it will allow us to pass along the styles for our themes through props, anywhere in our application.
 
-pages/document.tsx
+[pages/_document.tsx](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/blob/03-MaterialUI/pages/_document.tsx)
 ```tsx
 /* https://github.com/mui-org/material-ui/blob/master/examples/nextjs/pages/_document.js */
 
@@ -230,6 +232,126 @@ MyDocument.getInitialProps = async ctx => {
 
 export default MyDocument;
 
+```
+
+## Add MenuAppBar Component
+
+The [App Bar Component](https://material-ui.com/components/app-bar/) threw me off at first as I expected it under navigation, but it really does belong in the surfaces section. Because we are making a fairly complex version of an App Bar I broke this out into its own component. Our MenuAppBar component has several dependencies that we are going to use so it made sense to group them.
+
+![Menu App Bar Preview](https://res.cloudinary.com/ajonp/image/upload/q_upload/ajonp-ajonp-com/20-lesson-nextjs/Screen_Shot_2019-08-28_at_4.54.09_PM.png)
+
+Components Used:
+
+- App Bar: https://material-ui.com/api/app-bar/
+- Button: https://material-ui.com/api/button/
+- Icon Button: https://material-ui.com/api/icon-button/
+- Menu: https://material-ui.com/api/menu/
+- MenuItem: https://material-ui.com/api/menu-item/
+- Styles: https://material-ui.com/styles/api/#api
+- ToolBar: https://material-ui.com/api/toolbar/#toolbar-api
+- Typography: https://material-ui.com/api/typography/#typography-api
+- Icons: https://material-ui.com/api/icon/
+- MenuIcon: https://material-ui.com/components/drawers/#persistent-drawer
+- React: https://reactjs.org/
+
+[/components/MenuAppBar.tsx](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/blob/03-MaterialUI/components/MenuAppBar.tsx)
+```tsx
+import AppBar from '@material-ui/core/AppBar';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import AccountCircle from '@material-ui/icons/AccountCircle';
+import MenuIcon from '@material-ui/icons/Menu';
+import React from 'react';
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      flexGrow: 1
+    },
+    menuButton: {
+      marginRight: theme.spacing(2)
+    },
+    title: {
+      flexGrow: 1
+    }
+  })
+);
+
+function MenuAppBar() {
+  const classes = useStyles();
+  const [auth] = React.useState(false);
+  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const open = Boolean(anchorEl);
+
+  function handleMenu(event: React.MouseEvent<HTMLElement>) {
+    setAnchorEl(event.currentTarget);
+  }
+
+  function handleClose() {
+    setAnchorEl(null);
+  }
+
+  return (
+    <div className={classes.root}>
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton
+            edge="start"
+            className={classes.menuButton}
+            color="inherit"
+            aria-label="Menu"
+          >
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" className={classes.title}>
+            Photos
+          </Typography>
+          {auth && (
+            <div>
+              <IconButton
+                aria-owns={open ? 'menu-appbar' : undefined}
+                aria-haspopup="true"
+                onClick={handleMenu}
+                color="inherit"
+              >
+                <AccountCircle />
+              </IconButton>
+              <Menu
+                id="menu-appbar"
+                anchorEl={anchorEl}
+                anchorOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right'
+                }}
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right'
+                }}
+                open={open}
+                onClose={handleClose}
+              >
+                <MenuItem onClick={handleClose}>Profile</MenuItem>
+                <MenuItem onClick={handleClose}>My account</MenuItem>
+              </Menu>
+            </div>
+          )}
+          {!auth && (
+            <div>
+              <Button color="inherit">Sign In</Button>
+            </div>
+          )}
+        </Toolbar>
+      </AppBar>
+    </div>
+  );
+}
+
+export default MenuAppBar;
 ```
 
 ## Update Index Page

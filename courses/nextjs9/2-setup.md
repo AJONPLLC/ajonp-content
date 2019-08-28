@@ -1,7 +1,7 @@
 ---
 authors:
 - Alex Patterson
-date: "2019-08-02T00:00:50-05:00"
+date: "2019-08-28T00:00:50-05:00"
 description: 'Setting up our Next.js site with React, Next.js, '
 draft: true
 frameworks:
@@ -17,21 +17,26 @@ images:
 - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.png
 languages:
 - javascript
-lesson: "21"
 title: Nextjs using MaterialUI and Firebase - Setup
 toc: true
 youtube: oUTz8JbQQww
 weight: 2
 ---
 
-> If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
+> You must have [Node](https://nodejs.org/en/download/) installed so you can leverage npm.
 
+> This module is part of a series if you would like to start from here please execute
+```sh 
+git clone https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs.git && cd ajonp-ajsbooks-nextjs && git checkout 01-Intro && npm i && code .
+```
 
+> If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/pulls).
 
+# Next.js Setup
 
 > If at any point in time you feel as though the course/module is moving at a pace you are not comfortable, please let me know in our [Slack Channel](http://bit.ly/ajonp-slack-invite).
 
-# Initial Setup
+## Initial Setup
 
 We will be using [Visual Studio Code](https://code.visualstudio.com/download) throughout the Course for all of the coding requirements, however you can use the IDE of your choice. My recommendation is to open two tabs, one with the Youtube video, and the other with the lesson page.
 

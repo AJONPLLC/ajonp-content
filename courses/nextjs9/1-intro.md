@@ -17,18 +17,16 @@ images:
 - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Intro.png
 languages:
 - javascript
-lesson: "20"
 title: Nextjs using MaterialUI and Firebase - Intro
 youtube: TRdWWR5XsFY
 weight: 1
 ---
 
-> If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
+> You must have [Node](https://nodejs.org/en/download/) installed so you can leverage npm.
 
+> If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/pulls).
 
-
-
-# AJ on Purr-fect Solutions introduces Next.js using MaterialUI and Firebase
+# Next.js Introduction
 
 This is a sample application showcasing the power of Next.js. We will be building out a simple book listing site, it could be any type of site really the idea what the technology provides. In reality my son really wants this for https://oliversbooks.com so I figured might as well kill two birds with one stone!
 
