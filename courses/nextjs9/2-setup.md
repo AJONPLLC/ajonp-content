@@ -20,7 +20,7 @@ languages:
 lesson: "21"
 title: Nextjs using MaterialUI and Firebase - Setup
 toc: true
-youtube: ju80EzhnCE8
+youtube: oUTz8JbQQww
 weight: 2
 ---
 
@@ -143,44 +143,7 @@ module.exports = withTypescript();
 ```
 
 ## Typescrpt Config
-.tsconfig
-```json
-{
-  "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "jsx": "preserve",
-    "lib": [
-      "dom",
-      "es2017"
-    ],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noEmit": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "preserveConstEnums": true,
-    "removeComments": false,
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "strict": true,
-    "target": "esnext",
-    "forceConsistentCasingInFileNames": true,
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true
-  },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ]
-}
-
-```
+Next.js 9 is now including this for you, no need to change anything.
 
 ## Include Next.js types definition
 If you miss this your application might not break, but VSCode should start to highlight things that have not been included for it to understand where files and modules can be found.
@@ -218,24 +181,24 @@ After this is done just run the command.
 git init
 ```
 
-## Tracking remotely (not required)
+## Tracking remotely (Optional)
 This is not required to track changes locally but if you want to push our commits out to a remote repository you can do so by first creating your repository.
 
-### Removing remote
+### Removing remote  (Optional)
 If you are using the remote repo from AJONPLLC, you need to first remove this so you can track your changes in your own remote repository.
 
 ```sh
 git remote remove origin
 ```
 
-### Add remote github and push
+### Add remote github and push  (Optional)
 Add the remote repository and then push your changes.
 ```sh
 git remote add origin <your_repo>
 git push -u origin master
 ```
 
-## Optional: Checkout Branch Forcibly
+## Checkout Branch Forcibly (Optional)
 
 The modules are built one on top of the other, so you can always jump around if you wish by executing `git checkout <branch_name> -f`.
 You will not receive any warnings for overwrite but it will set you back to a nice starting point.
