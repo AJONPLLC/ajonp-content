@@ -17,6 +17,7 @@ images:
 - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Intro.png
 languages:
 - javascript
+module: Intro
 title: Nextjs using MaterialUI and Firebase - Intro
 youtube: TRdWWR5XsFY
 weight: 1

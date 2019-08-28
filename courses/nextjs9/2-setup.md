@@ -2,7 +2,7 @@
 authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
-description: 'Setting up our Next.js site with React, Next.js, '
+description: 'Setting up your Next.js site with React, Next.js, '
 draft: true
 frameworks:
 - firebase
@@ -17,6 +17,7 @@ images:
 - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.png
 languages:
 - javascript
+module: Setup
 title: Nextjs using MaterialUI and Firebase - Setup
 toc: true
 youtube: oUTz8JbQQww
@@ -34,11 +35,11 @@ git clone https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs.git && cd ajonp-ajsb
 
 # Next.js Setup
 
-> If at any point in time you feel as though the course/module is moving at a pace you are not comfortable, please let me know in our [Slack Channel](http://bit.ly/ajonp-slack-invite).
+> If at any point in time you feel as though the course/module is moving at a pace you are not comfortable, please let me know in your [Slack Channel](http://bit.ly/ajonp-slack-invite).
 
 ## Initial Setup
 
-We will be using [Visual Studio Code](https://code.visualstudio.com/download) throughout the Course for all of the coding requirements, however you can use the IDE of your choice. My recommendation is to open two tabs, one with the Youtube video, and the other with the lesson page.
+I will be using [Visual Studio Code](https://code.visualstudio.com/download) throughout the Course for all of the coding requirements, however you can use the IDE of your choice. My recommendation is to open two tabs, one with the Youtube video, and the other with the lesson page.
 
 ## Create Directory
 ```sh
@@ -77,7 +78,7 @@ At this time I would recommend using VSCode to follow along with the tutorials.
 [VSCode](https://code.visualstudio.com/download)
 
 ## Setup NPM scripts for development
-Because next is an npm package, it is easy to use it when running much of our application, for both development and production builds. We are going to add these to `package.json` and use NPM to run each command. Just add the following below dependencies.
+Because next is an npm package, it is easy to use it when running much of your application, for both development and production builds. You are going to add these to `package.json` and use NPM to run each command. Just add the following below dependencies.
 
 package.json
 ```json
@@ -94,13 +95,13 @@ Start the next server.
 ```sh
 npm run dev
 ```
-At this time we are just verifying that the server is up and running and we don't yet have any content.
-So if you check http://localhost:3000, you should see a `404` page which in our case is correct and it tells us that Next.js is being correctly served, but we don't yet have any pages.
+At this time you are just verifying that the server is up and running and you don't yet have any content.
+So if you check http://localhost:3000, you should see a `404` page which in your case is correct and it tells us that Next.js is being correctly served, but you don't yet have any pages.
 
 ![404](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/svi7pymfttwcheopwtqi.png)
 
 ## Hello world
-Now for the legendary "Hello World" example. In our pages directory we can simple add a new file called `index.js`. If you are new to ReactJS this is considered a Functional Component, which is a very basic component that is only presenting html markup without state.
+Now for the legendary "Hello World" example. In your pages directory you can simple add a new file called `index.js`. If you are new to ReactJS this is considered a Functional Component, which is a very basic component that is only presenting html markup without state.
 
 pages/index.js
 ```js
@@ -113,18 +114,18 @@ const Index = () => (
 export default Index
 ```
 
-Now that we have content make sure that your server is still running or run command `npm run dev` and refresh the browser.
+Now that you have content make sure that your server is still running or run command `npm run dev` and refresh the browser.
 
 ~~~
 # Typescript
-We will now update our index page to become more strictly typed by changing its file type from .js to .tsx, which will allow VSCode to understand that we are now going to be using typescript in our jsx files.
+You will now update your index page to become more strictly typed by changing its file type from .js to .tsx, which will allow VSCode to understand that you are now going to be using typescript in your jsx files.
 
- The `"jsx": "preserve"` (in our `.tsconfig`) mode will keep the JSX as part of the output to be further consumed by another transform step. In our case this is done with Babel using `"presets": ["next/babel"]`.
+ The `"jsx": "preserve"` (in your `.tsconfig`) mode will keep the JSX as part of the output to be further consumed by another transform step. In your case this is done with Babel using `"presets": ["next/babel"]`.
 
-For the remainder of this tutorial we will now be switching over to Typescript. There are a few things that we need to update:
-- Let Next.js know that we are making this change (or more correctly webpack) and update the config.
+For the remainder of this tutorial you will now be switching over to Typescript. There are a few things that you need to update:
+- Let Next.js know that you are making this change (or more correctly webpack) and update the config.
 - Add configuration to allow the correct output to occur
-- Add Typescript configuration file to allow for our project to be known as the root for our typescript, so that the compiler options can be followed.
+- Add Typescript configuration file to allow for your project to be known as the root for your typescript, so that the compiler options can be followed.
 
 ## Next Config
 
@@ -169,11 +170,11 @@ export default IndexPage;
 ```
 
 # Tracking changes
-Now that we have a solid start to our project lets add tracking from here on out, we will be using [git](https://git-scm.com/)
+Now that you have a solid start to your project lets add tracking from here on out, you will be using [git](https://git-scm.com/)
 
-First lets add an ignore file so we don't pickup our unintended files that we don't want to track. 
-- `node_modules` this is the folder where our dependencies are held.
-- `.next` contains any of our dynamically build content that the dev server is browsing.
+First lets add an ignore file so you don't pickup your unintended files that you don't want to track. 
+- `node_modules` this is the folder where your dependencies are held.
+- `.next` contains any of your dynamically build content that the dev server is browsing.
 - `out` contains the final production static build
 
 .gitignore
@@ -188,7 +189,7 @@ git init
 ```
 
 ## Tracking remotely (Optional)
-This is not required to track changes locally but if you want to push our commits out to a remote repository you can do so by first creating your repository.
+This is not required to track changes locally but if you want to push your commits out to a remote repository you can do so by first creating your repository.
 
 ### Removing remote  (Optional)
 If you are using the remote repo from AJONPLLC, you need to first remove this so you can track your changes in your own remote repository.

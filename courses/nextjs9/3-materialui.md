@@ -17,6 +17,7 @@ images:
 - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png
 languages:
 - javascript
+module: MaterialUI
 title: Nextjs using MaterialUI and Firebase - MaterialUI
 toc: true
 weight: 3
@@ -32,19 +33,19 @@ git clone https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs.git && cd ajonp-ajsb
 > If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/pulls).
 
 # Next.js with Material-UI
-There are a couple of updates that we will make to our project structure in order to make using Material-UI the most performant within our Next.js project.
+There are a couple of updates that you will make to your project structure in order to make using Material-UI the most performant within your Next.js project.
 
 I used the officially referenced [MaterialUI Example Next.js Project](https://github.com/mui-org/material-ui/tree/master/examples/nextjs). They have been keeping the [repo](https://github.com/mui-org/material-ui/tree/master/examples/nextjs) updated very well with the new updates coming from Next.js.
 
 ## Components Directory
-We will create a new folder that will be used for all of our independent components. This includes the main structure for our app in `MenuAppBar.tsx`. Later will will continue to add the rest of our React Components to this directory.
+You will create a new folder that will be used for all of your independent components. This includes the main structure for your app in `MenuAppBar.tsx`. Later will will continue to add the rest of your React Components to this directory.
 
 ```cmd
 mkdir components
 ```
 
 ## Theme Directory
-This is slightly different than the layout of the official example, however I didn't like have so many folders called source. So we will add the main theme for MaterialUI into a new directory called `themes`.
+This is slightly different than the layout of the official example, however I didn't like have so many folders called source. So you will add the main theme for MaterialUI into a new directory called `themes`.
 
 ```cmd
 mkdir themes
@@ -92,7 +93,7 @@ Per the [Next.js App docs](https://nextjs.org/docs#custom-app).
 
 > To override, create the `./pages/_app.js`
 
-It is for persisting the layout that we are going to create the `_app.tsx` file. This will allow things like our theme and `MenuAppBar` to not require rerender.
+It is for persisting the layout that you are going to create the `_app.tsx` file. This will allow things like your theme and `MenuAppBar` to not require rerender.
 
 [pages/_app.tsx](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/blob/03-MaterialUI/pages/_app.tsx)
 ```tsx
@@ -146,7 +147,7 @@ Per the [Next.js Document docs](https://nextjs.org/docs#custom-document).
 
 > A custom `<Document>` can also include getInitialProps for expressing asynchronous server-rendering data requirements.
 
-This again works great while using MaterialUI, because it will allow us to pass along the styles for our themes through props, anywhere in our application.
+This again works great while using MaterialUI, because it will allow us to pass along the styles for your themes through props, anywhere in your application.
 
 [pages/_document.tsx](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/blob/03-MaterialUI/pages/_document.tsx)
 ```tsx
@@ -236,11 +237,11 @@ export default MyDocument;
 
 ## Add MenuAppBar Component
 
-The [App Bar Component](https://material-ui.com/components/app-bar/) threw me off at first as I expected it under navigation, but it really does belong in the surfaces section. Because we are making a fairly complex version of an App Bar I broke this out into its own component. Our MenuAppBar component has several dependencies that we are going to use so it made sense to group them.
+The [App Bar Component](https://material-ui.com/components/app-bar/) threw me off at first as I expected it under navigation, but it really does belong in the surfaces section. Because you are making a fairly complex version of an App Bar I broke this out into its own component. Your MenuAppBar component has several dependencies that you are going to use so it made sense to group them.
 
 ![Menu App Bar Preview](https://res.cloudinary.com/ajonp/image/upload/q_upload/ajonp-ajonp-com/20-lesson-nextjs/Screen_Shot_2019-08-28_at_4.54.09_PM.png)
 
-Components Used:
+### Key MaterialUI Components
 
 - App Bar: https://material-ui.com/api/app-bar/
 - Button: https://material-ui.com/api/button/
@@ -252,7 +253,9 @@ Components Used:
 - Typography: https://material-ui.com/api/typography/#typography-api
 - Icons: https://material-ui.com/api/icon/
 - MenuIcon: https://material-ui.com/components/drawers/#persistent-drawer
-- React: https://reactjs.org/
+
+
+### Full Code
 
 [/components/MenuAppBar.tsx](https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/blob/03-MaterialUI/components/MenuAppBar.tsx)
 ```tsx
@@ -356,7 +359,7 @@ export default MenuAppBar;
 
 ## Update Index Page
 
-You can see in the below file that we are keeping it very simple for our initial update, we will only us the [Container](https://material-ui.com/components/container/) component.
+You can see in the below file that you are keeping it very simple for your initial update, you will only us the [Container](https://material-ui.com/components/container/) component.
 
 pages/index.tsx
 ```tsx
@@ -371,11 +374,11 @@ export default function App() {
 ## Use React Dev tools
 If you are new to ReactJS (like myself), I would recommend installing [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) for Chrome.
 
-Here you can inspect the layout of our full application. If you take a look 
+Here you can inspect the layout of your full application. If you take a look 
 
 ![React Dev Tools](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/f8mmv34ulizhtxmknbpx.png)
 
-As you highlight components you can see the Props that are passed through them, highlight `ThemeProvider` this is where much of the theming for MaterialUI will come from in the updates will will continue to make in our app.
+As you highlight components you can see the Props that are passed through them, highlight `ThemeProvider` this is where much of the theming for MaterialUI will come from in the updates will will continue to make in your app.
 
 ![MaterialUI ThemeProvider](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/cnhji8alguos2tt3rnzz.png)
 
