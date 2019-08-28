@@ -22,7 +22,5 @@ tags:
 - nextjs9
 title: Courses
 toc: true
-videos:
-- ""
 weight: 20
 ---
