@@ -24,18 +24,7 @@ tags:
 - angularmaterial
 title: Angular Material Forms from Firestore
 toc: true
-twitter:
-  card: player
-  description: Build all of the Angular Material Form components with data from Firestore.
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.jpg
-  image_alt: Angular Material Froms from Firestore
-  player: https://www.youtube.com/embed/LLupkLEszdY?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-12-angular-material-forms-from-firestore
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: Angular Material Forms from Firestore
-videos:
-- https://www.youtube.com/v/LLupkLEszdY
+youtube: LLupkLEszdY
 weight: 12
 ---
 

@@ -13,11 +13,6 @@ tags:
 - firebase
 - performance
 title: Better Performance through analysis.
-twitter:
-  card: summary_large_image
-  creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg
-  site: '@ajonpcom'
 ---
 
 > Please note I wrote this on my phone driving 6 hours, so I hope to update in more detail.

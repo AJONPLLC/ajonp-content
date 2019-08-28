@@ -16,11 +16,6 @@ images:
 tags:
   - cloudinary
 title: Building a Fun App With Ionic Studio and Cloudinary
-twitter:
-  card: summary_large_image
-  creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png
-  site: '@ajonpcom'
 ---
 
 # Building a Fun App With Ionic Studio and Cloudinary

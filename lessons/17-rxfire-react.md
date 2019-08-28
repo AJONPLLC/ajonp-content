@@ -20,21 +20,7 @@ languages:
 lesson: "17"
 title: RxFire in ReactJS using Firebase Firestore and Authentication
 toc: true
-twitter:
-  card: player
-  description: Introduction to Create React App, Firebase, and RxFire. RxFire provides
-    a set of observable creation methods. You simply call a function with some parameters
-    to receive an RxJS observable. With that observable in hand you can use any operators
-    provided by RxJS to transform the stream as you like.
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556308985/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png
-  image_alt: RxFire in ReactJS using Firebase Firestore and Authentication
-  player: https://www.youtube.com/embed/hTzcRCAm5e0?autoplay=0&rel=0&showinfo=0&modestbranding=1
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: RxFire in ReactJS using Firebase Firestore and Authentication
-videos:
-- https://www.youtube.com/v/hTzcRCAm5e0
+youtube: hTzcRCAm5e0
 weight: 20
 ---
 

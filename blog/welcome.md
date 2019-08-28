@@ -9,8 +9,7 @@ images:
 tags:
 - youtube
 title: AJonP - Rebranded
-videos:
-- https://www.youtube.com/v/NlXVWtgLNjY
+youtube: NlXVWtgLNjY
 ---
 
 # AJonP - Purr-fect Solutions

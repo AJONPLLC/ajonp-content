@@ -20,8 +20,7 @@ languages:
 lesson: "22"
 title: Nextjs using MaterialUI and Firebase - MaterialUI
 toc: true
-videos:
-- https://www.youtube.com/v/ju80EzhnCE8
+youtube: false
 weight: 3
 ---
 

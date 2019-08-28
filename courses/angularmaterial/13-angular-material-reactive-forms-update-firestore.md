@@ -24,18 +24,7 @@ tags:
 - angularmaterial
 title: Angular Material Reactive Forms Update Firestore
 toc: true
-twitter:
-  card: player
-  description: Validate your Angular Reactive Form and then update Firebase Firestore
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1549679549/ajonp-ajonp-com/13-angular-material-reactive-forms-update-firestore/angular-material-reactive-forms.jpg
-  image_alt: Angular Material Froms from Firestore
-  player: https://www.youtube.com/embed/92hYB6jivvQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/13-angular-material-reactive-forms-update-firestore.md
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: Angular Material Reactive Forms Update Firestore
-videos:
-- https://www.youtube.com/v/92hYB6jivvQ
+youtube: 92hYB6jivvQ
 weight: 13
 ---
 

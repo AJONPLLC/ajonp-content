@@ -26,18 +26,7 @@ languages:
 lesson: "4"
 title: Hugo Ionic Template
 toc: true
-twitter:
-  card: player
-  description: Google Cloud Build and Firebase Deploy Hugo project.
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544637262/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic-devops.jpg
-  image_alt: AJonP Hugo Ionic Dev Ops
-  player: https://www.youtube.com/embed/tgXFNqInA0w?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic2
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: AJonP Hugo Ionic Template Firebase Hosting
-videos:
-- https://www.youtube.com/v/tgXFNqInA0w
+youtube: tgXFNqInA0w
 weight: 20
 ---
 

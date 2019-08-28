@@ -19,18 +19,7 @@ languages:
 lesson: "2"
 title: Google Cloud Repositories CI/CD
 toc: true
-twitter:
-  card: player
-  description: Google Cloud Continuous Integration and Delivery
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543793005/ajonp-ajonp-com/2-lesson-gcp-cloud-build/aj_on_firebaseCI.jpg
-  image_alt: Google Cloud CI/CD
-  player: https://www.youtube.com/embed/MijHRE5h6Gg?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/2-firebase-ci.md
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: Google Cloud Repositories CI/CD
-videos:
-- https://www.youtube.com/v/MijHRE5h6Gg
+youtube: MijHRE5h6Gg
 weight: 20
 ---
 

@@ -13,11 +13,6 @@ tags:
 - ionic
 - stencil
 title: Design Systems with Web Components
-twitter:
-  card: summary_large_image
-  creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png
-  site: '@ajonpcom'
 ---
 
 # Design Systems with Web Components

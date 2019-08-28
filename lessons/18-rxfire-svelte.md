@@ -21,21 +21,7 @@ languages:
 lesson: "18"
 title: RxFire in Svelte 3 using Firebase Firestore and Authentication
 toc: true
-twitter:
-  card: player
-  description: Introduction to Svelte 3, Firebase, and RxFire. RxFire provides a set
-    of observable creation methods. You simply call a function with some parameters
-    to receive an RxJS observable. With that observable in hand you can use any operators
-    provided by RxJS to transform the stream as you like.
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png
-  image_alt: RxFire in Svelte 3 using Firebase Firestore and Authentication
-  player: https://www.youtube.com/embed/ju80EzhnCE8?autoplay=0&rel=0&showinfo=0&modestbranding=1
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: RxFire in Svelte 3 using Firebase Firestore and Authentication
-videos:
-- https://www.youtube.com/v/ju80EzhnCE8
+youtube: ju80EzhnCE8
 weight: 20
 ---
 

@@ -22,8 +22,7 @@ tags:
 - nextjs9
 title: Angular Material
 toc: true
-videos:
-- ""
+youtube: false
 ---
 
 # Angular Material Series

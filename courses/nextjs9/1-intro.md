@@ -19,19 +19,7 @@ languages:
 - javascript
 lesson: "20"
 title: Nextjs using MaterialUI and Firebase - Intro
-twitter:
-  card: player
-  description: Introduction to building Next.js - Version 9 with MaterialUI and Firebase.
-  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
-  image_alt: Introduction to building Next.js - Version 9 with MaterialUI and Firebase.
-  player: https://www.youtube.com/embed/TRdWWR5XsFY?autoplay=0&rel=0&showinfo=0&modestbranding=1
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: Introduction to building Next.js - Version 9 with MaterialUI and Firebase.
-toc: true
-videos:
-- https://www.youtube.com/v/TRdWWR5XsFY
+youtube: TRdWWR5XsFY
 weight: 1
 ---
 

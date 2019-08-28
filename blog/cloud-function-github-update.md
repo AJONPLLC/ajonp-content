@@ -9,11 +9,6 @@ images:
 tags:
 - git
 title: Cloud Function GitHub Update
-twitter:
-  card: summary_large_image
-  creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.jpg
-  site: '@ajonpcom'
 ---
 
 # Goal

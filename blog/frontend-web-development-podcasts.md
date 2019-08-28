@@ -12,11 +12,6 @@ images:
 tags:
 - podcast
 title: Front End Web Development Podcasts
-twitter:
-  card: summary_large_image
-  creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/FrontendPodcats.png
-  site: '@ajonpcom'
 ---
 
 

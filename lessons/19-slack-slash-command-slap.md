@@ -16,18 +16,7 @@ languages:
 lesson: "19"
 title: Slap Someone with Slack Commands
 toc: true
-twitter:
-  card: player
-  description: Deploying Firebase Cloud Function to use with Slack slash commands. Sending someone a /slap!
-  image: https://res.cloudinary.com/ajonp/image/upload/v1566671111/ajonp-ajonp-com/19-slack-slash-command-slap/Slack_Slash_Command_Slap.png
-  image_alt: Slap Someone with Slack Commands
-  player: https://www.youtube.com/embed/3A4iucpZiwo?autoplay=0&rel=0&showinfo=0&modestbranding=1
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: Slap Someone with Slack Commands
-videos:
-- https://www.youtube.com/v/3A4iucpZiwo
+youtube: 3A4iucpZiwo
 weight: 20
 ---
 

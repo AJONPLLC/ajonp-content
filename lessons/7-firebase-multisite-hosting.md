@@ -23,19 +23,7 @@ languages:
 lesson: "7"
 title: Firebase Multisite Hosting
 toc: true
-twitter:
-  card: player
-  description: Creation of multiple sites within Hugo (main and amp), as well as multiple
-    sites written in Angular (admin and app).
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.jpg
-  image_alt: Firebase Multisite Hosting
-  player: https://www.youtube.com/embed/bLrZxoC0VlQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-7-firebase-multisite-hosting
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: Firebase Multisite Hosting (Multiple Site), using Hugo and Angular
-videos:
-- https://www.youtube.com/v/bLrZxoC0VlQ
+youtube: bLrZxoC0VlQ
 weight: 20
 ---
 

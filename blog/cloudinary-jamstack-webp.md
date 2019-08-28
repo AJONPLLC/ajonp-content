@@ -12,11 +12,6 @@ images:
 tags:
 - cloudinary
 title: Cloudinary in Jamstacks using Webp
-twitter:
-  card: summary_large_image
-  creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png
-  site: '@ajonpcom'
 ---
 
 # Cloudinary and Jamstacks

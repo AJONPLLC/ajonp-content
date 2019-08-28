@@ -10,11 +10,6 @@ tags:
 - firebase
 - hosting
 title: Firebase Hosting Version Settings
-twitter:
-  card: summary_large_image
-  creator: '@ajonpcom'
-  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Firebase_Hosting_Versions.png
-  site: '@ajonpcom'
 ---
 
 # Firebase Hosting Version Settings

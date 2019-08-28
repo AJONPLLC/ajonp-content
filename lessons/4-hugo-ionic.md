@@ -26,18 +26,7 @@ languages:
 lesson: "4"
 title: AJonP Hugo Ionic Template
 toc: true
-twitter:
-  card: player
-  description: How to use AJonP's Hugo Ionic Template
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.jpg
-  image_alt: AJonP Hugo Ionic
-  player: https://www.youtube.com/embed/CZmEZ62yMFA?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/4-hugo-ionic
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: AJonP Hugo Ionic Template
-videos:
-- https://www.youtube.com/v/CZmEZ62yMFA
+youtube: CZmEZ62yMFA
 weight: 20
 ---
 

@@ -18,16 +18,7 @@ languages:
 lesson: "1"
 title: Firebase Project Hosting
 toc: true
-twitter:
-  card: player
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543773086/ajonp-ajonp-com/1-lesson/aj_on_firebase.jpg
-  image_alt: Firebase Hosting
-  player: https://www.youtube.com/embed/sOn3YMdpYR4?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/1-creating-firebase-project/
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-videos:
-- https://www.youtube.com/v/sOn3YMdpYR4
+youtube: sOn3YMdpYR4
 weight: 20
 ---
 

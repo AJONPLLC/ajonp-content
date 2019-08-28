@@ -11,18 +11,7 @@ githublinks:
 images:
 - https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png
 title: Slack Workspace Theme Customization
-twitter:
-  card: player
-  description: A quick tutorial on how to customize your Slack workspace theme.
-  image: https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png
-  image_alt: Slack Workspace Theme Customization
-  player: https://www.youtube.com/embed/vbtncEcoO9o?autoplay=0&rel=0&showinfo=0&modestbranding=1
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: Slack Workspace Theme Customization
-videos:
-- https://www.youtube.com/v/vbtncEcoO9o
+youtube: vbtncEcoO9o
 ---
 
 # Slack Workspace Theme Customization

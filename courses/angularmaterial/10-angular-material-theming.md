@@ -24,19 +24,7 @@ tags:
 - angularmaterial
 title: Angular Material Theming
 toc: true
-twitter:
-  card: player
-  description: How to create a Dynamic switchable theme using Angular Material, Fx-Layout
-    and SASS
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547585086/ajonp-ajonp-com/10-lesson-angular-material-theming/material-theming.jpg
-  image_alt: Angular Material Theming
-  player: https://www.youtube.com/embed/V3WiBs-igaY?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/lesson-9-angular-material-router-outlet
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-  title: Angular Material Dynamic Theming
-videos:
-- https://www.youtube.com/v/V3WiBs-igaY
+youtube: V3WiBs-igaY
 weight: 10
 ---
 

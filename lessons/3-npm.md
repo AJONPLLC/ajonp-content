@@ -16,16 +16,7 @@ languages:
 lesson: "3"
 title: NPM
 toc: true
-twitter:
-  card: player
-  image: https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.jpg
-  image_alt: NPM - Tips and Tricks
-  player: https://www.youtube.com/embed/eWc0bg9KMQQ?autoplay=0&rel=0&showinfo=0&modestbranding=1&origin=https://ajonp.com/lessons/3-npm
-  player_height: 960
-  player_width: 1280
-  site: '@ajonpcom'
-videos:
-- https://www.youtube.com/v/eWc0bg9KMQQ
+youtube: eWc0bg9KMQQ
 weight: 20
 ---
 
