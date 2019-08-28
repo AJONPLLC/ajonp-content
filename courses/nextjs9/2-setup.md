@@ -24,9 +24,10 @@ youtube: oUTz8JbQQww
 weight: 2
 ---
 
-> Please note the lesson was originaly written using Next 8 and later upgraded, if you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
+> If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
 
-> [Next.js v8 to v9 Upgrade Guide](https://github.com/zeit/next.js/blob/canary/UPGRADING.md)
+
+
 
 > If at any point in time you feel as though the course/module is moving at a pace you are not comfortable, please let me know in our [Slack Channel](http://bit.ly/ajonp-slack-invite).
 

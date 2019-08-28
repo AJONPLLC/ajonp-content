@@ -23,9 +23,10 @@ youtube: TRdWWR5XsFY
 weight: 1
 ---
 
-> Please note the lesson was originaly written using Next 8 and later upgraded, if you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
+> If you notice any issues please submit a [pull request](https://github.com/AJONPLLC/ajonp-content).
 
-> [Next.js v8 to v9 Upgrade Guide](https://github.com/zeit/next.js/blob/canary/UPGRADING.md)
+
+
 
 # AJ on Purr-fect Solutions introduces Next.js using MaterialUI and Firebase
 
