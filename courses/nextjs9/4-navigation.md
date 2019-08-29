@@ -492,5 +492,5 @@ export default BookCard;
 
 > If you get to the end and something is broken just grab the full branch
 ```sh
-git checkout 04-Navigation && npm i
+git checkout 04-Navigation -f && npm i
 ```
