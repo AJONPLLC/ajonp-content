@@ -20,8 +20,6 @@ languages:
 - typescript
 - scss
 lesson: "13"
-tags: 
-- angularmaterial
 title: Angular Material Reactive Forms Update Firestore
 toc: true
 youtube: 92hYB6jivvQ

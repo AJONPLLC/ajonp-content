@@ -21,8 +21,6 @@ languages:
 - typescript
 - scss
 lesson: "15"
-tags: 
-- angularmaterial
 title: Firebase Authentication and Authorization
 toc: true
 youtube: II6TAjPWg54

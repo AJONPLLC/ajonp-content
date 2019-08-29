@@ -21,8 +21,6 @@ languages:
 - typescript
 - scss
 lesson: "14"
-tags: 
-- angularmaterial
 title: Angular Material Router Awareness
 toc: true
 youtube: 3roNVbp3RPg

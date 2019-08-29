@@ -20,8 +20,6 @@ languages:
 - typescript
 - scss
 lesson: "12"
-tags: 
-- angularmaterial
 title: Angular Material Forms from Firestore
 toc: true
 youtube: LLupkLEszdY
