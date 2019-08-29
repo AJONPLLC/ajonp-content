@@ -393,3 +393,8 @@ Open your browser at http://localhost:3000 (your port may differ).
 You should also notice the lightning bolt showing the prerender page, showing the dev server running.
 
 ![Next.js Lightning Bolt](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/ri4rbjbtykjhrysscyw2.jpg)
+
+> If you get to the end and something is broken just grab the full branch
+```sh
+git checkout 03-MaterialUI && npm i
+```

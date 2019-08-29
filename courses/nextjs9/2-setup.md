@@ -213,3 +213,8 @@ You will not receive any warnings for overwrite but it will set you back to a ni
 ```sh
 git checkout 01-Introl -f 
 ```
+
+> If you get to the end and something is broken just grab the full branch
+```sh
+git checkout 02-Setup && npm i
+```

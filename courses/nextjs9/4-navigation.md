@@ -50,7 +50,7 @@ If you learn nothing else from this module [Link](https://nextjs.org/docs#with-l
 
 From your prior module you had the very basic setup of your Menu, you want to update this so that you can include an App Drawer.
 
-[App Drawer Sample](https://res.cloudinary.com/ajonp/image/upload/v1567026035/ajonp-ajonp-com/20-lesson-nextjs/4-navigation/Screen_Shot_2019-08-28_at_5.00.14_PM.png)
+![App Drawer Sample](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/4-navigation/Screen_Shot_2019-08-28_at_5.00.14_PM.png)
 
 ### Add Styles
 
@@ -304,7 +304,7 @@ I really like things centered on pages, especially because of how easy it is for
 
 ![No Grid Preview](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/4-navigation/Screen_Shot_2019-08-28_at_6.05.00_PM.png)
 
-![Grid Preview](https://res.cloudinary.com/ajonp/image/upload/v1567030022/ajonp-ajonp-com/20-lesson-nextjs/4-navigation/Screen_Shot_2019-08-28_at_6.05.14_PM.png)
+![Grid Preview](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/4-navigation/Screen_Shot_2019-08-28_at_6.05.14_PM.png)
 
 ### Key MaterialUI Components
 
@@ -488,4 +488,9 @@ function BookCard() {
 }
 
 export default BookCard;
+```
+
+> If you get to the end and something is broken just grab the full branch
+```sh
+git checkout 04-Navigation && npm i
 ```
