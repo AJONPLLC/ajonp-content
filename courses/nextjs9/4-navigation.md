@@ -20,7 +20,7 @@ languages:
 module: Navigation
 title: Nextjs using MaterialUI and Firebase - Navigation
 toc: true
-weight: 3
+weight: 4
 ---
 
 > You must have [Node](https://nodejs.org/en/download/) installed so you can leverage npm.
