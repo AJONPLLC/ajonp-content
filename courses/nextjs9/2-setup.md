@@ -3,7 +3,7 @@ authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
 description: 'Setting up your Next.js site with React, Next.js'
-draft: true
+draft: false
 frameworks:
 - firebase
 - nextjs
