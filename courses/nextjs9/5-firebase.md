@@ -418,7 +418,7 @@ export default class Section {
 - CardMedia: https://material-ui.com/api/card-media/
 - Collapse: https://material-ui.com/api/collapse/
 
-> Not technicall MaterialUI Component but it helps a lot
+> Not technically MaterialUI Component but it helps a lot
 > clsx: https://github.com/lukeed/clsx
 
 ### Key Next.js Components
@@ -534,7 +534,7 @@ const BookCard = ({ book }: any) => {
         </CardContent>
       </Collapse>
     </Card>
-  );
+  );-   
 };
 
 export default BookCard;
