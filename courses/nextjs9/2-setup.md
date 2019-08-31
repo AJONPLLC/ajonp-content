@@ -2,7 +2,7 @@
 authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
-description: 'Setting up your Next.js site with React, Next.js, '
+description: 'Setting up your Next.js site with React, Next.js'
 draft: true
 frameworks:
 - firebase
@@ -18,6 +18,8 @@ images:
 languages:
 - javascript
 module: Setup
+pricing:
+- free
 title: Nextjs using MaterialUI and Firebase - Setup
 toc: true
 youtube: oUTz8JbQQww
@@ -211,7 +213,7 @@ The modules are built one on top of the other, so you can always jump around if 
 You will not receive any warnings for overwrite but it will set you back to a nice starting point.
 
 ```sh
-git checkout 01-Introl -f 
+git checkout 01-Intro -f 
 ```
 
 > If you get to the end and something is broken just grab the full branch

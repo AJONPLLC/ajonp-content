@@ -20,6 +20,8 @@ languages:
 - typescript
 - scss
 lesson: "12"
+pricing:
+- free
 title: Angular Material Forms from Firestore
 toc: true
 youtube: LLupkLEszdY

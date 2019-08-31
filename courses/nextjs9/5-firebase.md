@@ -18,6 +18,8 @@ images:
 languages:
 - javascript
 module: Firebase Firestore Modeling
+pricing:
+- free
 title: Nextjs using MaterialUI and Firebase - Firestore Modeling
 toc: true
 weight: 5

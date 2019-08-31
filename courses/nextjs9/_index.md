@@ -17,6 +17,8 @@ images:
 - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
 languages:
 - javascript
+pricing:
+- free
 tags:
 - nextjs9
 title: Next.js - Version 9

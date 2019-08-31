@@ -18,6 +18,8 @@ images:
 languages:
 - javascript
 module: Intro
+pricing:
+- free
 title: Nextjs using MaterialUI and Firebase - Intro
 youtube: TRdWWR5XsFY
 weight: 1

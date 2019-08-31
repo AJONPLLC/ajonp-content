@@ -18,6 +18,9 @@ images:
 languages:
 - javascript
 module: Firebase Project
+pricing:
+- coming soon
+- free
 title: Nextjs using MaterialUI and Firebase - Project Hosting
 toc: true
 weight: 6

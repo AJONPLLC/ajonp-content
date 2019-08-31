@@ -18,6 +18,8 @@ images:
 languages:
 - javascript
 lesson: "20"
+pricing:
+- free
 tags:
 - nextjs9
 title: Angular Material

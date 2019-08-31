@@ -18,6 +18,8 @@ images:
 languages:
 - javascript
 module: MaterialUI
+pricing:
+- free
 title: Nextjs using MaterialUI and Firebase - MaterialUI
 toc: true
 weight: 3
