@@ -3,7 +3,7 @@ authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
 description: Firebase Firestore Modeling, how to populate collections and documents using an admin package. Then use RxFire to setup observables to watch for those changes.
-draft: true
+draft: false
 frameworks:
 - firebase
 - nextjs
