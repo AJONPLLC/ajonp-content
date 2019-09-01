@@ -29,13 +29,13 @@ youtube: II6TAjPWg54
 weight: 15
 ---
 
+# Firebase Authentication and Authorization
+
 > ⚠️ Notice: I may need to reshoot this video as FirebaseUI is up to [v4.1.0](https://github.com/firebase/firebaseui-web/releases/tag/v4.1.0)
 
 > [v4.0.0](https://github.com/firebase/firebaseui-web/releases/tag/v4.0.0) Removed all FirebaseUI underlying dependencies on deprecated and removed APIs in Firebase version 6.0.0. 
 
 > FirebaseUI no longer supports versions older than 6.0.0.
-
-# Firebase Authentication and 
 
 We will continue building out our app to Authorize users and then add Firestore rules to Authenticate within our Angular application. One of my favorite full time authentication companies is [Auth0](https://auth0.com/). Auth0 has many great articles, the one I refer to when trying to teach others about AuthN vs. AuthZ is [Authentication and Authorization](https://auth0.com/docs/authorization/concepts/authz-and-authn). 
 
