@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297352/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.png
 languages:
 - javascript
 module: Setup
