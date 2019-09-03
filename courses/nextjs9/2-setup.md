@@ -2,8 +2,8 @@
 authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
-description: 'Setting up your Next.js site with React, Next.js, '
-draft: true
+description: 'Setting up your Next.js site with React, Next.js'
+draft: false
 frameworks:
 - firebase
 - nextjs
@@ -14,10 +14,12 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297352/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.png
 languages:
 - javascript
 module: Setup
+pricing:
+- free
 title: Nextjs using MaterialUI and Firebase - Setup
 toc: true
 youtube: oUTz8JbQQww
@@ -211,10 +213,10 @@ The modules are built one on top of the other, so you can always jump around if 
 You will not receive any warnings for overwrite but it will set you back to a nice starting point.
 
 ```sh
-git checkout 01-Introl -f 
+git checkout 01-Intro -f 
 ```
 
 > If you get to the end and something is broken just grab the full branch
 ```sh
-git checkout 02-Setup && npm i
+git checkout 02-Setup -f && npm i
 ```

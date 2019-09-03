@@ -21,6 +21,8 @@ languages:
 - typescript
 - scss
 lesson: "11"
+pricing:
+- free
 title: Angular Material Dynamic Navigation using Firestore
 toc: true
 youtube: sZoiLcq7N6Q

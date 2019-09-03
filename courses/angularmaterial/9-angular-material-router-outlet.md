@@ -20,6 +20,8 @@ languages:
 - go
 - typescript
 lesson: "9"
+pricing:
+- free
 title: Angular Material Router Outlet
 toc: true
 youtube: niJrSNQ1KwI

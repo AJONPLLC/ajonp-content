@@ -14,9 +14,11 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567280525/ajonp-ajonp-com/20-lesson-nextjs/Nextjs9.png
 languages:
 - javascript
+pricing:
+- free
 tags:
 - nextjs9
 title: Next.js - Version 9

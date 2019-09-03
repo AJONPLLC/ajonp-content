@@ -3,7 +3,7 @@ authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
 description: Adding MaterialUI to Next.js
-draft: true
+draft: false
 frameworks:
 - firebase
 - nextjs
@@ -14,10 +14,12 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png
 languages:
 - javascript
 module: MaterialUI
+pricing:
+- free
 title: Nextjs using MaterialUI and Firebase - MaterialUI
 toc: true
 weight: 3
@@ -396,5 +398,5 @@ You should also notice the lightning bolt showing the prerender page, showing th
 
 > If you get to the end and something is broken just grab the full branch
 ```sh
-git checkout 03-MaterialUI && npm i
+git checkout 03-MaterialUI -f && npm i
 ```

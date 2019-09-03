@@ -3,7 +3,7 @@ authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
 description: Navigation Using Next.js and MaterialUI. This module covers the nextlink component from Next.js, MaterialUI Card, and MaterialUI Drawer.
-draft: true
+draft: false
 frameworks:
 - firebase
 - nextjs
@@ -14,10 +14,12 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/v1565354225/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Navigation.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Navigation.png
 languages:
 - javascript
 module: Navigation
+pricing:
+- free
 title: Nextjs using MaterialUI and Firebase - Navigation
 toc: true
 weight: 4
@@ -492,5 +494,5 @@ export default BookCard;
 
 > If you get to the end and something is broken just grab the full branch
 ```sh
-git checkout 04-Navigation && npm i
+git checkout 04-Navigation -f && npm i
 ```

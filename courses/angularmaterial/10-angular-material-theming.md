@@ -20,6 +20,8 @@ languages:
 - typescript
 - scss
 lesson: "10"
+pricing:
+- free
 title: Angular Material Theming
 toc: true
 youtube: V3WiBs-igaY

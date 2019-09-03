@@ -14,15 +14,16 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/courses/angularmaterial/Angular_Material.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/courses/angularmaterial/Angular_Material.png
 languages:
 - javascript
 lesson: "20"
+pricing:
+- free
 tags:
 - nextjs9
 title: Angular Material
 toc: true
-youtube: false
 ---
 
 # Angular Material Series
