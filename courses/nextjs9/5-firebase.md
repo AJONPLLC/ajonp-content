@@ -41,28 +41,29 @@ Just a warning up front there is a lot in this module, I would recommend doing i
 ## Firestore
 
 Cloud Firestore is a NoSQL, document-oriented database. Unlike a SQL database, there are no tables or rows. Instead, you store data in documents, which are organized into collections.
-
 Each document contains a set of key-value pairs. Cloud Firestore is optimized for storing large collections of small documents.
-
 All documents must be stored in collections. Documents can contain subcollections and nested objects, both of which can include primitive fields like strings or complex objects like lists.
-
 Collections and documents are created implicitly in Cloud Firestore. Simply assign data to a document within a collection. If either the collection or document does not exist, Cloud Firestore creates it.
 
 If this is a new concept for you please read through [Cloud Firestore Data model](https://firebase.google.com/docs/firestore/data-model). 
 
-Think of it like this:
+### Firestore Data Model
+
+This is how I typically think of the data model, it is very similar (if not the same) as how Firebase's Firestore guide shows.
 
 ![Firestore Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Firestore_Model.png)
+
+### AJ's Data Model
 
 Specifically for AJ's Books application we will have a structure that seems like this (although there are no folders):
 
 ![AJ's Books Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Base-Model.png)
 
-Book Example Data
+### Firestore Example Book
 
 ![AJ Book Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Book-Data-Model.png)
 
-Author Example Data
+### Firestore Example Author
 
 ![AJ Author Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Author-Data-Model.png)
 
@@ -575,13 +576,10 @@ I have two demos currently on how you can use this wonderful javascript package 
 
 You are going to finally add some "real" logic to one of our pages. The key here is the introduction of Firebase. 
 
-- You are going to use `await loadFirebase();` so that we wait for the firebase package to finish loading. 
-
-- Then aquire a reference to the collections in Firestore `const booksRef = firebase.firestore().collection('books');`.
-
-- Finally setup an [Observable](https://rxjs-dev.firebaseapp.com/guide/observable) that a [Subscription](https://rxjs-dev.firebaseapp.com/api/index/class/Subscription) can be setup to listen to any changes. This is where the power of RxFire shines. Any time we see an update coming we will simple update the current state with an array of books.
-
-- For each of the books we will then use the BookCard Component and populate the data to show on the screen.
+1. Use `await loadFirebase();` so that we wait for the firebase package to finish loading. 
+1. Then aquire a reference to the collections in Firestore `const booksRef = firebase.firestore().collection('books');`.
+1. Setup an [Observable](https://rxjs-dev.firebaseapp.com/guide/observable) that a [Subscription](https://rxjs-dev.firebaseapp.com/api/index/class/Subscription) can be setup to listen to any changes. This is where the power of RxFire shines. Any time we see an update coming we will simple update the current state with an array of books.
+1.  For each of the books we will then use the BookCard Component and populate the data to show on the screen.
 ```tsx
 <Grid container direction="row" justify="center">
 {this.state.books.map((book: Book) => {
@@ -623,11 +621,36 @@ export default class Books extends Component {
 }
 ```
 
-## Optional Items
+## Theme Update(optional)
 
-### Theme Update
+I decided my eyes were hurting at this point so I switched the theme file to have a dark type and included deepPurple as primary and pink as secondary. Feel free to change as much or as little as you want! I could probably do a full course on [MaterialUI Theming](https://material-ui.com/customization/theming/), and who knows maybe I will 😸.
 
-### Analyze Bundle
+### Full Code
+
+```tsx
+import deepPurple from '@material-ui/core/colors/deepPurple';
+import pink from '@material-ui/core/colors/pink';
+import red from '@material-ui/core/colors/red';
+import { createMuiTheme } from '@material-ui/core/styles';
+
+// Create a theme instance.
+const theme = createMuiTheme({
+  palette: {
+    type: 'dark',
+    primary: deepPurple,
+    secondary: pink,
+    error: {
+      main: red.A400
+    }
+  }
+});
+
+export default theme;
+```
+
+### Analyze Bundle(optional)
+
+Please take the time to checkout why it is important that we load Firebase using an `await import` statement instead of just declaring it as a `const`; 
 
 > If you get to the end and something is broken just grab the full branch
 ```sh
