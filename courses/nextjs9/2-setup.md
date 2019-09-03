@@ -118,30 +118,6 @@ export default Index
 
 Now that you have content make sure that your server is still running or run command `npm run dev` and refresh the browser.
 
-~~~
-# Typescript
-You will now update your index page to become more strictly typed by changing its file type from .js to .tsx, which will allow VSCode to understand that you are now going to be using typescript in your jsx files.
-
- The `"jsx": "preserve"` (in your `.tsconfig`) mode will keep the JSX as part of the output to be further consumed by another transform step. In your case this is done with Babel using `"presets": ["next/babel"]`.
-
-For the remainder of this tutorial you will now be switching over to Typescript. There are a few things that you need to update:
-- Let Next.js know that you are making this change (or more correctly webpack) and update the config.
-- Add configuration to allow the correct output to occur
-- Add Typescript configuration file to allow for your project to be known as the root for your typescript, so that the compiler options can be followed.
-
-## Next Config
-
-As of Next version 9, you no longer need to add typescript support 😸
-https://github.com/zeit/next.js/blob/canary/UPGRADING.md#breaking-changes
-
-> For Next.js v8
-next.config.js
-```js
-const withTypescript = require('@zeit/next-typescript');
-module.exports = withTypescript();
-```
-~~~
-
 ## Babel Config
 
 .babelrc
