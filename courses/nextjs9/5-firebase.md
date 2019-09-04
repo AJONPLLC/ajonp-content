@@ -224,6 +224,134 @@ export default async function loadFirebase() {
 }
 ```
 
+## Firestore rules
+
+For now we are going to manually update our rules (later we will use the Firebase CLI) to match below:
+
+### Full Code (rules)
+
+```
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+    // This function allows us to look at AuthZ (Authorization) roles within our database, to see who is allowed for activities.
+    function getRole(role) {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles[role]
+    }
+    // Users
+    match /users/{userId} {
+      allow read: if request.auth.uid != null;
+      allow create: if request.resource.data.roles.keys().hasAny(['admin', 'editor']) == false;
+      allow update: if request.resource.data.roles.keys().hasAny(['admin', 'editor']) == false
+      							|| resource.data.roles.keys().hasAny(['admin', 'editor']) == true;
+    }
+    match /config/{configId}{
+      allow read: if true;
+    }
+
+    match /books/{bookId}{
+      allow create: if getRole('admin') == true;
+      allow read: if true;
+      allow update: if getRole('editor') == true || getRole('admin') == true;
+      allow delete: if getRole('admin') == true;
+
+      match /chapters/{chapterId}{
+        allow create: if getRole('admin') == true;
+        allow read: if true;
+        allow update: if getRole('editor') == true || getRole('admin') == true;
+        allow delete: if getRole('admin') == true;
+
+        match /pages/{pageId}{
+          allow create: if getRole('admin') == true;
+          allow read: if true;
+          allow update: if getRole('editor') == true || getRole('admin') == true;
+          allow delete: if getRole('admin') == true;
+        }
+      }
+    }
+    match /authors/{authorId}{
+        allow create: if getRole('admin') == true;
+        allow read: if true;
+        allow update: if getRole('editor') == true || getRole('admin') == true;
+        allow delete: if getRole('admin') == true;
+    }
+    match /graphicnovels/{gnId}{
+        allow create: if getRole('admin') == true;
+        allow read: if true;
+        allow update: if getRole('editor') == true || getRole('admin') == true;
+        allow delete: if getRole('admin') == true;
+    }
+  }
+}
+
+```
+
+### Staying Locked
+This snippet should always remain, you will see errors in your console that will help you to determine if you should update your rules further.
+```
+    match /{document=**} {
+      allow read, write: if false;
+    }
+```
+
+### Custom Rule Functions
+
+[Custom Rule Functions](https://firebase.google.com/docs/firestore/security/rules-conditions#custom_functions) help us easily address how secure we want to lock down our app. For now we don't want anyone but a user who has `admin` rights to create/update/delete our data. 
+
+The function below returns a boolean value based on the currently signedin user.
+
+```
+    // This function allows us to look at AuthZ (Authorization) roles within our database, to see who is allowed for activities.
+    function getRole(role) {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles[role]
+    }
+```
+
+We can then easily check for this value by calling the function `getRole()`, which will lookup the currently signed in user and see if they have the role `admin` set to true in our roles `map`. You can find all the data types available in [Firestore Data Types](https://firebase.google.com/docs/firestore/manage-data/data-types).
+
+```
+allow create: if getRole('admin') == true;
+```
+
+Here you can see that I have set my `admin@ajonp.com` user to be an `admin`. Note: all users in our application get the role `subscriber`.
+
+![user admin](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-09-03_at_12.56.44_PM.png)
+
+### Books rules
+
+Now if you remember from our [Model Diagram](/courses/nextjs9/nextjs-using-materialui-and-firebase-firestore-modeling/#aj-s-data-model), we will be adding a `books` main collection with `chapters` subcollection then within `chapters` you will have a `pages` subcollection.
+
+```
+    match /books/{bookId}{
+      allow create: if getRole('admin') == true;
+      allow read: if true;
+      allow update: if getRole('editor') == true || getRole('admin') == true;
+      allow delete: if getRole('admin') == true;
+
+      match /chapters/{chapterId}{
+        allow create: if getRole('admin') == true;
+        allow read: if true;
+        allow update: if getRole('editor') == true || getRole('admin') == true;
+        allow delete: if getRole('admin') == true;
+
+        match /pages/{pageId}{
+          allow create: if getRole('admin') == true;
+          allow read: if true;
+          allow update: if getRole('editor') == true || getRole('admin') == true;
+          allow delete: if getRole('admin') == true;
+        }
+      }
+    }
+```
+
+### Manual upload
+
+Navigate to the firebase console -> Database -> Rules tab. Then copy and paste all of the code from above, you should then be able to publish.
+
+![Rules Publish](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_1.05.36_PM.png)
+
 ### Lazy Loading Modules
 
 This example of loading firebase is based on the [Next.js Lazy Loading Modules Tutorial](https://nextjs.org/learn/excel/lazy-loading-modules). This is the best way to add firebase into your project. If you have a requirement to switch between multiple environments, you can check for the Node Env variables and also set this up.
