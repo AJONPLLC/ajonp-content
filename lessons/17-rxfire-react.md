@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/rxfire-react-cats
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556308985/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1556308985/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.webp
 languages:
 - javascript
 lesson: "17"
@@ -61,7 +61,7 @@ https://facebook.github.io/create-react-app/docs/getting-started
 You will also need to create your own Firebase project and initialize a Firestore database, please create this using strict mode.
 
 ## Final App Structure
-![Structure](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556401634/ajonp-ajonp-com/12-angular-material-from-firestore/tnjyrsul0tegl2if31gf.png)
+![Structure](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1556401634/ajonp-ajonp-com/12-angular-material-from-firestore/tnjyrsul0tegl2if31gf.webp)
 
 ## Install dependencies
 You will need both [rxfire](https://www.npmjs.com/package/rxfire) and [firebase](https://www.npmjs.com/package/firebase)
@@ -159,7 +159,7 @@ class Instructions extends React.Component {
           }}
         >
           <img
-            src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.png"
+            src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/17-rxfire-react-cats/RxFire_3.webp"
             alt="rxfire for cats"
             width="100%"
           />
@@ -277,7 +277,7 @@ export default AddCat;
 ```
 
 Now if you try this right now it should fail with this alert
-![fail image](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556403260/ajonp-ajonp-com/12-angular-material-from-firestore/pmapculndlkk3c61pa21.jpg)
+![fail image](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1556403260/ajonp-ajonp-com/12-angular-material-from-firestore/pmapculndlkk3c61pa21.webp)
 
 This is expected as our firestore.rules are set to strict mode, we will add those after we get through our authentication section next.
 

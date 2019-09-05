@@ -8,7 +8,7 @@ draft: false
 githublinks:
 - https://github.com/AJONPLLC
 images:
-- https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.jpg
+- https://res.cloudinary.com/ajonp/image/upload/w_1200/ajonp-ajonp-com/blog/Adobe_20190817_102729.webp
 tags:
 - firebase
 - performance
@@ -28,7 +28,7 @@ In terms of data reduction and user experience, sometimes these things are not a
 
 [Web.dev learning](https://web.dev/learn) is one of the best sources to increase performance on your site.
 
-<video controls poster="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-083308_2.png" height="800">
+<video controls poster="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-083308_2.webp" height="800">
   <source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/blog/20190817_115842.mp4" type="video/mp4">
 </video>
 
@@ -39,7 +39,7 @@ But I never was good at "hitting the books" in school, I am a visual hands on le
 
 It is nice to repeat the lighthouse metrics to see what you have learned and the trends over time.
 
-![metrics](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-083308_2.png)
+![metrics](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-083308_2.webp)
 
 ## Firebase performance monitoring
 
@@ -53,10 +53,10 @@ With that said there are three key elements:
 The awesome part of Firebase is that it is a very small amount of code that gives you all of this great info!
 
 Here you can see a great overview
-![overview](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-100008_2.png)
+![overview](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-100008_2.webp)
 
 You can see all the pages and how many samples determine the average performance.
-![pages](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-170441.png)
+![pages](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-170441.webp)
 
 ## Why 2 seconds
 
@@ -93,16 +93,16 @@ If the majority of your users are on desktop, you probably care more about testi
 
 I try to get an all A rating, but this shows even smaller items that you can fix.
 
-![AJonP desktop sample](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190818-124358.png)
+![AJonP desktop sample](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190818-124358.webp)
 
 It allows you to really dig down into the details.
 
-![AJonP desktop details](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190818-124455.png)
+![AJonP desktop details](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190818-124455.webp)
 
 ### Mobile low-end for AJonP
 
 An example where I can improve performance still on low end devices.
 
-![first byte](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-225336.png)
+![first byte](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-225336.webp)
 
-![technical](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-225421.png)
+![technical](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screenshot_20190817-225421.webp)

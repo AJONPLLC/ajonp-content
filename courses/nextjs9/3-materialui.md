@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_MaterialUI.webp
 languages:
 - javascript
 module: MaterialUI
@@ -241,7 +241,7 @@ export default MyDocument;
 
 The [App Bar Component](https://material-ui.com/components/app-bar/) threw me off at first as I expected it under navigation, but it really does belong in the surfaces section. Because you are making a fairly complex version of an App Bar I broke this out into its own component. Your MenuAppBar component has several dependencies that you are going to use so it made sense to group them.
 
-![Menu App Bar Preview](https://res.cloudinary.com/ajonp/image/upload/q_upload/ajonp-ajonp-com/20-lesson-nextjs/Screen_Shot_2019-08-28_at_4.54.09_PM.png)
+![Menu App Bar Preview](https://res.cloudinary.com/ajonp/image/upload/q_upload/ajonp-ajonp-com/20-lesson-nextjs/Screen_Shot_2019-08-28_at_4.54.09_PM.webp)
 
 ### Key MaterialUI Components
 
@@ -378,11 +378,11 @@ If you are new to ReactJS (like myself), I would recommend installing [React Dev
 
 Here you can inspect the layout of your full application. If you take a look 
 
-![React Dev Tools](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/f8mmv34ulizhtxmknbpx.png)
+![React Dev Tools](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/f8mmv34ulizhtxmknbpx.webp)
 
 As you highlight components you can see the Props that are passed through them, highlight `ThemeProvider` this is where much of the theming for MaterialUI will come from in the updates will will continue to make in your app.
 
-![MaterialUI ThemeProvider](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/cnhji8alguos2tt3rnzz.png)
+![MaterialUI ThemeProvider](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/cnhji8alguos2tt3rnzz.webp)
 
 # Run Next.js Development server
 ```cmd
@@ -390,11 +390,11 @@ npm run dev
 ```
 Open your browser at http://localhost:3000 (your port may differ).
 
-![Next.js Hello](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/oy53wlavfbw3efhdqrpf.png)
+![Next.js Hello](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/oy53wlavfbw3efhdqrpf.webp)
 
 You should also notice the lightning bolt showing the prerender page, showing the dev server running.
 
-![Next.js Lightning Bolt](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/ri4rbjbtykjhrysscyw2.jpg)
+![Next.js Lightning Bolt](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/ri4rbjbtykjhrysscyw2.webp)
 
 > If you get to the end and something is broken just grab the full branch
 ```sh

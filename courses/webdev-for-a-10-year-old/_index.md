@@ -9,7 +9,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567352020/ajonp-ajonp-com/courses/coding_10_year_old/For_a_10_Year_Old.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567352020/ajonp-ajonp-com/courses/coding_10_year_old/For_a_10_Year_Old.webp
 languages:
 - javascript
 pricing:

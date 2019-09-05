@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/lesson-9-angular-material-router-outlet
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547495858/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/angular-material-router-outlet.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1547495858/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/angular-material-router-outlet.webp
 languages:
 - javascript
 - go
@@ -56,7 +56,7 @@ ng new angular-material-router-outlet
 ```
 
 Please choose Yes for routing and SCSS.
-![NG Choices](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto//v1547496414/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/ukc1dpxppxkumbid4aql.jpg)
+![NG Choices](https://res.cloudinary.com/ajonp/image/upload/q_auto//v1547496414/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/ukc1dpxppxkumbid4aql.webp)
 
 ## Add Material to Angular Project
 
@@ -69,7 +69,7 @@ ng add @angular/material
 ```
 
 For the selections please choose custom, as we will add these in our next lesson.
-![Angular Material Selections](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto//v1547499455/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/rcbcfajzbwkjlptbhk08.jpg)
+![Angular Material Selections](https://res.cloudinary.com/ajonp/image/upload/q_auto//v1547499455/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/rcbcfajzbwkjlptbhk08.webp)
 
 ## Open Project
 
@@ -79,7 +79,7 @@ cd angular-material-router-outlet && code .
 ```
 
 You should see the base angular structure, including a routing module `app-routing.module.ts`
-![Structure for Angular Project](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto//v1547499630/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/wds1pzbwihb4p6efpnks.jpg)
+![Structure for Angular Project](https://res.cloudinary.com/ajonp/image/upload/q_auto//v1547499630/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/wds1pzbwihb4p6efpnks.webp)
 
 package.json
 ```json
@@ -164,7 +164,7 @@ ng serve
 
 Now on [http://localhost:4200](http://localhost:4200) you will see the default Angular page displayed.
 
-![Angular Base page](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto//v1547499873/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/cq7rdkftk6km9kmtism0.jpg)
+![Angular Base page](https://res.cloudinary.com/ajonp/image/upload/q_auto//v1547499873/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/cq7rdkftk6km9kmtism0.webp)
 
 # Angular Modules
 
@@ -178,7 +178,7 @@ Many tutorials will have you start putting everything into app.component*, I lik
 
 The Sidenav consists of three main html elements `<mat-sidenav-container>`, `<mat-sidenav>`, and `<mat-sidenav-content>`. Visually these can be represented like
 
-![Material Sidenav Layout](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto//v1547500528/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/mat-sidenav-content.jpg)
+![Material Sidenav Layout](https://res.cloudinary.com/ajonp/image/upload/q_auto//v1547500528/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/mat-sidenav-content.webp)
 
 ## Creating Sidenav Module
 
@@ -194,7 +194,7 @@ ng g c modules/sidenav
 ```
 The output of these commands should give you this structure.
 
-![Sidenav Module Structure](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto//v1547500863/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/dbap7swjuk06qig0jtg2.jpg)
+![Sidenav Module Structure](https://res.cloudinary.com/ajonp/image/upload/q_auto//v1547500863/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/dbap7swjuk06qig0jtg2.webp)
 
 You can then replace any contents in `app.component.html` with
 
@@ -360,7 +360,7 @@ Also remember to add RouterModule to `sidenav.module` so that Angular understand
 
 This is a visual representation of what is happening in our code so far, mat-sidenav-content->router-outlet is where the reaminder of our app will live.
 
-![Sidenav with Toolbar](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto//v1547502835/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/main-router-outlet.jpg)
+![Sidenav with Toolbar](https://res.cloudinary.com/ajonp/image/upload/q_auto//v1547502835/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/main-router-outlet.webp)
 
 # Lazy Loading Books Feature Module
 
@@ -570,7 +570,7 @@ sidenav.component.ts
 Now that we have our book feature module all setup with working navigation and toolbar, we are going to add a named outlet for a drawer on this page.
 
 Visually it will look like this
-![Drawer Layout](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto//v1547511788/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/book-drawer.jpg)
+![Drawer Layout](https://res.cloudinary.com/ajonp/image/upload/q_auto//v1547511788/ajonp-ajonp-com/9-lesson-angular-material-router-outlet/book-drawer.webp)
 We will change our `books.component.html` from having text to including an Angular Material Drawer (mat-drawer). Remember now we have `one` router-outlet in our `sidenav.component` and `two` router-outlets in `books.component`, one named for the drawer and one for content.
 
 ## Create Drawer Component

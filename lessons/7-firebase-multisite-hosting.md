@@ -15,7 +15,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/lesson-7-firebase-multisite-hosting
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/f_auto,fl_lossy,q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/q_auto/v1545089640/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/firebase-multisite-hosting-angular-hugo.webp
 languages:
 - javascript
 - go
@@ -51,16 +51,16 @@ This lesson will focus on a very easy solution to having multiple web projects h
 ## New Project
 If you have just created a new project you will need to upgrade in order to use Multisite hosting.
 
-![Upgrade Plan](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_2.56.02_PM.jpg)
+![Upgrade Plan](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_2.56.02_PM.webp)
 
-![Included Pricing](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_3.00.55_PM.jpg)
+![Included Pricing](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_3.00.55_PM.webp)
 
 We recommend the Blaze plan as you will end up paying a lot less (if anything) for all of your small projects. If you go with the Flame plan you are guaranteed to pay $25.
 
-![Firebase Plans](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_2.57.48_PM.jpg)
+![Firebase Plans](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_2.57.48_PM.webp)
 
 Hosting Free limit on the Blaze plan
-![Free Included Items](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_3.01.55_PM.jpg)
+![Free Included Items](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545142662/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/Screen_Shot_2018-12-17_at_3.01.55_PM.webp)
 
 # Create 4 Firebase Hosting Sites
 You can name these whatever fits your project, if you using ajonp* you will probably have issues as we am already using those.
@@ -77,8 +77,8 @@ Example for your site:
 - mysite-amp
 - mysite-app
 
-![Example Site Creation](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545158121/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/axpst0mag0khcvqqlijc.jpg)
-![All Sites](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545160404/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/aaqgcyvubuggrk8fsqqm.jpg)
+![Example Site Creation](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545158121/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/axpst0mag0khcvqqlijc.webp)
+![All Sites](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545160404/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/aaqgcyvubuggrk8fsqqm.webp)
 
 # Example Multiple Hugo Themes deploying to Firebase Multisite
 
@@ -99,7 +99,7 @@ git remote rm origin
 
 ## Add new reference
 1. Create a new github site (or Gitlab or Google Cloud or...)
-![Git Sample Repo](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545162597/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/lnstebijo3p2ijyn1jzw.jpg)
+![Git Sample Repo](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545162597/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/lnstebijo3p2ijyn1jzw.webp)
 
 1. Then add the new repo back to your site using this command, replace **ajonp/a-sample-repo.git** with yours.
 ```sh
@@ -238,4 +238,4 @@ Step #0: 3c2cba919283: Pull complete
 ```
 
 Google Cloud Builder Output
-![Google Cloud Builder Output ](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545169224/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/ln3docmhljhbkphqio8a.jpg)
+![Google Cloud Builder Output ](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545169224/ajonp-ajonp-com/7-lesson-firebase-multisite-hosting/ln3docmhljhbkphqio8a.webp)

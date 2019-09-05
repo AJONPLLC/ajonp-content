@@ -5,7 +5,7 @@ date: "2019-08-22T02:33:41-05:00"
 description: Set your version history for firebase hosting, to avoid storage costs.
 draft: false
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Firebase_Hosting_Versions.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Firebase_Hosting_Versions.webp
 tags:
 - firebase
 - hosting
@@ -19,34 +19,34 @@ If you start to get that feeling like "Why am I getting billed for this tiny app
 
 If you project is currently using hosting, you should see your dashboard as soon as you enter your project. You can either click on your last deployment history or go to Hosting in the menu.
 
-![firebase dashboard](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_12.58.22_PM.png)
+![firebase dashboard](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_12.58.22_PM.webp)
 
 ## Hosting Usage
 
 You may see multiple sites that you are currently hosting in this screen. For now lets switch over to the Usage tab. You should see a chart listed year of you trending stored bytes. In my graphy this shows a recent trendline upward (as I have been deploying a lot).
 
-![hosting usage](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.02.32_PM.png)
+![hosting usage](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.02.32_PM.webp)
 
 If this type of storage trend where to continue I would eventually break into the 1GB limit for storage on this site, now granted for my 5MB it would take a great deal of time. 
-![Firebase Pricing](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.05.23_PM.png)
+![Firebase Pricing](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.05.23_PM.webp)
 
 ## Updating Version
 
 If you have multiple domains select View on the one that you want to change. Once you are in the Manage site area, you will see all of your domains at the top then the release history at the bottom.
 
-![Firebase hosting manage site](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.08.07_PM.png)
+![Firebase hosting manage site](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.08.07_PM.webp)
 
 It is in the Release History section that you will be able to select Version history settings, from the hamburger menu.
 
-![Firebase Version history settings](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.10.24_PM.png)
+![Firebase Version history settings](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.10.24_PM.webp)
 
 When you get the modal screen to change the versions, you will see based on your selection the estimated storage. If you have several (in my case 100's) of versions stored you will notice that a background job is kicked off that will mark your old versions for deletion.
 
-![Version Settings change](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.12.30_PM.png)
+![Version Settings change](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.12.30_PM.webp)
 
 Once the delete action has finished you will notice that your older deployments will have an `Auto deleted` indicator.
 
-![Auto Delete Indicator](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.52.07_PM.png)
+![Auto Delete Indicator](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-22_at_1.52.07_PM.webp)
 
 ## REST Service
 

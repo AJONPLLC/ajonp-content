@@ -9,7 +9,7 @@ frameworks:
 githublinks:
 - https://github.com/ajonp/slackthemes
 images:
-- https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.png
+- https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Slack_Themes.webp
 title: Slack Workspace Theme Customization
 youtube: vbtncEcoO9o
 ---
@@ -28,7 +28,7 @@ youtube: vbtncEcoO9o
 [SlackThemes.net](https://slackthemes.net/#/myplanet)
 
 <a href="https://slackthemes.net/#/myplanet" target="_blank">
-![SlackThemes.net](https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Screen_Shot_2019-08-14_at_10.36.02_PM.png)
+![SlackThemes.net](https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/blog/Screen_Shot_2019-08-14_at_10.36.02_PM.webp)
 </a>
 
 ### Fork SlackThemes Repo

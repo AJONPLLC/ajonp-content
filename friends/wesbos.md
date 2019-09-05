@@ -8,13 +8,13 @@ draft: false
 githublinks:
 - https://github.com/wesbos
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/friends/Screen_Shot_2019-08-14_at_4.02.15_AM.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/friends/Screen_Shot_2019-08-14_at_4.02.15_AM.webp
 site_url: https://wesbos.com
 title: wesbos.com
 twitter:
   card: summary_large_image
   creator: '@wesbos'
-  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/friends/Screen_Shot_2019-08-14_at_4.02.15_AM.png
+  image: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/friends/Screen_Shot_2019-08-14_at_4.02.15_AM.webp
   site: '@wesbos'
 ---
 

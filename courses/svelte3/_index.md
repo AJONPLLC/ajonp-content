@@ -11,7 +11,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/courses/svelte3/Svelte_3_Course.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/courses/svelte3/Svelte_3_Course.webp
 languages:
 - javascript
 pricing:

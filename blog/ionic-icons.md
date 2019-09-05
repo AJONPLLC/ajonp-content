@@ -5,7 +5,7 @@ date: "2019-01-20T01:25:38-05:00"
 description: Use Ionic Icons in any Project!
 draft: false
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998164/ajonp-ajonp-com/blog/ionic-icons.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1547998164/ajonp-ajonp-com/blog/ionic-icons.webp
 tags:
 - ionic
 title: Ionic Icons

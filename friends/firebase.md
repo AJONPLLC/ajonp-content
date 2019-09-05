@@ -8,13 +8,13 @@ draft: false
 githublinks:
 - https://github.com/firebase
 images:
-- https://firebase.google.com/downloads/brand-guidelines/PNG/logo-standard.png
+- https://firebase.google.com/downloads/brand-guidelines/PNG/logo-standard.webp
 site_url: https://firebase.com
 title: firebase.com
 twitter:
   card: summary_large_image
   creator: '@firebase'
-  image: https://firebase.google.com/downloads/brand-guidelines/PNG/logo-standard.png
+  image: https://firebase.google.com/downloads/brand-guidelines/PNG/logo-standard.webp
   site: '@firebase'
 ---
 

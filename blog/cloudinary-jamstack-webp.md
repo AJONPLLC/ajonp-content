@@ -8,7 +8,7 @@ draft: false
 githublinks:
 - https://github.com/AJONPLLC/
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1564600835/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp
 tags:
 - cloudinary
 title: Cloudinary in Jamstacks using Webp
@@ -32,7 +32,7 @@ HTTP Calls:
 
 Original Call 134 KB
 
-URL: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png
+URL: https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp
 ![Title Photo PNG](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/hffb2m4yoewvtwd2np2f.webp)
 
 Webp Call 49.7 KB - 63% reduction
@@ -69,13 +69,13 @@ So as a developer I can't honestly say "well just have people use anything excep
 ```html
 <picture>
   <source srcset="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp" type="image/webp">
-  <img src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png" alt="Cloudinary Webp">
+  <img src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp" alt="Cloudinary Webp">
 </picture>
 ```
 
 <picture>
   <source srcset="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp" type="image/webp">
-  <img src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.png" alt="Cloudinary Webp">
+  <img src="https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary_-_Webp.webp" alt="Cloudinary Webp">
 </picture>
 
 As you can see below Safari will use the `<img>` tag and not refer back to the `<source>` tag, and it will show the image correctly.

@@ -10,7 +10,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567357487/ajonp-ajonp-com/courses/coding_10_year_old/For_a_10_Year_Old_-_HTML.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567357487/ajonp-ajonp-com/courses/coding_10_year_old/For_a_10_Year_Old_-_HTML.webp
 languages:
 - html
 module: HTML

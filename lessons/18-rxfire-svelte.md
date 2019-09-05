@@ -15,7 +15,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/rxfire-svelte3.git
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.webp
 languages:
 - javascript
 lesson: "18"
@@ -67,7 +67,7 @@ You will also need to create your own Firebase project and initialize a Firestor
 [Example rules](https://github.com/AJONPLLC/rxfire-react-cats/blob/master/firestore.rules);
 
 ## Final App Structure
-![](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/18-rxfire-svelte-cats/djkgve67f4opo5oh6jqr.png)![](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/18-rxfire-svelte-cats/pzf7b3rmcfmfmmgicsii.png)
+![](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/18-rxfire-svelte-cats/djkgve67f4opo5oh6jqr.webp)![](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/18-rxfire-svelte-cats/pzf7b3rmcfmfmmgicsii.webp)
 
 ## Install dependencies
 You will need [rxfire](https://www.npmjs.com/package/rxfire),   [firebase](https://www.npmjs.com/package/firebase), and [rxjs](https://www.npmjs.com/package/rxjs)
@@ -151,7 +151,7 @@ components/Instructions.svelte
 <div class="flex-row">
   <div>
     <img
-      src="https://res.cloudinary.com/ajonp/image/upload/w_500/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.png"
+      src="https://res.cloudinary.com/ajonp/image/upload/w_500/v1556553295/ajonp-ajonp-com/18-rxfire-svelte-cats/RxFire_Svelt.webp"
       alt="rxfire for cats"
     />
   </div>
@@ -254,7 +254,7 @@ components/AddCat.svelte
 ```
 
 Now if you try this right now it should fail with this alert
-![fail image](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1556403260/ajonp-ajonp-com/12-angular-material-from-firestore/pmapculndlkk3c61pa21.jpg)
+![fail image](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1556403260/ajonp-ajonp-com/12-angular-material-from-firestore/pmapculndlkk3c61pa21.webp)
 
 This is expected as our firestore.rules are set to strict mode, we will add those after we get through our authentication section next.
 

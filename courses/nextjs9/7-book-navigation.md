@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Server_Side_Rendering_1.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Server_Side_Rendering_1.webp
 languages:
 - javascript
 module: SSR Part 1
@@ -211,7 +211,7 @@ If nothing else you can copy and paste and all should work 🙀.
 
 Look carefully in the terminal output when you are building, right now we are only setting up the next step on our journey. Next.js is still just outputting static html files, not lambdas.
 
-![Static Only](https://res.cloudinary.com/ajonp/image/upload/v1567541305/ajonp-ajonp-com/20-lesson-nextjs/7-book-nav-ssr1/Screen_Shot_2019-09-03_at_3.39.46_PM.png)
+![Static Only](https://res.cloudinary.com/ajonp/image/upload/v1567541305/ajonp-ajonp-com/20-lesson-nextjs/7-book-nav-ssr1/Screen_Shot_2019-09-03_at_3.39.46_PM.webp)
 
 ## Update Book Card
 
@@ -299,7 +299,7 @@ const BookCard = ({ book }: { book: Book }) => {
         <CardActionArea>
           <CardMedia
             className={classes.cardMedia}
-            image={book.cover || '/static/images/cards/book.png'}
+            image={book.cover || '/static/images/cards/book.webp'}
             title={book.title}
           />
           <CardContent className={classes.cardContent}>

@@ -7,13 +7,13 @@ draft: false
 githublinks:
 - https://github.com/fireship-io
 images:
-- https://fireship.io/img/covers/default.png
+- https://fireship.io/img/covers/default.webp
 site_url: https://fireship.io
 title: fireship.io
 twitter:
   card: summary_large_image
   creator: '@fireship_dev'
-  image: https://fireship.io/img/covers/default.png
+  image: https://fireship.io/img/covers/default.webp
   site: '@fireship_dev'
 ---
 

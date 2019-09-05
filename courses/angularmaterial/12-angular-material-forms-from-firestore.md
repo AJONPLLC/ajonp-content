@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/lesson12-angular-material-forms-firestore
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548863447/ajonp-ajonp-com/12-angular-material-from-firestore/angular-material-forms-firestore.webp
 languages:
 - javascript
 - typescript
@@ -180,7 +180,7 @@ angularfirebase.service.ts
 
 Example of Book Data in Firestore Console:
 
-![Book Data](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548959741/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/yep4ngt60x0ki8jocisx.jpg)
+![Book Data](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548959741/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/yep4ngt60x0ki8jocisx.webp)
 
 
 In the snippet above we are also pushing our RxJs Subscription into an array so that we can then loop through any subscriptions during the destroy method and unsubscribe. This is a pattern I often use when I cannot use `pipe(take(1))` or `| async`.
@@ -203,7 +203,7 @@ We can not use our new `book$` Observable in our template to show any of the cur
 <ng-template #spin><mat-spinner></mat-spinner></ng-template>
 ```
 Current title:
-![Title View](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548960658/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/oclrlecxgwgbhbooidhg.jpg)
+![Title View](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548960658/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/oclrlecxgwgbhbooidhg.webp)
 
 ## Adding Form Input
 > Just a warning here, if you want to see detailed [Angular Reactive Form](https://angular.io/guide/reactive-forms) usage this will be done in the next lesson.
@@ -226,7 +226,7 @@ book-edit.module.ts
 ```
 
 ### Title Input
-![Title Input](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548961254/ajonp-ajonp-com/12-angular-material-from-firestore/bvls9ivndkkacihjr2hp.jpg)
+![Title Input](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548961254/ajonp-ajonp-com/12-angular-material-from-firestore/bvls9ivndkkacihjr2hp.webp)
 
 The entire Material Card should now look like below, the new div surrounding the card is just to allow each section to flow in its own row of the column. If you have not used [Flex Layout](https://github.com/angular/flex-layout/wiki/fxFlex-API) check out the details.
 
@@ -272,7 +272,7 @@ For an extra you can checkout the textarea example too.
 ```
 
 ### Slide Toggle
-![Slide Toggle](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548961935/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/m2ox1ibaek2ybrj9wdsr.jpg)
+![Slide Toggle](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548961935/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/m2ox1ibaek2ybrj9wdsr.webp)
 
 -[Slide Toggle](https://material.angular.io/components/slide-toggle/overview) is a very simple comoponent that is either on or off (binary).
 
@@ -317,7 +317,7 @@ book-edit.component.ts
 ```
 
 ### Autocomplete
-<video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548963828/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/bcpt5ojwuwqicbhasl7w.jpg" controls autoplay loop>
+<video poster="https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548963828/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/bcpt5ojwuwqicbhasl7w.webp" controls autoplay loop>
 <source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/12-angular-material-from-firestore/autocomplete.webm" type="video/webm">
 <source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/12-angular-material-from-firestore/autocomplete.mp4" type="video/mp4">
 </video>
@@ -333,7 +333,7 @@ book-edit.module.ts
 
 These two lists will be contained in a new collection at the base of our Firestore Database called `config`. Within our `config` collection we will create a document called `book`, which will hold many of our different configurations. For these two specifically they will be arrays that are on the `book` object.
 
-![Firestore Fiction/Non-Fiction](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548964455/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/vnxbzg5fnpnuoevun1nu.jpg)
+![Firestore Fiction/Non-Fiction](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548964455/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/vnxbzg5fnpnuoevun1nu.webp)
 
 First we will create our Observable to the Config Book object.
 book-edit.component.ts
@@ -417,7 +417,7 @@ You will also notice above the we have subscribed to any of the `valueChanges` t
 Above we are listening to the updates from `genreList$` BehaviorSubject to create our `<mat-option>` list of values. Our input has an input directive `[matAutocomplete]="auto"` to attach this `<mat-autocomplete>` by assigning the instance variable `#auto` to the input using `matAutocomplete`.
 
 ### Checkbox
-![Checkbox](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548966370/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/hhk37heauwmp6ns7minw.jpg)
+![Checkbox](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548966370/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/hhk37heauwmp6ns7minw.webp)
 
 > Take a deep breath there was a lot going on with the Autocomplete, the rest get a lot easier 😺
 
@@ -430,7 +430,7 @@ book-edit.module.ts
        MatCheckboxModule,
 ```
 
-![Firestore Config](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548966831/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/caewhsmpkrkxdo1dcj2d.jpg)
+![Firestore Config](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548966831/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/caewhsmpkrkxdo1dcj2d.webp)
 
 For us this contains some more of the configuration items from our book, because we already have an Observable created in `bookConfig$` we can just tell Angular to listen for this and assign it to our local template variable `bookConfig`. We then are just assigning these to the directive [NgModel](https://angular.io/api/forms/NgModel). This is a two way binding, for our example doesn't mean much, but again we will drive these things home further in the next lesson.
 
@@ -452,7 +452,7 @@ For us this contains some more of the configuration items from our book, because
 ```
 
 ### Datepicker
-![Date Picker](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548967267/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/eaz6tqu7haioisymv83l.jpg)
+![Date Picker](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548967267/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/eaz6tqu7haioisymv83l.webp)
 
 - [Datepicker](https://material.angular.io/components/datepicker/overview) The datepicker allows users to enter a date either through text input, or by choosing a date from the calendar. It is made up of several components and directives that work together.
 
@@ -488,7 +488,7 @@ book-edit.component.html
 ```
 
 ### Select
-![Select](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548967053/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/wos1r5ksaofipa6fbmhb.jpg)
+![Select](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548967053/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/wos1r5ksaofipa6fbmhb.webp)
 
 - [Select](https://material.angular.io/components/select/overview) you can use either the Material Select, or the native select within the `<mat-form-field>`. The native control has several performance advantages...but I really like the style of using the Material Design.
 
@@ -504,7 +504,7 @@ book-edit.module.ts
 
 For our book component we are once again going to get all of the age categories from our Config Book in Firestore and use those values for our select.
 
-![Mat Select](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548967697/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/rxghw62n7jkgwdilxh80.jpg)
+![Mat Select](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548967697/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/rxghw62n7jkgwdilxh80.webp)
 
 book-edit.component.html
 ```html
@@ -523,7 +523,7 @@ book-edit.component.html
 ```
 
 ### Slider
-![Slider](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548967734/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/j0hmgry94kxytkpaws0a.jpg)
+![Slider](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548967734/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/j0hmgry94kxytkpaws0a.webp)
 
 - [Slider](https://material.angular.io/components/slider/overview) `<mat-slider>` allows for the selection of a value from a range via mouse, touch, or keyboard, similar to `<input type="range">`.
 
@@ -556,7 +556,7 @@ book-edit.component.html
 ```
 
 ### Radio button
-![Radio Button](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548968040/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/edkb9mkpmr46tkfjthr4.jpg)
+![Radio Button](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548968040/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/edkb9mkpmr46tkfjthr4.webp)
 
 - [Radio button](https://material.angular.io/components/radio/overview) `<mat-radio-button>` provides the same functionality as a native `<input type="radio">` enhanced with Material Design styling and animations.
 
@@ -584,4 +584,4 @@ book-edit-component.html
 # Wrap Up
 Here we have created all of the Angular Material Form Components, many of them with data being pulled from Firestore. Next is to make our form more Reactive.
 
-![Kitchen Sink](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548968315/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/dwg3vmpnxdsam560rvhr.jpg)
+![Kitchen Sink](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548968315/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/dwg3vmpnxdsam560rvhr.webp)

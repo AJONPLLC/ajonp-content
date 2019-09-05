@@ -15,7 +15,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/lesson15-firebase-AuthZ-AuthN
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1551289217/ajonp-ajonp-com/15-firebase-authz-authn/firebase-AuthZ-AuthN.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1551289217/ajonp-ajonp-com/15-firebase-authz-authn/firebase-AuthZ-AuthN.webp
 languages:
 - javascript
 - typescript
@@ -96,7 +96,7 @@ ng g c modules/user-signin
 ```
 
 You should see an output similar to below:
-![cli output](https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/15-firebase-authz-authn/Screen_Shot_2019-08-21_at_8.20.39_PM.png)
+![cli output](https://res.cloudinary.com/ajonp/image/upload/ajonp-ajonp-com/15-firebase-authz-authn/Screen_Shot_2019-08-21_at_8.20.39_PM.webp)
 
 ### Update User Signin Template
 

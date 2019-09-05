@@ -8,7 +8,7 @@ draft: false
 githublinks:
 - https://github.com/AJONPLLC/ajonp-stencil-example
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1557240879/ajonp-ajonp-com/blog/Design_Systems.webp
 tags:
 - ionic
 - stencil
@@ -79,7 +79,7 @@ Choose:
 
 <video controls src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/blog/Screen_Recording_2019-05-07_at_4.07.54_PM.mov" title="Stencil Component Setup" style="width:100%"></video>
 
-![Stencil Structure](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557260425/ajonp-ajonp-com/blog/Screen_Shot_2019-05-07_at_4.17.02_PM.png)
+![Stencil Structure](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1557260425/ajonp-ajonp-com/blog/Screen_Shot_2019-05-07_at_4.17.02_PM.webp)
 
 Now if you change into your project directory you will see a simple setup that has `components` directory with a starter `my-component`. This is a basic component that returns a `<div>` with your first, middle, and last names that were passed in using props.
 
@@ -232,7 +232,7 @@ You should see something like this if you run
 npm start
 ```
 
-![Atoms](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557346675/ajonp-ajonp-com/gxv5lnpggkccvhs5phjn.png)
+![Atoms](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1557346675/ajonp-ajonp-com/gxv5lnpggkccvhs5phjn.webp)
 
 ### Create Molecules
 We can now take the three atoms that we built above and create a single Molecule for displaying the three items inline.
@@ -284,7 +284,7 @@ span {
 }
 ```
 
-![Molecule Item](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557356079/ajonp-ajonp-com/gwchtihnryyezuqgop15.png)
+![Molecule Item](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1557356079/ajonp-ajonp-com/gwchtihnryyezuqgop15.webp)
 
 ### Create Organisms
 Now that we have a molecule we can use this inside of an organism, to repeat the molecule several times. We will take a very simple form which will allow us to add each of the `ajonp-item` molecules, but you will notice we are also going to use the `ajonp-button` atom inside this organism as well.
@@ -399,7 +399,7 @@ index.html
     </div>
 ```
 
-![Organisms](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557366081/ajonp-ajonp-com/kmkxesgnqvgxcbo8ndt6.png)
+![Organisms](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1557366081/ajonp-ajonp-com/kmkxesgnqvgxcbo8ndt6.webp)
 
 ## Templates
 I am not going to dive into all of the code it would take to create a template, implementation but Ionic has offered up a solid solution for this as well in its [Layout](https://ionicframework.com/docs/layout/structure) functionality. What is great here is that you can again work between your development and design team to quickly create a Hi-Fi Wireframe that will fit for your future components. I again have to say I love Figma, as anything built with Web Tech will always hold a special place in my heart. With that said an easy solution for this common task of creating templates can be found in [Product Design Kit](https://pdkit.co/), checkout the [Intro to Product Design Kit for Figma](https://blog.prototypr.io/introduction-to-product-design-kit-for-figma-f477cf76ba90).
@@ -408,7 +408,7 @@ What we can do very quickly is setup the template for our page, so that the desi
 
 > Please don't kill me I am not a designer (yes I should work with one). Here is an example of our template.
 
-![Item Grid Skeleton](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557369571/ajonp-ajonp-com/blog/Template_Example_1.png)
+![Item Grid Skeleton](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1557369571/ajonp-ajonp-com/blog/Template_Example_1.webp)
 
 ## Pages
 So what templates allow are us to see is that we can adjust our components right away. We can see that our `ajonp-button` will need to allow for both a __primary__ and __secondary__ type, so we should make sure to update a property to allow for that as well as the corner radius on all buttons should be the same, so we should update the css. The colors and content stay out of the way, until it is time to see page examples. Now we can start to see the real page as the user will interact with it on a daily basis, but because we built our entire system on components from the ground up we can adjust eact Atom, Molecule, and Organism to guarantee that we have the perfect fit in our system.
@@ -441,7 +441,7 @@ button.secondary {
 }
 ```
 
-![Button Type Updates](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1557371683/ajonp-ajonp-com/z8heurbn50kcbsuelyg1.jpg)
+![Button Type Updates](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1557371683/ajonp-ajonp-com/z8heurbn50kcbsuelyg1.webp)
 
 # Creating and Adopting an Enterprise Design System
 I have seen many great companies spend millions of dollars maintaining disparate systems, just in order to try and keep up with the pace of their marketing departments branding changes. An example of a disjointed company might have sites built utilizing [Sitefinity](https://www.progress.com/sitefinity-cms), [Adobe AEM](https://www.adobe.com/marketing/experience-manager.html), [Angular](https://angular.io/), and [React](https://reactjs.org/). Now on each of these stacks lets say they have built 5 different sites. In order to update just the button component across these systems would mean at best you need to change it in 4 places, but more than likely you will need to update it in 20 places then build, test, and deploy each of those systems.

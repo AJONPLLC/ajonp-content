@@ -15,7 +15,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/lesson11-angular-navigation-firestore
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548000149/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/angular-navigation-firestore.webp
 languages:
 - javascript
 - typescript
@@ -55,7 +55,7 @@ Angular Firebase has an amazing guide for this [Beginners Guide to Firebase](htt
 Please navigate to [Firebase Console](https://console.firebase.google.com/) here you can create a new project with any name that you would like. Once inside of your new project please create a firestore database, under the `Database` tab.
 
 When prompted select `locked mode`.
-![Firestore Locked Mode](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548346547/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/krp63uw43udiq94ndkrw.jpg)
+![Firestore Locked Mode](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548346547/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/krp63uw43udiq94ndkrw.webp)
 
 
 ## GitHub Lesson 10 clone 
@@ -87,7 +87,7 @@ firebase init
 ```
 Make sure to select Firestore, and accept all other defaults
 
-![Firebase init](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548346992/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/x7r97se1ymusolimrtfz.jpg)
+![Firebase init](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548346992/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/x7r97se1ymusolimrtfz.webp)
 
 You will then need to add firebase to your project, again please checkout the link from above how to do this, of follow the video.
 
@@ -105,11 +105,11 @@ This service will allow us to connect to Firebase Firestore.
 
 ## Firestore Database Setup
 We want to build this structure inside of Firestore
-![Firestore Hierarchy](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.jpg)
+![Firestore Hierarchy](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.webp)
 
 In Firestore we will setup this basic structure. Remember every collection must have a document. You can find more in the [Firestore Docs Overview](https://cloud.google.com/firestore/docs/overview)
 
-<video poster="https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.jpg" controls>
+<video poster="https://res.cloudinary.com/ajonp/image/upload/q_auto/v1548347396/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/books_hierarchy.webp" controls>
 <source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/_firebase_setup.webm" type="video/webm">
 <source src="https://res.cloudinary.com/ajonp/video/upload/q_auto/ajonp-ajonp-com/11-lesson-angular-navigation-firestore/_firebase_setup.mp4" type="video/mp4">
 </video>

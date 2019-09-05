@@ -12,7 +12,7 @@ frameworks:
 githublinks:
   - https://github.com/AJONPLLC/
 images:
-  - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.png
+  - https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Cloudinary-Unsigned_Upload_and_Face_Detection.webp
 tags:
   - cloudinary
 title: Building a Fun App With Ionic Studio and Cloudinary
@@ -38,12 +38,12 @@ Several SDKs are available for uploading images to Cloudinary through its [uploa
 
 Upload this picture of me in the much-coveted Ionic hat—
 
-![Ionic hat](https://res.cloudinary.com/ajonp/image/upload/w_400/v1565636611/AlexPics/alex_ionic_hat_inside.jpg)
+![Ionic hat](https://res.cloudinary.com/ajonp/image/upload/w_400/v1565636611/AlexPics/alex_ionic_hat_inside.webp)
 
 —by specifying the JPEG image with the `file` parameter, like this:
 
 ```url
-file=https://res.cloudinary.com/ajonp/image/upload/q_auto/AlexPics/alex_ionic_hat_inside.jpg
+file=https://res.cloudinary.com/ajonp/image/upload/q_auto/AlexPics/alex_ionic_hat_inside.webp
 ```
 
 Cloudinary then adds a copy of that image to a location on a Cloudinary server.
@@ -61,10 +61,10 @@ For details on all the upload options, see the [related Cloudinary documentation
 To save time, opt for [unsigned-uploads](https://cloudinary.com/documentation/upload_images#unsigned_upload) to directly upload to Cloudinary from a browser or mobile app with no signature for authentication, bypassing your servers. However, for security reasons, you cannot specify certain upload parameters with unsigned upload calls. One of those parameters is `upload_preset`, a requirement for this app.
 
 As a workaround, create an upload preset in this screen in the Cloudinary [Console](https://cloudinary.com/console/settings/upload):
-![Upload Preset](https://res.cloudinary.com/ajonp/image/upload/w_800/v1565637994/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_3.26.07_PM.png)
+![Upload Preset](https://res.cloudinary.com/ajonp/image/upload/w_800/v1565637994/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_3.26.07_PM.webp)
 
 That preset places all the newly uploaded photos in a folder called `ajonp-ionic-cloudinary-facesmash`, as specified at the bottom of the settings screen:.
-![preset folder](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_3.30.49_PM.png)
+![preset folder](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_3.30.49_PM.webp)
 
 `upload_preset` is now all set for incorporation into the code:
 
@@ -84,7 +84,7 @@ Now complete the upload through the endpoint:
 ```
 
 ```url
-https://api.cloudinary.com/v1_1/ajonp/image/upload?file=https://res.cloudinary.com/ajonp/image/upload/q_auto/AlexPics/alex_ionic_hat_inside.jpg&upload_preset=kuqm4xkg
+https://api.cloudinary.com/v1_1/ajonp/image/upload?file=https://res.cloudinary.com/ajonp/image/upload/q_auto/AlexPics/alex_ionic_hat_inside.webp&upload_preset=kuqm4xkg
 ```
 
 Afterwards, a JSON payload returns, as in this example:
@@ -114,8 +114,8 @@ Afterwards, a JSON payload returns, as in this example:
   "type": "upload",
   "etag": "4ae8ba0edfb90689101fdfbb8b97548d",
   "placeholder": false,
-  "url": "http://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg",
-  "secure_url": "https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg",
+  "url": "http://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.webp",
+  "secure_url": "https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.webp",
   "access_mode": "public",
   "moderation": [
     {
@@ -159,7 +159,7 @@ Note this key line, which depicts that Cloudinary has picked up a face in the co
 
 However, facial detection sometimes doesn’t work. For example, it did not recognize that this is a picture of me, probably because of the shadows from my hat:
 
-![Alex Ionic Hat Outside](https://res.cloudinary.com/ajonp/image/upload/w_200/v1565636611/AlexPics/alex_ionic_hat.jpg)
+![Alex Ionic Hat Outside](https://res.cloudinary.com/ajonp/image/upload/w_200/v1565636611/AlexPics/alex_ionic_hat.webp)
 
 ```json
 "coordinates":{"faces":[]}
@@ -167,9 +167,9 @@ However, facial detection sometimes doesn’t work. For example, it did not reco
 
 Here’s another problematic picture that resulted from erroneous coordinates of face detection, as shown in the second picture:
 
-![Issue face detection](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.16.51_PM.png)
+![Issue face detection](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.16.51_PM.webp)
 
-![Example coordinates](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.10.16_PM.png)
+![Example coordinates](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/blog/Screen_Shot_2019-08-12_at_9.10.16_PM.webp)
 
 I’d be happy to work with the Cloudinary team to improve the success rate for facial detection.
 
@@ -180,12 +180,12 @@ I’d be happy to work with the Cloudinary team to improve the success rate for 
 As a start, with the `g_face` parameter, you add gravity to the position of the largest face in the image, after which you can manipulate it as you see fit. Al the pictures in this app appear as thumbnails, as defined in this code:
 
 ```url
-http://res.cloudinary.com/ajonp/image/upload/w_1000,h_1000,c_crop,g_face,r_max/w_200/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg
+http://res.cloudinary.com/ajonp/image/upload/w_1000,h_1000,c_crop,g_face,r_max/w_200/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.webp
 ```
 
 An example is this cropped thumbnail:
 
-![Cropped Sample Thumbnail](http://res.cloudinary.com/ajonp/image/upload/w_1001,h_1001,c_crop,g_face,r_max/w_200/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.jpg)
+![Cropped Sample Thumbnail](http://res.cloudinary.com/ajonp/image/upload/w_1001,h_1001,c_crop,g_face,r_max/w_200/v1565650174/ajonp-ionic-cloudinary-facesmash/raumizdelqrlows7pvzy.webp)
 
 ## Being careful in naming apps
 

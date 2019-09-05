@@ -18,7 +18,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/lesson16-angular-pwa-to-playstore
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1552593285/ajonp-ajonp-com/16-angular-pwa-to-playstore/angular-pwa-to-playstore.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1552593285/ajonp-ajonp-com/16-angular-pwa-to-playstore/angular-pwa-to-playstore.webp
 languages:
 - javascript
 - typescript

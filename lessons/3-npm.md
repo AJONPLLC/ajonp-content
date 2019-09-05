@@ -10,7 +10,7 @@ draft: false
 frameworks:
 - npm
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1543792850/ajonp-ajonp-com/3-lesson-npm/aj_on_npm.webp
 languages:
 - bash
 lesson: "3"
@@ -62,7 +62,7 @@ prefix=${HOME}/.npm-packages
 
 Once you change the .npmrc file, you will begin to install packages to ~/.npm-packages. No more issues 
 
-![npm install success](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543984849/ajonp-ajonp-com/3-lesson-npm/npm-packages.jpg)
+![npm install success](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1543984849/ajonp-ajonp-com/3-lesson-npm/npm-packages.webp)
 
 # NPM init defaults
 If you start projects using npm often enough you will want to default some of the authoring items. The basic syntax is `npm config set init.*`

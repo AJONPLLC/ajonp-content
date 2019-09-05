@@ -17,8 +17,8 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/lesson-4-hugo-ionic
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.jpg
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543792067/ajonp-ajonp-com/ajonp-hugo-theme/aj_on_hugo_ionic.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1544362990/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo-ionic.webp
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1543792067/ajonp-ajonp-com/ajonp-hugo-theme/aj_on_hugo_ionic.webp
 languages:
 - javascript
 - json
@@ -74,7 +74,7 @@ cd 4-hugo-ionic
 At this point you will notice that the project remains pretty empty in a generic skeleton.
 
 ![Hugo Skeleton](
-https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544487496/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo_init.jpg)
+https://res.cloudinary.com/ajonp/image/upload/q_auto/v1544487496/ajonp-ajonp-com/4-lesson-hugo-ionic/hugo_init.webp)
 
 It only has two files config.toml and archetypes/default.md
 
@@ -115,7 +115,7 @@ layouts/index.html
 
 Now run the command `hugo serve` and you will see a page that has
 
-![First markdown sample](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544489438/ajonp-ajonp-com/4-lesson-hugo-ionic/orjghz4mteborfyrmdbr.jpg)
+![First markdown sample](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1544489438/ajonp-ajonp-com/4-lesson-hugo-ionic/orjghz4mteborfyrmdbr.webp)
 
 ## Making a Point
 Now I wanted to walk you through all of that to show
@@ -169,7 +169,7 @@ Next Lesson Features
 Taking things a step further you can change any of the colors on the site by using Ionic's [Color Generator](https://beta.ionicframework.com/docs/theming/color-generator).
 
 Here is a Hugo inspired look.
-![Color Generator](https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1544493969/ajonp-ajonp-com/4-lesson-hugo-ionic/dys1lqsodaxwaf8qbmo6.jpg)
+![Color Generator](https://res.cloudinary.com/ajonp/image/upload/q_auto/v1544493969/ajonp-ajonp-com/4-lesson-hugo-ionic/dys1lqsodaxwaf8qbmo6.webp)
 
 Just copy the CSS Variables it produces into 
 static/css/custom.css

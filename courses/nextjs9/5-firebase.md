@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Firebase.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Firebase.webp
 languages:
 - javascript
 module: Firebase Firestore Modeling
@@ -51,42 +51,42 @@ If this is a new concept for you please read through [Cloud Firestore Data model
 
 This is how I typically think of the data model, it is very similar (if not the same) as how Firebase's Firestore guide shows.
 
-![Firestore Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Firestore_Model.png)
+![Firestore Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Firestore_Model.webp)
 
 ### AJ's Data Model
 
 Specifically for AJ's Books application we will have a structure that seems like this (although there are no folders):
 
-![AJ's Books Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Base-Model.png)
+![AJ's Books Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Base-Model.webp)
 
 ### Firestore Example Book
 
-![AJ Book Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Book-Data-Model.png)
+![AJ Book Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Book-Data-Model.webp)
 
 ### Firestore Example Author
 
-![AJ Author Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Author-Data-Model.png)
+![AJ Author Model](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Author-Data-Model.webp)
 
 
 ### Create Firestore Database
 
 On the side menu under Develop, select Database. You will then be presented with a screen to `Create Database`.
 
-![Create Firestore DB](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.23.38_PM.png)
+![Create Firestore DB](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.23.38_PM.webp)
 
 Please leave your Firestore Database in Locked mode. This prevents any security concerns.
 
-![Locked Mode](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.23.46_PM.png)
+![Locked Mode](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.23.46_PM.webp)
 
 ### Firebase Admin SDK Private Key
 
 In order to use this tool you will need to add your own firebase credentials, you can find this in your project settings under service accounts `https://console.firebase.google.com/project/ajonp-ajs-books/settings/serviceaccounts/adminsdk`.
 
-![Firebase SDK Private Key](https://res.cloudinary.com/ajonp/image/upload/v1567105497/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Firebase_Private_Key.png)
+![Firebase SDK Private Key](https://res.cloudinary.com/ajonp/image/upload/v1567105497/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Firebase_Private_Key.webp)
 
 You will get a warning, this is fine and why I put in our `.gitignore` the file we are creating `firebase_credentials.json`.
 
-![Private Key Generate](https://res.cloudinary.com/ajonp/image/upload/v1567106656/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.20.56_PM.png)
+![Private Key Generate](https://res.cloudinary.com/ajonp/image/upload/v1567106656/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.20.56_PM.webp)
 
 
 ### Adding Firestore Sample Data
@@ -101,10 +101,10 @@ git clone https://github.com/AJONPLLC/ajonp-ajsbooks-db-example.git && cd ajonp-
 
 Make sure you rename any file you download to `firebase_credentials.json` then place that file into the root of our project.
 
-![root of project](https://res.cloudinary.com/ajonp/image/upload/v1567106944/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.28.51_PM.png)
+![root of project](https://res.cloudinary.com/ajonp/image/upload/v1567106944/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.28.51_PM.webp)
 
 > If you forget this you will get this error:
-> ![Firestore Error](https://res.cloudinary.com/ajonp/image/upload/v1567108154/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.49.05_PM.png)
+> ![Firestore Error](https://res.cloudinary.com/ajonp/image/upload/v1567108154/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.49.05_PM.webp)
 
 Now you can run the config script:
 
@@ -180,7 +180,7 @@ npm run start
 
 You should see an output like:
 
-![book script output](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.44.59_PM.png)
+![book script output](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_3.44.59_PM.webp)
 
 You can also open your Firebase console and take a look at all the books, with subcollection of chapters, with subcollection of pages. There should be 5 books, with 5 chapters, and 50 pages, each time your run the program.
 
@@ -317,7 +317,7 @@ allow create: if getRole('admin') == true;
 
 Here you can see that I have set my `admin@ajonp.com` user to be an `admin`. Note: all users in our application get the role `subscriber`.
 
-![user admin](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-09-03_at_12.56.44_PM.png)
+![user admin](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-09-03_at_12.56.44_PM.webp)
 
 ### Books rules
 
@@ -350,7 +350,7 @@ Now if you remember from our [Model Diagram](/courses/nextjs9/nextjs-using-mater
 
 Navigate to the firebase console -> Database -> Rules tab. Then copy and paste all of the code from above, you should then be able to publish.
 
-![Rules Publish](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_1.05.36_PM.png)
+![Rules Publish](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_1.05.36_PM.webp)
 
 ### Lazy Loading Modules
 
@@ -630,7 +630,7 @@ const BookCard = ({ book }: any) => {
         <CardActionArea>
           <CardMedia
             className={classes.cardMedia}
-            image="/static/images/cards/book.png"
+            image="/static/images/cards/book.webp"
             title={book.title}
           />
           <CardContent className={classes.cardContent}>
@@ -673,7 +673,7 @@ export default BookCard;
 
 Notice how the `<CardActionArea>` is surrounded by the `<NextLink>`, this makes a very nice clickable section at the top of our Book Card. MaterialUI does a really nice job with subtle touches like this, I am really digging it!!
 
-![Action Area Highlight](https://res.cloudinary.com/ajonp/image/upload/v1567109151/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_4.05.40_PM.png)
+![Action Area Highlight](https://res.cloudinary.com/ajonp/image/upload/v1567109151/ajonp-ajonp-com/20-lesson-nextjs/5-Firebase/Screen_Shot_2019-08-29_at_4.05.40_PM.webp)
 
 There are some downsides (mostly from my inexperience), with things like the CardAction and how the Flexbox is working. Notice in this video that when expanded all cards grow, but only the one you select shows text.
 

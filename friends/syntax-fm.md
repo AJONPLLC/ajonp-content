@@ -7,13 +7,13 @@ draft: false
 githublinks:
 - https://github.com/cloudinary
 images:
-- https://syntax.fm/static/logo.png
+- https://syntax.fm/static/logo.webp
 site_url: https://cloudinary.com
 title: syntax.fm
 twitter:
   card: summary_large_image
   creator: '@syntaxfm'
-  image: https://syntax.fm/static/logo.png
+  image: https://syntax.fm/static/logo.webp
   site: '@syntaxfm'
 ---
 

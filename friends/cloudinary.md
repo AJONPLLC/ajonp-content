@@ -7,13 +7,13 @@ draft: false
 githublinks:
 - https://github.com/cloudinary
 images:
-- https://cloudinary-res.cloudinary.com/image/upload/c_scale,w_300/v1/logo/for_white_bg/cloudinary_vertical_logo_for_white_bg.png
+- https://cloudinary-res.cloudinary.com/image/upload/c_scale,w_300/v1/logo/for_white_bg/cloudinary_vertical_logo_for_white_bg.webp
 site_url: https://cloudinary.com
 title: cloudinary.com
 twitter:
   card: summary_large_image
   creator: '@cloudinary'
-  image: https://cloudinary-res.cloudinary.com/image/upload/c_scale,w_300/v1/logo/for_white_bg/cloudinary_vertical_logo_for_white_bg.png
+  image: https://cloudinary-res.cloudinary.com/image/upload/c_scale,w_300/v1/logo/for_white_bg/cloudinary_vertical_logo_for_white_bg.webp
   site: '@cloudinary'
 ---
 

@@ -12,7 +12,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1545088105/ajonp-ajonp-com/6-lesson-abap-types-subroutines/types_subroutines.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1545088105/ajonp-ajonp-com/6-lesson-abap-types-subroutines/types_subroutines.webp
 languages:
 - abap
 lesson: "5"

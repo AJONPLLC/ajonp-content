@@ -5,7 +5,7 @@ date: "2018-12-26T01:25:37-05:00"
 description: Changing git libraries
 draft: false
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1547998730/ajonp-ajonp-com/blog/gitjs.webp
 tags:
 - git
 title: Cloud Function GitHub Update

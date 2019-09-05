@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Firebase_Project_Hosting.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297351/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Firebase_Project_Hosting.webp
 languages:
 - javascript
 module: Firebase Project
@@ -82,7 +82,7 @@ firebase init
 
 You should see a dialog like below
 
-![firebase init](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_12.14.37_PM.png)
+![firebase init](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_12.14.37_PM.webp)
 
 Make sure that you move up/down using your arrow keys, then select using space bar:
 
@@ -96,16 +96,16 @@ This might seem a little confusing as we already are using Firestore, but rememb
 
 At this point you should have a project already that we used to populate Firestore. So you will need to select `Use an existing project`, then follow this up by selecting your project. In my case this is `ajonp-ajs-books`.
 
-![existing project select](https://res.cloudinary.com/ajonp/image/upload/v1567527969/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_12.25.59_PM.png)
+![existing project select](https://res.cloudinary.com/ajonp/image/upload/v1567527969/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_12.25.59_PM.webp)
 
 
 If you don't you will want to select 
 
-![new project](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_12.21.25_PM.png)
+![new project](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_12.21.25_PM.webp)
 
 Once this part is complete just use all of the defaults except for `What language would you like to use to write Cloud Functions?`. For this you will select `TypeScript`.
 
-![TypeScript selection](https://res.cloudinary.com/ajonp/image/upload/v1567528099/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_12.27.21_PM.png)
+![TypeScript selection](https://res.cloudinary.com/ajonp/image/upload/v1567528099/ajonp-ajonp-com/20-lesson-nextjs/6-firebase-project/Screen_Shot_2019-09-03_at_12.27.21_PM.webp)
 
 Then choose 
 - `Yes` for `Do you want to use TSLint to catch probable bugs and enforce style?`

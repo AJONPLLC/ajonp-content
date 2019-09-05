@@ -4,7 +4,7 @@ date: "2019-01-01T00:00:00-05:00"
 facebookbusiness: ajonpcom
 github: ajonpllc
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/authors/alex_headshot.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/authors/alex_headshot.webp
 instagram: "ajonpcom"
 linkedin: ajonp
 twitter: "@ajonpcom"

@@ -12,7 +12,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/
 images:
-- https://res.cloudinary.com/ajonp/image/upload/f_auto,fl_lossy,q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.jpg
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1543937160/ajonp-ajonp-com/5-lesson-abap-helloworld/aj_on_sap.webp
 languages:
 - abap
 lesson: "5"

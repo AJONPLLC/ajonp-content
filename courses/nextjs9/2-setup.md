@@ -14,7 +14,7 @@ frameworks:
 githublinks:
 - https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs
 images:
-- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297352/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.png
+- https://res.cloudinary.com/ajonp/image/upload/q_auto/v1567297352/ajonp-ajonp-com/20-lesson-nextjs/Next.js_-_Setup.webp
 languages:
 - javascript
 module: Setup
@@ -100,7 +100,7 @@ npm run dev
 At this time you are just verifying that the server is up and running and you don't yet have any content.
 So if you check http://localhost:3000, you should see a `404` page which in your case is correct and it tells us that Next.js is being correctly served, but you don't yet have any pages.
 
-![404](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/svi7pymfttwcheopwtqi.png)
+![404](https://res.cloudinary.com/ajonp/image/upload/q_auto/ajonp-ajonp-com/svi7pymfttwcheopwtqi.webp)
 
 ## Hello world
 Now for the legendary "Hello World" example. In your pages directory you can simple add a new file called `index.js`. If you are new to ReactJS this is considered a Functional Component, which is a very basic component that is only presenting html markup without state.

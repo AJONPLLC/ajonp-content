@@ -7,13 +7,13 @@ draft: false
 githublinks:
 - https://github.com/cloudinary
 images:
-- https://www.leveluptutorials.com/android-chrome-192x192.png
+- https://www.leveluptutorials.com/android-chrome-192x192.webp
 site_url: https://cloudinary.com
 title: leveluptutorials.com
 twitter:
   card: summary_large_image
   creator: '@LevelUpTuts'
-  image: https://www.leveluptutorials.com/android-chrome-192x192.png
+  image: https://www.leveluptutorials.com/android-chrome-192x192.webp
   site: '@LevelUpTuts'
 ---
 
