@@ -19,7 +19,6 @@ languages:
 - javascript
 module: SSR Part 2
 pricing:
-- coming soon
 - free
 title: Nextjs using MaterialUI and Firebase - SSR Part 2
 toc: true

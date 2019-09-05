@@ -2,7 +2,7 @@
 authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
-description: 
+description: Adding serverless functionality to Next.js, prior to Lambdas.
 draft: false
 frameworks:
 - firebase
