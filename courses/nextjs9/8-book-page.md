@@ -2,7 +2,7 @@
 authors:
 - Alex Patterson
 date: "2019-08-28T00:00:50-05:00"
-description: 
+description: Next.js with MaterialUI, calling Firebase with SSR.
 draft: false
 frameworks:
 - firebase
