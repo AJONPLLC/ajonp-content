@@ -53,7 +53,7 @@ This is a sample application showcasing the power of Next.js. We will be buildin
 ### What is Firebase
 [Firebase](https://firebase.google.com/) - Firebase is a mobile and web application development platform.
 
-![Firebase Logo](https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_white.webp)
+![Firebase Logo](https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_white.png)
 
 ### RxJS
 [RxJS](https://rxjs.dev/) - RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code.
