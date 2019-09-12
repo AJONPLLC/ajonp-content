@@ -2,7 +2,7 @@
 authors:
   - Alex Patterson
 date: '2019-09-10T02:33:41-05:00'
-description: Utilizing Web Components within Hugo Static Site Generator (or any static site). Adding a Custom Eleemnt for an Ionic Modal pop-up.
+description: Utilizing Web Components within Hugo Static Site Generator (or any static site). Adding a Custom Element for an Ionic Modal pop-up.
 draft: false
 frameworks:
 - stencil
@@ -13,7 +13,6 @@ images:
 tags:
   - ajonp web components
 title: Adding Web Component for Ionic Modals
-weight: 2
 ---
 
 # Adding dynamic features to a static site.

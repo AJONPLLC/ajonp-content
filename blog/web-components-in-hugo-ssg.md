@@ -13,7 +13,6 @@ images:
 tags:
   - ajonp web components
 title: Adding Angular Components to your static site
-weight: 1
 ---
 
 # Adding dynamic features to a static site.
