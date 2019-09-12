@@ -24,7 +24,10 @@ This is a multi part series covering all the different types of Web Components I
 
 This is SUPER simple, it sets the default value in the form to `Alex`, we will take this further in another part of the series to include more validations.
 
-<iframe src="https://stackblitz.com/edit/ionic-core-angular-webcomponent-working?embed=1&file=src/app/user-profile-update.ts"></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://stackblitz.com/edit/ionic-core-angular-webcomponent-working?embed=1&file=src/app/user-profile-update.ts" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video" frameborder="0"></iframe>
+</div>
+
 
 ### Console output for example
 
@@ -36,7 +39,10 @@ This shows the `formGroup` values with `displayName: 'Alex'` as expected.
 
 Logged an [issue](https://github.com/ionic-team/ionic/issues/19326) (which had me banging my head for 24 hours) with Ionic repo.
 
-<iframe src="https://stackblitz.com/edit/ionic-core-angular-webcomponent-not-working?embed=1&file=src/app/user-profile-update.ts"></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://stackblitz.com/edit/ionic-core-angular-webcomponent-not-working?embed=1&file=src/app/user-profile-update.ts" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video" frameborder="0"></iframe>
+</div>
+
 
 ## The BEST Part
 
